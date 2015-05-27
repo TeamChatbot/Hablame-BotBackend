@@ -1,0 +1,1 @@
+this folder exists, because the spring context does not load the Ab.jar in the classpath ("resources/chatbot/Ab.jar")

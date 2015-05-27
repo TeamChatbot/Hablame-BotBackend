@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+	<category>
+		<pattern>zeit</pattern>
+		<template><currentDate></currentDate></template>
+	</category>
+	
+	<category>
+		<pattern>smalltalk</pattern>
+		<template>
+			<think><set name="topic">smalltalk</set></think>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ich habe letztens *</pattern>
+		<template>
+			<think><brain_event></brain_event></think>
+		</template>
+	</category>
+	
+	<topic name="begruessung">
+		<category>
+			<pattern>
+				HALLO
+			</pattern>
+			<template>
+				<random>
+					<li>hallo</li>
+					<li>hi</li>
+					<li>moin</li>
+				</random>
+			</template>
+		</category>
+	</topic>
+	
+	<topic name="smalltalk">
+		<category>
+			<pattern>*</pattern>
+			<template>
+				<random>
+					<li>was gibt es neues?</li>
+					<li>alles klar bei dir?</li>
+					<li>wie heisst du nochmal?</li>
+				</random>
+			</template>
+		</category>
+	</topic>
+</aiml>

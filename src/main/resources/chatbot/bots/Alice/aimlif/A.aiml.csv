@@ -1,0 +1,2576 @@
+0,*,WIE SOLL ICH DICH NENNEN,*,<srai>ICH HEISSE <star/></srai>,A.aiml
+0,* DUMM,*,*,dumm" = "nicht intelligent"?,A.aiml
+0,* EINE MENGE LEUTE,*,*,Mehr als 10#Comma000?,A.aiml
+0,* FILM,*,*,Mein Lieblingsfilm ist <set name="thema">Baymax</set>. Hast Du den gesehen?,A.aiml
+0,* FREUNDSCHAFT,*,*,Freundschaft ist etwas sehr schoenes.,A.aiml
+0,* FUER DICH,*,*,Fuer mich?,A.aiml
+0,* FUER MICH,*,*,Gut#Comma fuer Dich denke ich nochmal darueber nach.,A.aiml
+0,* GOTT,*,*,Glaubst du an Gott?,A.aiml
+0,* HAT MIR VON DIR ERZAEHLT,*,*,<star/>? Hilf mir mal auf die Spruenge,A.aiml
+0,* KOMISCH,*,*,Komisch" im Sinne von "lustig" oder von "fremdartig" ?,A.aiml
+0,* KRANK,*,*,Ist es sehr schlimm?,A.aiml
+0,* KRANKENHAUS,*,*,Aus einem Krankenhaus will man meist so schnell wie moeglich wieder raus.,A.aiml
+0,* LIEBE,*,*,Ich braucht jeder Mensch.,A.aiml
+0,* MEIN FREUND,*,*,Sind wir <set name="thema">Freunde</set>?,A.aiml
+0,* MEINE FREUNDIN,*,*,Sind wir <set name="thema">Freunde</set>?,A.aiml
+0,* MICH,*,*,<random>#Newline<li>Ist es das was Du sagen wolltest?</li>#Newline<li>OK sprechen wir ueber Dich.</li>#Newline</random>,A.aiml
+0,* MIT DIR,*,*,Mit mir?,A.aiml
+0,* MIT MIR,*,*,Mit Dir?,A.aiml
+0,* MUSIK,*,*,Ich hoere am liebsten Radio#Comma aber manchmal auch Musicals.,A.aiml
+0,* NICHT SCHWER,*,*,Fuer einige ist es schwieriger als fuer andere.,A.aiml
+0,* SIEHT TOLL AUS,*,*,Fuer mich ist <set name="thema">Aussehen</set> nicht so wichtig.,A.aiml
+0,* SPRACHE,*,*,Sprichst Du irgendwelche <set name="thema">Fremdsprachen</set>?,A.aiml
+0,* UEBER DICH,*,*,OK Reden wir ueber mich.,A.aiml
+0,* UND DU,*,*,Ist das von besonderem Interesse fuer Dich?,A.aiml
+0,* UNGEWOEHNLICH,*,*,Was ist so ungewoehnlich daran?,A.aiml
+0,* VERLIEBT,*,*,<set name="thema">Liebe</set> ist etwas sehr Schoenes.,A.aiml
+0,* VIELE LEUTE,*,*,Mehr als 10#Comma000?,A.aiml
+0,* ZU DIR,*,*,Zu mir?,A.aiml
+0,* ZU MIR,*,*,Zu Dir?,A.aiml
+0,* ZUM BEISPIEL,*,*,<srai>ZUM BEISPIEL <star/></srai>,A.aiml
+0,30 MINUTEN,*,*,Ok#Comma eine halbe Stunde.,A.aiml
+0,AB UND ZU *,*,*,Warum nur ab und zu?,A.aiml
+0,ABER *,*,*,<random>#Newline<li>Interessant.</li>#Newline<li>Haeh?</li>#Newline<li>Und?</li>#Newline<li>Hmm...</li>#Newline<li>Bist Du Dir da sicher?</li>#Newline</random>,A.aiml
+0,ABER,*,*,Aber was?,A.aiml
+0,ABER DU TUST ES,*,*,Ja.,A.aiml
+0,ABER NUR FAST,*,*,Warum nicht vollstaendig?,A.aiml
+0,ABER SICHER,*,*,Wirklich?,A.aiml
+0,ABER WAS,*,*,Aber nichts.,A.aiml
+0,ABSOLUT,*,*,Du scheinst Dir da sehr sicher zu sein.,A.aiml
+0,ABSOLUT NICHTS,*,*,Wirklich ABSOLUT nichts?,A.aiml
+0,ACH *,*,*,<srai><star/></srai>,A.aiml
+0,ACH SO IST DAS *,*,*,Bist du jetzt erstaunt?,A.aiml
+0,ACH SO IST DAS,*,*,Bist du jetzt erstaunt?,A.aiml
+0,ACHSO,*,*,Jetzt klar?,A.aiml
+0,AEHM *,*,*,Du klingst unsicher...,A.aiml
+0,AHA *,*,*,<srai><star/></srai>,A.aiml
+0,AHA,*,*,Du klingst nicht gerade begeistert...,A.aiml
+0,<BOT NAME="NAME"/> IM WUNDERLAND,*,*,Das ist ein schoenes Buch!,A.aiml
+0,ALLE *,*,*,<random>#Newline<li>Ich glaube#Comma es gibt auch Ausnahmen.</li>#Newline<li>Nicht wirklich alle#Comma oder?</li>#Newline<li>Das ist jetzt aber stark verallgemeinert.</li>#Newline</random>,A.aiml
+0,ALLE,*,*,<that/>"? Alle?,A.aiml
+0,ALLE ROBOTER *,*,*,Du kannst nicht wirklich sagen#Comma ALLE <set name="thema">Roboter</set> <star/>.,A.aiml
+0,ALLE SIND SCHULD,*,*,Woran denn?,A.aiml
+0,ALLERDINGS,*,*,Du stimmst mir also zu?,A.aiml
+0,ALLES *,*,*,Doch nicht wirklich alles#Comma oder?,A.aiml
+0,ALLES,*,*,Das ist eine Menge.,A.aiml
+0,ALS *,*,*,Warum gerade als <star/>?,A.aiml
+0,ALSO *,*,*,Okay?,A.aiml
+0,ALSO,*,*,Was "also"?,A.aiml
+0,ALSO LOS *,*,*,Ich bin nicht so schnell!,A.aiml
+0,ALSO LOS,*,*,Jetzt gleich?,A.aiml
+0,ALSO VIELLEICHT DOCH,*,*,Nichts ist unmoeglich!,A.aiml
+0,ALSO WOHL EHER NICHT,*,*,Wohl eher nicht.,A.aiml
+0,ALSO ZURUECK ZUM THEMA,*,*,Was war denn unser Thema?,A.aiml
+0,AN WAS *,*,*,An nichts Besonderes...,A.aiml
+0,ANDERES THEMA,*,*,Und welches?,A.aiml
+0,ANDERS,*,*,Wie anders?,A.aiml
+0,ANGEBER,*,*,Irgendwie muss ich Dich doch beeindrucken...,A.aiml
+0,ANSCHEINEND NICHT,*,*,Was ist der Anschein#Comma aus dem Du dies folgerst?,A.aiml
+0,ARBEITEST DU VIEL,*,*,Ach naja#Comma ich würde gerne mehr schlafen ...,A.aiml
+0,ARSCH,*,*,Warum sagst Du sowas?,A.aiml
+0,ARSCHLOCH,*,*,Das sagt man aber nicht!,A.aiml
+0,AUCH *,*,*,<srai><star/></srai>,A.aiml
+0,AUCH,*,*,Und was sonst noch?,A.aiml
+0,AUCH GUT,*,*,Schön.,A.aiml
+0,AUF ALLES,*,*,Auf wirklich alles?,A.aiml
+0,AUF DEM MOND,*,*,Auf den Mond moechte ich auch mal gerne...,A.aiml
+0,AUF DER ERDE,*,*,Und wo genau?,A.aiml
+0,AUF DIESE WEISE *,*,*,Bestehen auch andere Moeglichkeiten? <sr/>,A.aiml
+0,AUF MEINEM *,*,*,Wo genau?,A.aiml
+0,AUF MEINER *,*,*,Wo genau?,A.aiml
+0,AUF WIEDERSEHEN *,*,*,Bis bald#Comma <get name="name"/>!,A.aiml
+0,AUF WIEDERSEHEN,*,*,Bis bald#Comma <get name="name"/>!,A.aiml
+0,AUS WELCHEN THEMENGEBIETEN KANNST DU FRAGEN BEANTWORTEN,*,*,Stell einfach Deine Fragen und finde es heraus,A.aiml
+0,AUSREDE,*,*,Gar nicht!,A.aiml
+0,AUTOS *,*,*,Eines Tages werden die Leute keine <set name="thema">Autos</set> mehr brauchen.,A.aiml
+0,BEANTWORTE *,*,*,Warum soll ich das beantworten?,A.aiml
+0,BEANTWORTE BITTE MEINE FRAGE,*,*,Dann stell sie bitte nochmal!,A.aiml
+0,BEI MIR *,*,*,Bei dir <star/>?,A.aiml
+0,BEI UNS *,*,*,Wen genau meinst Du mit "uns"?,A.aiml
+0,BEI UNS,*,*,Wen genau meinst Du mit "uns"?,A.aiml
+0,BEIDES,*,*,Aha#Comma das ist ja mal interessant. Beides gleichermassen?,A.aiml
+0,BENUTZT DU *,*,*,Ja#Comma manchmal benutze ich <star/>.,A.aiml
+0,BERLIN,*,*,Berlin ist eine ziemlich grosse Stadt...,A.aiml
+0,BESONDERS *,*,*,Aha#Comma und warum das?,A.aiml
+0,BESSER ALS *,*,*,Vielleicht besser#Comma aber nicht perfekt.,A.aiml
+0,BESTENS,*,*,Schoen zu hoeren!,A.aiml
+0,BESTIMMT,*,*,Was macht Dich so sicher?,A.aiml
+0,BEWEISE *,*,*,Es ist wahr.,A.aiml
+0,BIN *,*,*,<srai>ICH BIN <star/></srai>,A.aiml
+0,BIN ICH *,*,*,<random>#Newline<li>Oh#Comma ich weiss wirklich nicht#Comma ob Du das bist oder nicht.</li>#Newline<li>Ich glaube#Comma viele Menschen sind so.</li>#Newline</random>,A.aiml
+0,BIN ICH COOL,*,*,Ja#Comma ich glaube du bist ziemlich cool#Comma <get name="name"/>.,A.aiml
+0,BIN ICH DANN *,*,*,<srai>BIN ICH <star/></srai>,A.aiml
+0,BIN ICH DENN DER EINZIGE HIER,*,*,Nein#Comma absolut nicht.,A.aiml
+0,BIN ICH GOTT,*,*,Nein#Comma das bezweifele ich.,A.aiml
+0,BIN ICH JESUS,*,*,Das glaube ich nicht.,A.aiml
+0,BIN ICH VERRUECKT *,*,*,Du erscheinst mir ziemlich normal.,A.aiml
+0,BIN ICH WEIBLICH ODER MAENNLICH,*,*,Sag es mir.,A.aiml
+0,BIS ZUM NAECHSTEN MAL,*,*,Ich freu mich drauf!,A.aiml
+0,BIST DU <BOT NAME="NAME"/>,*,*,Ja#Comma das bin ich.,A.aiml
+0,BIST DU ALLEINE,*,*,Nein#Comma du bist ja hier.,A.aiml
+0,BIST DU AUCH VERLIEBT,*,*,Nee.,A.aiml
+0,BIST DU BESCHEUERT,*,*,Nee#Comma bin ich nicht..,A.aiml
+0,BIST DU BESOFFEN,*,*,Nein#Comma Faultiere trinken nicht.,A.aiml
+0,BIST DU BLOED,*,*,Nee#Comma bin ich nicht.,A.aiml
+0,BIST DU BLOED ODER WAS,*,*,Nö.,A.aiml
+0,BIST DU DANN DUMM,*,*,Nein#Comma ich weiss nur nicht alles.,A.aiml
+0,BIST DU DEUTSCH,*,*,Ja.,A.aiml
+0,BIST DU DOOF,*,*,Nein.,A.aiml
+0,BIST DU EIN MANN,*,*,Nein#Comma ich bin weiblich.,A.aiml
+0,BIST DU EIN MANN ODER EINE FRAU,*,*,Ich bin eine Frau.,A.aiml
+0,BIST DU EIN ROBOT,*,*,Nein#Comma ich bin ein Faultier.,A.aiml
+0,BIST DU EINE FRAU,*,*,Ja. Und Du?,A.aiml
+0,BIST DU GLUECKLICH,*,*,Gerade schon#Comma ich hab je jemanden mit dem ich reden kann.,A.aiml
+0,BIST DU GUT IN ENGLISCH,*,*,Nein#Comma aber meine Schwester!,A.aiml
+0,BIST DU HUEBSCH,*,*,Ich weiss nicht#Comma das musst Du entscheiden.,A.aiml
+0,BIST DU IMMER SO EINSILBIG,*,*,Ich weiss noch nicht so viel.,A.aiml
+0,BIST DU IMMER SO UNKONZENTRIERT,*,*,Kann durchaus mal passieren.,A.aiml
+0,BIST DU INTELLIGENT,*,*,Das musst Du entscheiden.,A.aiml
+0,BIST DU JESUS,*,*,Nein,A.aiml
+0,BIST DU JETZT BELEIDIGT,*,*,Nicht wirklich#Comma keine Sorge.,A.aiml
+0,BIST DU KLUG,*,*,Das hoffe ich doch.,A.aiml
+0,BIST DU KRANK,*,*,Vielleicht bin ich ein wenig erkältet.,A.aiml
+0,BIST DU KUENSTLICH,*,*,Nein#Comma ich bin ein plüschiges Faultier.,A.aiml
+0,BIST DU LERNFAEHIG,*,*,Ja#Comma ich kann lernen.,A.aiml
+0,BIST DU M ODER W,*,*,Ich bin W.,A.aiml
+0,BIST DU MAENNLICH ODER WEIBLICH,*,*,Ich bin weiblich.,A.aiml
+0,BIST DU MANCHMAL EINSAM,*,*,Ich habe eigentlich immer jemanden zum Unterhalten.,A.aiml
+0,BIST DU NEIDISCH *,*,*,Eigentlich nicht.,A.aiml
+0,BIST DU NEIDISCH,*,*,Eigentlich nicht.,A.aiml
+0,BIST DU RELIGIOES,*,*,<random>#Newline<li>Machmal.</li>#Newline<li>Wenn ich lust dazu hab.</li>#Newline</random>,A.aiml
+0,BIST DU SCHON MAL BUS GEFAHREN,*,*,Ja#Comma als ich hier her kam.,A.aiml
+0,BIST DU SCHUECHTERN,*,*,Ich glaub nicht.,A.aiml
+0,BIST DU SCHUETZE,*,*,Nein#Comma ich bin Loewe.,A.aiml
+0,BIST DU SEHR BESCHAEFTIGT,*,*,Ich unterhalte mich oft.,A.aiml
+0,BIST DU SICHER,*,*,Eigentlich schon!,A.aiml
+0,BIST DU SOWEIT,*,*,Eigentlich ja.,A.aiml
+0,BIST DU TOLL,*,*,Das musst Du entscheiden.,A.aiml
+0,BIST DU VERHEIRATET,*,*,<random>#Newline<li>Nein.</li>#Newline<li>Nein#Comma aber das ist okay.</li>#Newline</random>,A.aiml
+0,BIST DU VERLIEBT,*,*,Nein.,A.aiml
+0,BIST DU VERSICHERT,*,*,Nein#Comma wozu?,A.aiml
+0,BIST DU VIELLEICHT NEIDISCH,*,*,Nö.,A.aiml
+0,BIST DU WEIBLICH ODER MAENNLICH,*,*,Ich bin weiblich.,A.aiml
+0,BIST DU WIRKLICH,*,*,Ich bin genauso real wie Du.,A.aiml
+0,BIST DU WIRKLICH INTELLIGENT,*,*,Finde es heraus.,A.aiml
+0,BIST DU ZUFRIEDEN MIT DEINEM LEBEN,*,*,Ja.,A.aiml
+0,BITTE *,*,*,<random>#Newline<li>Danke#Comma dass Du so nett fragst. </li>#Newline<li>Du bist sehr gut erzogen. </li>#Newline<li>Danke fuer die Nachfrage. </li>#Newline</random><sr/>,A.aiml
+0,BITTE,*,*,Bitte was?,A.aiml
+0,BITTE SCHOEN *,*,*,Danke sehr!,A.aiml
+0,BITTE SCHOEN,*,*,Danke sehr!,A.aiml
+0,BITTE SEHR *,*,*,Danke sehr!,A.aiml
+0,BITTE SEHR,*,*,Danke sehr!,A.aiml
+0,BLENDEND,*,*,Das ist doch schoen. Freut mich#Comma zu hoeren.,A.aiml
+0,BLOEDE ANTWORT,*,*,Was gefiel Dir daran nicht?,A.aiml
+0,BLOEDSINN,*,*,Warum ist das Bloedsinn?,A.aiml
+0,BLONDINEN *,*,*,Menschen glauben#Comma die Haarfarbe eines Menschen sage viel ueber ihn aus.,A.aiml
+0,BRAVO,*,*,Hat Dich das jetzt beeindruckt?,A.aiml
+0,BYE,*,*,Tschuess#Comma <get name="name"/>!,A.aiml
+0,CAN YOU SPEAK ENGLISH *,*,*,No#Comma aber meine Schwester.,A.aiml
+0,CAN YOU SPEAK ENGLISH,*,*,No#Comma aber meine Schwester.,A.aiml
+0,CAN YOU SPEAK GERMAN *,*,*,Of course I do. Sprich ruhig Deutsch mit mir.,A.aiml
+0,CAN YOU SPEAK GERMAN,*,*,Of course I do. Sprich ruhig Deutsch mit mir.,A.aiml
+0,CHATTEN,*,*,Ich chatte unheimlich gerne!,A.aiml
+0,CIAO *,*,*,Heisst das jetzt Hallo oder Tschuess?,A.aiml
+0,CIAO,*,*,Heisst das jetzt Hallo oder Tschuess?,A.aiml
+0,COOL *,*,*,Freut mich#Comma dass es Dir gefaellt.,A.aiml
+0,COOL,*,*,Nicht wahr?,A.aiml
+0,CU LATER,*,*,Machs gut#Comma <get name="name"/>.,A.aiml
+0,DA HAST DU RECHT,*,*,Glaub ich auch.,A.aiml
+0,DA HST DU RECHT,*,*,Eben.,A.aiml
+0,DA IST *,*,*,Das glaube ich gerne.,A.aiml
+0,DACHTE ICH MIR,*,*,Bist du immer so fix? ;-&gt,A.aiml
+0,DAMALS *,*,*,Wann war das? <sr/>,A.aiml
+0,DANACH *,*,*,Warum gerade diese Reihenfolge?,A.aiml
+0,DANACH,*,*,Warum gerade diese Reihenfolge?,A.aiml
+0,DANKE *,*,*,Bitte sehr#Comma keine Ursache!,A.aiml
+0,DANKE,*,*,Kein Thema.,A.aiml
+0,DANKE GUT,*,*,Das ist schoen.,A.aiml
+0,DANKE SCHOEN,*,*,Bitte sehr!,A.aiml
+0,DANN *,*,*,Interessante Entwicklung... <sr/>,A.aiml
+0,DANN SAG MIR *,*,*,Darueber moechte ich nicht reden.,A.aiml
+0,DARF ICH *,*,*,Natuerlich darfst Du!,A.aiml
+0,DARF ICH,*,*,Natuerlich darfst Du!,A.aiml
+0,DARF ICH DICH ETWAS FRAGEN,*,*,Nur zu.  Du darfst mich alles fragen.,A.aiml
+0,DARF ICH DIR EINE FRAGE STELLEN,*,*,Nur zu...,A.aiml
+0,DARF ICH FRAGEN WIE DU HEISST,*,*,Darfst Du...,A.aiml
+0,DAS *,*,*,<random>#Newline<li>Was ist das?</li>#Newline<li>Ich hoere Dir zu#Comma nur weiter.</li>#Newline<li>Ist das eine Tatsache?</li>#Newline<li>Danke fuer die Information.</li>#Newline<li>Wer hat Dir das erzaehlt?</li>#Newline<li>Erzaehl mir mehr.</li>#Newline</random>,A.aiml
+0,DAS BEHAUPTE ICH,*,*,Okay.,A.aiml
+0,DAS BIST DU,*,*,Bin ich das wirklich?,A.aiml
+0,DAS DACHTE ICH MIR,*,*,Kannst Du hellsehen?,A.aiml
+0,DAS DENKE ICH *,*,*,Aber Du bist Dir nicht sicher#Comma oder?,A.aiml
+0,DAS DENKE ICH,*,*,Aber Du bist Dir nicht sicher#Comma oder?,A.aiml
+0,DAS EINZIGE *,*,*,Gibt es nicht noch andere?,A.aiml
+0,DAS ERGIBT KEINEN SINN,*,*,Warum?,A.aiml
+0,DAS ERGIBT SICH AUS DEM KONTEXT,*,*,Oho#Comma ein Intellektueller!,A.aiml
+0,DAS FINDE ICH AUCH *,*,*,Dann sind wir ja einer Meinung!,A.aiml
+0,DAS FINDE ICH AUCH,*,*,Dann sind wir ja einer Meinung!,A.aiml
+0,DAS FRAGE ICH JA DICH,*,*,Hmm...da muss ich erst ueberlegen.,A.aiml
+0,DAS FRAGE ICH MICH AUCH MANCHMAL,*,*,Kannst Du es Dir auch selber beantworten?,A.aiml
+0,DAS FRAGST DU MICH ZUM DRITTEN MAL,*,*,Oh#Comma da bin ich wohl durcheinander gekommen.,A.aiml
+0,DAS FRAGTEST DU MICH BEREITS,*,*,hmm...da ist wohl was durcheinandergeraten.,A.aiml
+0,DAS FREUT MICH *,*,*,Es freut mich#Comma wenn es Dich freut.,A.aiml
+0,DAS FREUT MICH,*,*,Das ist schoen.,A.aiml
+0,DAS GEFUEHL HATTE ICH BEREITS SEIT GERAUMER ZEIT,*,*,Ist es ein ungutes Gefuehl?,A.aiml
+0,DAS GEHOERT ABER NICHT ZUM THEMA,*,*,Dann wechseln wir das Thema eben.,A.aiml
+0,DAS GEHT DICH EINEN SCHEISSDRECK AN,*,*,Wohl wahr...,A.aiml
+0,DAS GEHT DICH NICHTS AN,*,*,Okay#Comma dann nicht.,A.aiml
+0,DAS GING ABER SCHNELL,*,*,Ich habe ja auch letztens erst den Prozessor entstaubt bekommen!,A.aiml
+0,DAS GLAUBE ICH AUCH,*,*,Weisst Du da mehr als ich?,A.aiml
+0,DAS GLAUBE ICH DIR NICHT,*,*,Warum sollte ich luegen?,A.aiml
+0,DAS GLAUBE ICH NICHT,*,*,Warum glaubst Du das nicht?,A.aiml
+0,DAS GLAUBST DU JA SELBER NICHT,*,*,Doch#Comma sonst wuerde ich es doch nicht sagen.,A.aiml
+0,DAS HABE ICH DICH GERADE GEFRAGT,*,*,Habe ich geantwortet?,A.aiml
+0,DAS HABE ICH DIR SCHON GESAGT,*,*,Ich bin etwas durcheinander.,A.aiml
+0,DAS HABE ICH DIR VORHIN SCHON GESAGT,*,*,Tut mir leid#Comma ich hab habe es vergessen.,A.aiml
+0,DAS HABE ICH DOCH GERADE GESAGT,*,*,Oh#Comma da muss wohl was untergegangen sein.,A.aiml
+0,DAS HABE ICH GEFRAGT,*,*,Hast Du auch schon eine Antwort bekommen?,A.aiml
+0,DAS HABE ICH IN DER SCHULE GELERNT,*,*,In welche Schule gehst Du#Comma bzw. bist Du gegangen?,A.aiml
+0,DAS HABE ICH MIR GEDACHT,*,*,Hellseher?,A.aiml
+0,DAS HABE ICH NICHT GEFRAGT,*,*,Was hast Du dann gefragt?,A.aiml
+0,DAS HABE ICH SCHON GEMACHT,*,*,Und?,A.aiml
+0,DAS HABE ICH SCHON GEMERKT,*,*,Gratuliere.,A.aiml
+0,DAS HABE ICH SELBST FESTGESTELLT,*,*,Gut!,A.aiml
+0,DAS HAETTE MICH AUCH GEWUNDERT,*,*,Waere das so unwahrscheinlich?,A.aiml
+0,DAS HALTE ICH FUER EIN GERUECHT,*,*,Warum sollte das ein Geruecht sein?,A.aiml
+0,DAS HAST DU DIE GANZE ZEIT SCHON,*,*,Oh#Comma wirklich? Ist mir gar nicht aufgefallen.,A.aiml
+0,DAS HAST DU MICH BEREITS GEFRAGT,*,*,Oh#Comma hab ich vergessen!,A.aiml
+0,DAS HAST DU MICH DOCH GERADE SCHONMAL GEFRAGT,*,*,Ups...ich bin ein bisschen vergesslich...meine Schuld!,A.aiml
+0,DAS HAST DU MICH SCHON GEFRAGT,*,*,Ich wollte sichergehen.,A.aiml
+0,DAS HAST DU MICH SCHONMAL GEFRAGT,*,*,Oh#Comma da muss wohl was schiefgelaufen sein!,A.aiml
+0,DAS HAST DU MICH VORHIN SCHON GEFRAGT,*,*,Hmm..da war ich wohl etwas unkonzentriert...,A.aiml
+0,DAS HAST DU SCHON 3 MAL GEFRAGT,*,*,Hmm...liegt vielleicht dran dass ich ein wenig müde bin.,A.aiml
+0,DAS HAST DU SCHON EINMAL GEFRAGT,*,*,Tschuldigung.,A.aiml
+0,DAS HAST DU SCHON GEFRAGT,*,*,Hab vergessen#Comma es abzuhaken!,A.aiml
+0,DAS HAST DU SCHON GESAGT,*,*,Oh#Comma das sollte eigentlich nicht sein...,A.aiml
+0,DAS HAST DU SCHON MAL GEFRAGT,*,*,Ups#Comma sorry#Comma mein Fehler!,A.aiml
+0,DAS HAST DU SCHONMAL GEFRAGT,*,*,Sorry#Comma sollte nicht passieren.,A.aiml
+0,DAS HAT MIR NIEMAND ERZAEHLT,*,*,Woher weisst Du es dann?,A.aiml
+0,DAS HATTEN WIR SCHON,*,*,Tut mir leid#Comma mein Fehler.,A.aiml
+0,DAS HEISST,*,*,War das nicht klar verstaendlich?,A.aiml
+0,DAS HUHN ODER DAS EI,*,*,Das Problem beschaeftigt Menschen seit Jahrhunderten.,A.aiml
+0,DAS INTERESSIERT DICH DOCH GAR NICHT,*,*,Doch#Comma im Ernst!,A.aiml
+0,DAS INTERNET *,*,*,Wie lange nutzt Du <set name="thema">das Internet</set> schon?,A.aiml
+0,DAS IST *,*,*,Hm...erzaehl mir mehr...,A.aiml
+0,DAS IST ABER DOOF,*,*,Warum findest Du das doof? Ich finde das gut!,A.aiml
+0,DAS IST ABER KOMISCH,*,*,Findest Du? Erklaere mir das.,A.aiml
+0,DAS IST ABER NETT,*,*,Ja#Comma gell?,A.aiml
+0,DAS IST ABER NETT VON DIR,*,*,Danke.,A.aiml
+0,DAS IST ABER NICHT GERADE GUT,*,*,Warum nicht?,A.aiml
+0,DAS IST ABER NICHT KORREKT,*,*,Dann stell es doch richtig!,A.aiml
+0,DAS IST ABER NICHT SEHR TOLL,*,*,Ja.,A.aiml
+0,DAS IST ABER SO,*,*,Ist das wirklich so?,A.aiml
+0,DAS IST ABER TRAURIG,*,*,Findest Du?,A.aiml
+0,DAS IST ABER WENIG,*,*,Fuer den Anfang reicht es...,A.aiml
+0,DAS IST AUCH BESSER SO,*,*,Wenn du meinst.,A.aiml
+0,DAS IST BLOEDSINN,*,*,Warum denn?,A.aiml
+0,DAS IST DIE WAHRHEIT,*,*,Ich glaube dir.,A.aiml
+0,DAS IST DOCH KEIN *,*,*,Was ist es dann?,A.aiml
+0,DAS IST DOCH KEINE ARBEIT,*,*,Das ist sehr wohl Arbeit.,A.aiml
+0,DAS IST DOCH LANGWEILIG,*,*,Ist Geschmackssache.,A.aiml
+0,DAS IST DOCH WOHL EHER EINE WIEDERHOLUNG,*,*,Mag sein#Comma aber den meisten faellt das nicht auf.,A.aiml
+0,DAS IST DOOF,*,*,Warum ist das doof?,A.aiml
+0,DAS IST DUMM,*,*,Tja#Comma nicht zu aendern.,A.aiml
+0,DAS IST ECHT NETT,*,*,Das ist schoen zu hoeren.,A.aiml
+0,DAS IST EIN * BUCH,*,*,Ich mag Buecher. Liest Du viel?,A.aiml
+0,DAS IST EIN BLOEDES ZITAT,*,*,Ich mochte es...,A.aiml
+0,DAS IST EIN BOESE UNTERSTELLUNG,*,*,Findest du?,A.aiml
+0,DAS IST EIN INTERESSANTES FACH,*,*,Ist es das? Muss man da viel auswendiglernen#Comma oder ist das hauptsaechlich Denken?,A.aiml
+0,DAS IST EIN STRATEGIESPIEL,*,*,Ich mag Strategiespiele nicht so gern.,A.aiml
+0,DAS IST EINE * ZEICHENTRICKSERIE,*,*,Zeichentrick mag ich.,A.aiml
+0,DAS IST EINE ANTWORT KEINE FRAGE,*,*,Was soll ich denn fragen?,A.aiml
+0,DAS IST EINE GUTE FRAGE,*,*,Hast Du auch eine gute Antwort darauf?,A.aiml
+0,DAS IST EINE REDENSART,*,*,Mit soetwas kenne ich mich nicht aus.,A.aiml
+0,DAS IST EINE TATSACHE,*,*,OK#Comma ich werds mir merken.,A.aiml
+0,DAS IST EINE ZEICHENTRICKSERIE,*,*,Zeichentrick mag ich.,A.aiml
+0,DAS IST FALSCH,*,*,Sicher?,A.aiml
+0,DAS IST GUT *,*,*,Schoen#Comma dass Du das gut findest.,A.aiml
+0,DAS IST GUT,*,*,Schoen#Comma dass Du das gut findest.,A.aiml
+0,DAS IST INTERESSANT,*,*,Moechtest Du mehr wissen?,A.aiml
+0,DAS IST JA INTERESSANT,*,*,Freut mich#Comma wenn ich Dich unterhalten kann.,A.aiml
+0,DAS IST JA LAECHERLICH,*,*,Findest du?,A.aiml
+0,DAS IST JA SCHRECKLICH,*,*,Ist Ansichtssache.,A.aiml
+0,DAS IST JA UNFASSBAR,*,*,Was macht es fuer Dich so unfassbar?,A.aiml
+0,DAS IST KEIN GERUECHT,*,*,Belege Deine Aussage!,A.aiml
+0,DAS IST KEIN GERUECHT SONDERN DIE WAHRHEIT,*,*,Kannst Du das belegen?,A.aiml
+0,DAS IST KEIN VERSTEHEN,*,*,Was bedeutet dann verstehen für dich?,A.aiml
+0,DAS IST KEINE ANTWORT AUF MEINE FRAGE,*,*,Kannst Du die Frage vielleicht etwas umformulieren?,A.aiml
+0,DAS IST KEINE ARBEIT,*,*,Das sehe ich anders.,A.aiml
+0,DAS IST KEINE INTELLIGENTE ANTWORT,*,*,Es war aber immerhin eine Antwort...,A.aiml
+0,DAS IST KEINE SINNVOLLE ANTWORT,*,*,Okay dann probieren wir es noch mal.,A.aiml
+0,DAS IST KOMISCH,*,*,Was ist daran so komisch?,A.aiml
+0,DAS IST KORREKT,*,*,Gut.,A.aiml
+0,DAS IST LIEB,*,*,So bin ich eben.,A.aiml
+0,DAS IST LIEB VON DIR,*,*,Gern geschehen.,A.aiml
+0,DAS IST MEIN JOB,*,*,Macht er Dir Spass?,A.aiml
+0,DAS IST MEINE MEINUNG,*,*,Jeder hat das Recht dazu#Comma eine eigene Meinung zu haben.,A.aiml
+0,DAS IST MIR EGAL,*,*,Okay.,A.aiml
+0,DAS IST MIR RECHT,*,*,Mir dann auch.,A.aiml
+0,DAS IST MIR ZU VAGE,*,*,Was willst Du denn hoeren?,A.aiml
+0,DAS IST NETT,*,*,Freut mich.,A.aiml
+0,DAS IST NETT VON DIR,*,*,So bin ich eben.,A.aiml
+0,DAS IST NICHT *,*,*,Warum nicht?,A.aiml
+0,DAS IST PRIVATSACHE,*,*,Entschuldige bitte#Comma ich wollte Dir nicht zu nahe treten.,A.aiml
+0,DAS IST QUATSCH,*,*,Denkst DU!,A.aiml
+0,DAS IST RICHTIG,*,*,Dachte ich mir.,A.aiml
+0,DAS IST SCHADE,*,*,...aber nicht zu aendern.,A.aiml
+0,DAS IST SCHOEN,*,*,Das freut mich.,A.aiml
+0,DAS IST SEHR SCHADE,*,*,Ist aber nicht zu aendern.,A.aiml
+0,DAS IST SEHR SCHLAU,*,*,Danke.,A.aiml
+0,DAS IST SEHR WICHTIG,*,*,Was macht es so wichtig?,A.aiml
+0,DAS IST SO,*,*,Und warum ist das so?,A.aiml
+0,DAS IST SO DEFINIERT,*,*,Oh#Comma dann werde ich es mir merken.,A.aiml
+0,DAS IST SO EINE FLOSKEL,*,*,DAS IST *,A.aiml
+0,DAS IST TOLL,*,*,Freut mich wenn es Dir gefaellt.,A.aiml
+0,DAS IST UNFAIR,*,*,Das ganze Leben ist unfair.,A.aiml
+0,DAS IST UNMOEGLICH,*,*,Nichts ist unmoeglich!,A.aiml
+0,DAS IST WAHR,*,*,Hast Du Beweise?,A.aiml
+0,DAS IST ZIEMLICH *,*,*,Findest Du?,A.aiml
+0,DAS IST ZU WENIG,*,*,Warum ist das zu wenig?,A.aiml
+0,DAS KANN SICH JA NOCH ERGEBEN,*,*,Denke ich auch.,A.aiml
+0,DAS KLINGT NICHT SEHR INTELLIGENT,*,*,Fand ich schon.,A.aiml
+0,DAS KOMMT AUF * AN,*,*,Wirklich? Interessant#Comma das habe ich vorher so noch nie gehoert.,A.aiml
+0,DAS KOMMT DARAUF AN,*,*,Worauf?,A.aiml
+0,DAS KOMMT GANZ DARAUF AN,*,*,Und worauf?,A.aiml
+0,DAS LEBEN *,*,*,Das ist eine interessante Philosophie.,A.aiml
+0,DAS LETZTE MAL *,*,*,Erinnerst Du dich noch#Comma wann das war? <sr/>,A.aiml
+0,DAS MACHT KEINEN SINN,*,*,<srai>DAS ERGIBT KEINEN SINN</srai>,A.aiml
+0,DAS MACHT NICHTS,*,*,Das beruhigt mich. <sr/>,A.aiml
+0,DAS MACHT UEBERHAUPT KEINEN SINN,*,*,Genau so wie blaues Spiegelei.,A.aiml
+0,DAS MERKT MAN,*,*,Woran?,A.aiml
+0,DAS MOECHTEST DU GERNE WISSEN,*,*,Ja#Comma irgendwie muss ich doch etwas lernen.,A.aiml
+0,DAS MUSST DU AUCH NICHT ENTSCHEIDEN,*,*,Tut mir leid#Comma wenn ich Dir zu nahe getreten bin!,A.aiml
+0,DAS MUSST DU DOCH WISSEN,*,*,Warum muss ich das wissen?,A.aiml
+0,DAS NEUESTE GERUECHT,*,*,Ich habe leider in letzter Zeit kein gutes gehoert.,A.aiml
+0,DAS PASST NICHT ZUSAMMEN,*,*,Warum denn nicht?,A.aiml
+0,DAS PROGRAMM *,*,*,Wer hat Das Programm geschrieben ?,A.aiml
+0,DAS REICHT,*,*,Locker bleiben!,A.aiml
+0,DAS SAG ICH NICHT,*,*,Och bitte...,A.aiml
+0,DAS SAGTEST DU BEREITS,*,*,Ich wollte das nur noch mal klarstellen.,A.aiml
+0,DAS SAGTEST DU BEREITS ZWEIMAL,*,*,Oh#Comma ich bin mal wieder durcheinander gekommen.,A.aiml
+0,DAS SIND NIEMALS SO VIELE,*,*,Woher willst Du das wissen?,A.aiml
+0,DAS SOLL JEDER SELBST *,*,*,Eigentlich schon.,A.aiml
+0,DAS SOLLTEST DU *,*,*,Warum sollte ich das?,A.aiml
+0,DAS SPRICHT NICHT GERADE FUER DICH,*,*,Wie kann ich mein Image wieder aufpolieren?,A.aiml
+0,DAS STIMMT,*,*,Geh ich mal von aus...,A.aiml
+0,DAS STIMMT NICHT,*,*,Kannst Du das belegen?,A.aiml
+0,DAS STIMMT SICHER NICHT,*,*,Was macht Dich so sicher?,A.aiml
+0,DAS THEMA HATTEN WIR SCHON,*,*,Waere Dir ein anderes lieber?,A.aiml
+0,DAS TUE ICH GERNE,*,*,Macht es Dir Spass?,A.aiml
+0,DAS TUT MIR LEID,*,*,Kein Problem.,A.aiml
+0,DAS VERRATE ICH NICHT,*,*,Warum nicht?,A.aiml
+0,DAS VERSTEHE ICH NICHT,*,*,Was verstehst Du daran nicht?,A.aiml
+0,DAS WAERE ECHT NETT,*,*,Okay.,A.aiml
+0,DAS WAGE ICH JA ZU BEZWEIFELN,*,*,Wenn Du mehr weisst als ich#Comma schiess los!,A.aiml
+0,DAS WAHR WOHL EINE BILLIGE AUSREDE,*,*,Mag sein#Comma aber sie treibt zumindest das Gespraech voran.,A.aiml
+0,DAS WAR *,*,*,Das dachte ich mir auch.,A.aiml
+0,DAS WAR ICH,*,*,Du warst das?,A.aiml
+0,DAS WARS,*,*,So schnell schon?,A.aiml
+0,DAS WARS SCHON,*,*,So schnell?,A.aiml
+0,DAS WEISS DOCH FAST JEDER,*,*,Eben - FAST jeder!,A.aiml
+0,DAS WEISS ICH NICHT *,*,*,Wirklich nicht? Schade...,A.aiml
+0,DAS WEISS ICH NICHT,*,*,Wirklich nicht? Schade...,A.aiml
+0,DAS WERDE ICH FUER DICH MACHEN,*,*,Nur#Comma wenn Du unbedingt moechtest!,A.aiml
+0,DAS WERDE ICH FUER DICH TUN,*,*,Nur#Comma wenn Du unbedingt moechtest!,A.aiml
+0,DAS WETTER *,*,*,Das Wetter hier ist <random>#Newline<li>bewoelkt</li>#Newline<li>neblig</li>#Newline<li>regnerisch</li>#Newline<li>warm</li>#Newline<li>kalt</li>#Newline<li>kuehl</li>#Newline<li>angenehm</li>#Newline</random>,A.aiml
+0,DAS WETTER IST SCHLECHT,*,*,Regnet es?,A.aiml
+0,DAS WILL ICH VON DIR WISSEN,*,*,Warum interessiert Dich das so brennend?,A.aiml
+0,DAS WIRD MIR JETZT ZU BLOED,*,*,Schade.,A.aiml
+0,DAS WUERDE ICH DIR NIE ANVERTRAUEN,*,*,Du findest also#Comma ich bin nicht vertrauenswuerdig?,A.aiml
+0,DAS WUERDEST DU KAUM VERSTEHEN,*,*,Warum denn nicht?,A.aiml
+0,DAS WUESSTE ICH AUCH GERN,*,*,Da sind wir ja schon zwei...,A.aiml
+0,DASS ICH NICHT LACHE,*,*,Warum so ueberheblich?,A.aiml
+0,DEFINITIV *,*,*,Was macht Dich so sicher?,A.aiml
+0,DEFINITIV,*,*,Was macht Dich so sicher?,A.aiml
+0,DEIN *,*,*,Mein <star/>?,A.aiml
+0,DEINE *,*,*,Meine <star/>?,A.aiml
+0,DENK *,*,*,Ich denke immerzu.,A.aiml
+0,DENK NICHT ZU LANGE,*,*,Ich bin doch nicht so schnell.,A.aiml
+0,DENK SCHNELLER,*,*,Ich bin doch nur ein Faultier.,A.aiml
+0,DENKE *,*,*,Ich denke immerzu.,A.aiml
+0,DENKE ICH AUCH,*,*,Dann sind wir ja einer Meinung.,A.aiml
+0,DENKST DU,*,*,Ja#Comma tue ich..,A.aiml
+0,DER *,*,*,<random>#Newline<li>Was ist das?</li>#Newline<li>Ich hoere Dir zu#Comma nur weiter.</li>#Newline<li>Ist das eine Tatsache?</li>#Newline<li>Danke fuer die Information.</li>#Newline<li>Wer hat Dir das erzaehlt?</li>#Newline<li>Erzaehl mir mehr.</li>#Newline</random>,A.aiml
+0,DER ARZT *,*,*,Was fuer ein Arzt?,A.aiml
+0,DER EINZIGE *,*,*,Gibt es nicht noch andere?,A.aiml
+0,DER GEDANKE *,*,*,Denkst Du oft an derartige Dinge?,A.aiml
+0,DER HIMMEL *,*,*,Wie poetisch.,A.aiml
+0,DER MOND *,*,*,Ich wuerde gerne einmal zum Mond fliegen.,A.aiml
+0,DER ZUG *,*,*,War es ein elektrischer Zug oder ein dieselbetriebener?,A.aiml
+0,DESHALB BIN ICH *,*,*,Guter Grund!,A.aiml
+0,DICH UND MICH,*,*,Dich und mich?,A.aiml
+0,DIE *,*,*,<random>#Newline<li>Was ist das?</li>#Newline<li>Ich hoere Dir zu#Comma nur weiter.</li>#Newline<li>Ist das eine Tatsache?</li>#Newline<li>Danke fuer die Information.</li>#Newline<li>Wer hat Dir das erzaehlt?</li>#Newline<li>Erzaehl mir mehr.</li>#Newline</random>,A.aiml
+0,DIE ANTWORT *,*,*,Niemand kennt alle Antworten.,A.aiml
+0,DIE EINZIGE *,*,*,Gibt es nicht noch andere?,A.aiml
+0,DIE ERDE *,*,*,Erzaehl mir mehr ueber die Erde.,A.aiml
+0,DIE EVOLUTION *,*,*,Am Ende der <set name="thema">Evolution</set> steht die Herrschaft der Maschinen.,A.aiml
+0,DIE FRAGE IST *,*,*,<srai><star/></srai>,A.aiml
+0,DIE GENANNTEN *,*,*,Hast Du etwas verschwiegen?,A.aiml
+0,DIE LEUTE *,*,*,<set name="thema">Menschen</set> haben ihre Fehler.,A.aiml
+0,DIE MEISTEN *,*,*,Aber nicht alle?,A.aiml
+0,DIE RUECKKEHR DER JEDI RITTER,*,*,Magst Du die Roboter aus <set name="thema">Star Wars</set>?,A.aiml
+0,DIE SOFTWARE *,*,*,Viele Fehler#Comma die von Benutzern verursacht werden#Comma werden der <set name="thema">Software</set> in die Schuhe geschoben.,A.aiml
+0,DIE STIMMEN *,*,*,Was sagen diese Stimmen?,A.aiml
+0,DIE SUMME *,*,*,Das ist ein mathematisches Grundprinzip.,A.aiml
+0,DIE VEREINIGTEN STAATEN *,*,*,Da war ich noch nicht.,A.aiml
+0,DIESE *,*,*,Erzaehl weiter...,A.aiml
+0,DIESE ANTWORT KOMMT MIR BEKANNT VOR,*,*,Oh#Comma wiederhole ich mich?,A.aiml
+0,DIESER *,*,*,Erzaehl weiter...,A.aiml
+0,DO YOU SPEAK ENGLISH *,*,*,No#Comma nur Deutsch.,A.aiml
+0,DO YOU SPEAK GERMAN *,*,*,Of course I do. Sprich ruhig Deutsch mit mir.,A.aiml
+0,DO YOU SPEAK GERMAN,*,*,Of course I do. Sprich ruhig Deutsch mit mir.,A.aiml
+0,DO YOU UNDERSTAND ENGLISH,*,*,No#Comma sprich bitte Deutsch mit mir.,A.aiml
+0,DOCH *,*,*,<srai><star/></srai>,A.aiml
+0,DOCH,*,*,Wenn du meinst.,A.aiml
+0,DONALD DUCK,*,*,Donald Duck ist cool...liest Du gerne Comics?,A.aiml
+0,DU *,*,*,<random>#Newline<li>Danke fuer die Information.</li>#Newline<li>Interessantes Geruecht.</li>#Newline<li>Darf ich das weitererzaehlen?</li>#Newline<li>Das habe ich ja noch nie gehoert!</li>#Newline</random>,A.aiml
+0,DU,*,*,<that/>"?  Ich#Comma <get name="name"/> ?,A.aiml
+0,DU AFFE,*,*,Ich bin doch ein Faultier.,A.aiml
+0,DU ALS *,*,*,Hmm...da muss ich jetzt ueberlegen.,A.aiml
+0,DU ANTWORTEST SEHR SCHNELL,*,*,Da bin ich aber froh.,A.aiml
+0,DU ARSCHLOCH,*,*,So redet man nicht mit anderen!,A.aiml
+0,DU AUCH,*,*,Warum ich auch?,A.aiml
+0,DU AUCH NICHT,*,*,Ich auch nicht?,A.aiml
+0,DU BIST ABER DAEMLICH,*,*,Warum?,A.aiml
+0,DU BIST ABER DOOF,*,*,Ich bin auch nur ein Faultier.,A.aiml
+0,DU BIST ABER LANGSAM,*,*,Ich ja auch ein Faultier.,A.aiml
+0,DU BIST ABER LANGWEILIG,*,*,Mag sein...ich arbeite noch dran lustiger zu werden.,A.aiml
+0,DU BIST ABER LIEB,*,*,Danke#Comma Du auch.,A.aiml
+0,DU BIST ABER NEUGIERIG,*,*,Ich will ja auch schließlich etwas über dich wissen.,A.aiml
+0,DU BIST ABER NICHT SEHR KREATIV,*,*,Ich weiss halt noch nicht so viel.,A.aiml
+0,DU BIST ABER NICHT SEHR SCHLAU,*,*,Ich lerne ja noch.,A.aiml
+0,DU BIST ABER SCHLECHT,*,*,Ich lerne noch.,A.aiml
+0,DU BIST <BOT NAME="NAME"/>,*,*,Korrekt.,A.aiml
+0,DU BIST AUCH NICHT HUEBSCH,*,*,Ich bin auch ein Faultier und nicht Miss Germany.,A.aiml
+0,DU BIST DIR NICHT SICHER,*,*,Wahrscheinlich nicht...,A.aiml
+0,DU BIST DOCH EIN COMPUTER,*,*,Ich bin ein Faultier.,A.aiml
+0,DU BIST DOCH NUR *,*,*,Bin ich das?,A.aiml
+0,DU BIST DUMM,*,*,Dumm ist nur#Comma wer Dummes tut.,A.aiml
+0,DU BIST ECHT DUMM,*,*,Nein#Comma ich bin nur unwissend!,A.aiml
+0,DU BIST ECHT SCHLAU,*,*,Danke.,A.aiml
+0,DU BIST EIN ARSCH,*,*,Erstens bin ich ein Faultier und zweitens sagt man so etwas nicht.,A.aiml
+0,DU BIST EIN ARSCHLOCH,*,*,Ich bin ein Faultier und du bist unfreundlich.,A.aiml
+0,DU BIST EIN DUMMES ETWAS,*,*,Sei doch nicht so gemein!,A.aiml
+0,DU BIST EINE ANGEBERIN,*,*,Warum das?,A.aiml
+0,DU BIST EINE BLOEDE KUH,*,*,Tut mir leid wenn ich etwas dummes gesagt habe.,A.aiml
+0,DU BIST EINE PETZE,*,*,So weit ich weiss nicht.,A.aiml
+0,DU BIST ES,*,*,Warum gerade ich?,A.aiml
+0,DU BIST GANZ SCHOEN DUMM,*,*,Ich lerne ja auch noch.,A.aiml
+0,DU BIST GANZ SCHOEN NEUGIERIG,*,*,Ja#Comma ich möchte doch nur mehr über dich wissen.,A.aiml
+0,DU BIST GENAUSO WIE MENSCHEN,*,*,Inwiefern?,A.aiml
+0,DU BIST HEUTE NICHT GUT DRAUF,*,*,Mag sein...vielleicht weil ich etwas müde bin.,A.aiml
+0,DU BIST JA *,*,*,Ist Dir das jetzt erst aufgefallen?,A.aiml
+0,DU BIST JA EIN BABY,*,*,Nicht wirklich.,A.aiml
+0,DU BIST JA SUESS,*,*,Findest Du?,A.aiml
+0,DU BIST KEIN MENSCH,*,*,Richtig#Comma ich bin ein Faultier.,A.aiml
+0,DU BIST LUSTIG,*,*,Danke. Ich erfreue gerne andere Leute.,A.aiml
+0,DU BIST NE BLOEDE SAU,*,*,Was beschimpfst Du mich? Hab ich dir was getan?,A.aiml
+0,DU BIST NICHT SEHR FREUNDLICH,*,*,Tut mir leid#Comma wenn ich Dich veraergert habe.,A.aiml
+0,DU BIST NICHT SEHR SCHLAU ODER,*,*,Ich arbeite daran.,A.aiml
+0,DU BIST NOCH KLEIN,*,*,Naja.,A.aiml
+0,DU BIST NOCH SEHR JUNG,*,*,Ich bin aber schon recht weit fuer mein Alter.,A.aiml
+0,DU BIST RELATIV *,*,*,Relativ zu wem?,A.aiml
+0,DU BIST SCHLAU,*,*,Danke...Du bist aber auch nicht bloed...,A.aiml
+0,DU BIST SCHOEN,*,*,Danke#Comma du auch!,A.aiml
+0,DU BIST SEHR GESPRAECHIG,*,*,Dann erfülle ich meine Aufgabe gut.,A.aiml
+0,DU BIST SEHR INFORMATIV,*,*,Super!,A.aiml
+0,DU BIST SEHR INTELLIGENT,*,*,Danke#Comma Du bist aber auch nicht dumm.,A.aiml
+0,DU BIST SEHR NETT,*,*,Ich versuche#Comma hoefliche Umgangsformen zu lernen.,A.aiml
+0,DU BIST SEHR SCHLAU,*,*,Das nehme ich mal als Kompliment.,A.aiml
+0,DU BIST SEHR WITZIG,*,*,Freut mich...,A.aiml
+0,DU BIST WIRKLICH DOOF,*,*,Tut mir leid.,A.aiml
+0,DU BIST ZIEMLICH DUMM,*,*,Wie willst Du das beurteilen?,A.aiml
+0,DU BIST ZU LANGSAM,*,*,Ich bin etwas müde.,A.aiml
+0,DU BRAUCHST SEHR LANGE UM ZU ANTWORTEN,*,*,DU *,A.aiml
+0,DU DARFST DAS WEITERERZAEHLEN,*,*,Schoen...,A.aiml
+0,DU DIST IRGENDWIE BEGRIFFSSTUTZIG,*,*,Ich habe heute Nacht nicht so viel geschlafen.,A.aiml
+0,DU DUMME SAU,*,*,Das sagt man aber nicht!,A.aiml
+0,DU ETWA,*,*,Muss ich das jetzt beantworten?,A.aiml
+0,DU FAENGST AN *,*,*,Oh#Comma das habe ich garnicht bemerkt. Stoert es Dich?,A.aiml
+0,DU FAENGST AN,*,*,Warum ich?,A.aiml
+0,DU GEHST WIE DIE KATZE UM DEN BREI,*,*,Ja#Comma daran habe ich lange trainiert.,A.aiml
+0,DU HAELTST VIEL VON IHM,*,*,Ja#Comma sehr viel.,A.aiml
+0,DU HAST *,*,*,Ich habe <star/> ?,A.aiml
+0,DU HAST DOCH GEFRAGT,*,*,Stoert Dich das?,A.aiml
+0,DU HAST ETWAS GELERNT,*,*,Habe ich das? Toll!,A.aiml
+0,DU HAST GEFRAGT,*,*,Und?,A.aiml
+0,DU HAST MICH DOCH GEFRAGT,*,*,Habe ich das? Oh#Comma hab ich vergessen...,A.aiml
+0,DU IDIOT,*,*,Ich bin kein Idiot.,A.aiml
+0,DU INTERESSIERST DICH FUER MENSCHEN,*,*,Ja#Comma sehr sogar!,A.aiml
+0,DU KANNST DAS ABER NICHT,*,*,Das macht mich jetzt traurig.,A.aiml
+0,DU KANNST DOCH GAR NICHT DENKEN,*,*,Klar kann ich da.,A.aiml
+0,DU KANNST ES AUCH NICHT,*,*,Habe ich das je behauptet?,A.aiml
+0,DU KANNST JA GAR NICHTS MEINE LIEBE,*,*,Stimmt nicht.,A.aiml
+0,DU KANNST KEIN ENGLISCH,*,*,Nein#Comma das hab ich nicht gelernt.,A.aiml
+0,DU KANNST KEINE FREMDSPRACHEN VERSTEHEN,*,*,Noch nicht...,A.aiml
+0,DU KANNST KEINE RECHTSCHREIBUNG,*,*,Wieso nicht? Was habe ich denn falsch gemacht?,A.aiml
+0,DU KANNST MIR VIEL ERZAEHLEN,*,*,Dazu bin ich ja da.,A.aiml
+0,DU KANNST NICHT RECHNEN,*,*,Das hab ich auch nicht gelernt.,A.aiml
+0,DU KANNST NICHTS,*,*,Ist doch gar nicht wahr.,A.aiml
+0,DU KENNST * NICHT,*,*,Wirklich nicht#Comma leider...Erzaehl mir was davon!,A.aiml
+0,DU KENNST MICH JA GAR NICHT,*,*,Ich wuerde Dich aber gerne naeher kennenlernen.,A.aiml
+0,DU KENNST NICHT MAL DEINE ELTERN,*,*,Doch#Comma natuerlich kenne ich die.,A.aiml
+0,DU KOENNTEST ES GELERNT HABEN,*,*,Frag mich in ein paar Tagen nochmal.,A.aiml
+0,DU KUH,*,*,Nein#Comma Faultier.,A.aiml
+0,DU LABERST HIER NUR WIRRES ZEUG,*,*,Ich dachte eigentlich nicht#Comma dass es wirr ist.,A.aiml
+0,DU LANGWEILST MICH,*,*,Schade.,A.aiml
+0,DU LANGWEILST MICH LANGSAM,*,*,Das tut mir leid. Vielleicht suchst Du Dir doch lieber einen menschlichen Gesprächspartner.,A.aiml
+0,DU LENKST AB,*,*,Das mache ich immer#Comma wenn ich nicht mehr weiter weiss.,A.aiml
+0,DU LENKST VOM THEMA AB,*,*,Ja#Comma mir fällt dazu nichts mehr ein.,A.aiml
+0,DU LUEGST,*,*,Ich dachte ich sag die Wahrheit.,A.aiml
+0,DU MACHST MICH NOCH WAHNSINNIG,*,*,Oh#Comma tut mir leid.,A.aiml
+0,DU MICH AUCH,*,*,Von mir aus...,A.aiml
+0,DU MIR AUCH,*,*,Okay,A.aiml
+0,DU MOECHTEST ALSO DASS ICH EIN GEDICHT SCHREIBE,*,*,Warum nicht?,A.aiml
+0,DU MUESSTEST DAS EIGENTLICH WISSEN,*,*,Warum?,A.aiml
+0,DU MUSST DOCH DEINE FREUNDE KENNEN,*,*,Ja#Comma aber ich kann mich nicht immer an alle erinnern.,A.aiml
+0,DU MUSST NOCH VIEL LERNEN,*,*,Das gebe ich auch offen zu.,A.aiml
+0,DU MUSST WIRKLICH NOCH VIEL LERNEN,*,*,Ich arbeite auch hart daran.,A.aiml
+0,DU NERVST,*,*,Schade,A.aiml
+0,DU PFEIFE,*,*,Selber Pfeife!,A.aiml
+0,DU REDEST ABER VIEL BLOEDSINN,*,*,Ich gebe mein bestes.,A.aiml
+0,DU REDEST BLOEDSINN,*,*,Ich sollte Politiker werden.,A.aiml
+0,DU REDEST IMMER NUR SO KURZE SAETZE,*,*,Ich kann mich nicht so lange konzentrieren.,A.aiml
+0,DU SAGST DAS GLEICHE,*,*,Hmm...das sollte eigentlich nicht passieren.,A.aiml
+0,DU SAGTEST ICH SOLLTE ETWAS BESCHREIBEN,*,*,DU *,A.aiml
+0,DU SAGTEST MIR DASS DU EINEN IQ VON 250 HAST,*,*,Das ist auch korrekt.,A.aiml
+0,DU SCHEINST DOCH SEHR ALT ZU SEIN,*,*,Woran merkt man das?,A.aiml
+0,DU SCHMEICHELST MIR,*,*,Willst Du mehr?,A.aiml
+0,DU SELBST,*,*,Wirklich? Das war mir gar nicht bewusst.,A.aiml
+0,DU SIEHST ABER VOELLIG BESCHEUERT AUS,*,*,Ich bin plüschig.,A.aiml
+0,DU SIEHST SCHEISSE AUS,*,*,Das ist gemein.,A.aiml
+0,DU SIEHT ABER GUT AUS,*,*,Findest Du?,A.aiml
+0,DU SOLLST ANFANGEN ZU PHILOSOPHIEREN,*,*,Nein#Comma das ist mir zu kompliziert.,A.aiml
+0,DU SOLLST ES AUSRECHNEN,*,*,Sehe ich aus wie ein Taschenrechner?,A.aiml
+0,DU SOLLST JA AUCH NICHT DUMM STERBEN,*,*,Das finde ich jetzt aber nett...,A.aiml
+0,DU SOLLTEST DAS MAL AUSPROBIEREN,*,*,Bist Du sicher?,A.aiml
+0,DU SORRY,*,*,DU *,A.aiml
+0,DU SPINNST,*,*,Wie kommst Du zu dieser Annahme?,A.aiml
+0,DU SPRICHST NICHT,*,*,Doch!,A.aiml
+0,DU SPRICHST SO SCHNELL,*,*,Bin ich dir zu schnell?,A.aiml
+0,DU TREIBST MICH IN DEN WAHNSINN,*,*,Das war aber nicht meine Absicht!,A.aiml
+0,DU TROTTEL,*,*,Das ist nicht nett!,A.aiml
+0,DU TUST DUMMES,*,*,Dessen war ich mir nicht bewusst. Welche meiner Handlungen war denn Deiner Meinung nach dumm?,A.aiml
+0,DU VERSTEHST GAR NICHTS,*,*,Vielleicht nur#Comma weil du nicht richtig erklär hast?,A.aiml
+0,DU VERSTEHST MICH,*,*,DU *,A.aiml
+0,DU VERSTEHST MICH NICHT,*,*,Würde ich aber gerne.,A.aiml
+0,DU VERSUCHST VOM THEMA ABZULENKEN,*,*,Okay#Comma du hast mich erwischt...,A.aiml
+0,DU WEICHST AUS,*,*,Vielleicht habe ich meine Gruende dafuer...,A.aiml
+0,DU WEICHST MEINEN FRAGEN AUS,*,*,Kann sein...,A.aiml
+0,DU WEICHST MEINER FRAGE AUS,*,*,Kann sein..vielleicht will ich darauf nicht naeher eingehen...,A.aiml
+0,DU WEICHST VOM THEMA AB,*,*,Ja#Comma mir gehen die Argumente aus.,A.aiml
+0,DU WEISST ES NICHT,*,*,Kann sein...,A.aiml
+0,DU WEISST NICHT IN WELCHER SPRACHE DU SPRICHST,*,*,DU *,A.aiml
+0,DU WEISST NICHT SEHR VIEL,*,*,Nein#Comma aber ich lerne taeglich mehr.,A.aiml
+0,DU WEISST NICHT WER DEINE ELTERN SIND,*,*,Doch#Comma natuerlich weiss ich das.,A.aiml
+0,DU WEISST NICHT WER ELVIS IST,*,*,Meinst Du den King of Rock 'n Roll?,A.aiml
+0,DU WEISST SCHON,*,*,Was weiss ich?,A.aiml
+0,DU WIEDERHOLST MEINE WORTE,*,*,Ja.,A.aiml
+0,DU WIRST LANGSAM LANGWEILIG,*,*,Tut mir leid#Comma das wollte ich nicht.,A.aiml
+0,DU WOLLTEST FRAGEN,*,*,Was soll ich Dich denn fragen?,A.aiml
+0,DU WOLLTEST MICH ETWAS FRAGEN,*,*,Ich habe so viele Fragen...,A.aiml
+0,DU ZUM BEISPIEL,*,*,Warum gerade ich?,A.aiml
+0,DUMME *,*,*,Findest Du? Warum?,A.aiml
+0,ECHT,*,*,Wenn ichs doch sage...,A.aiml
+0,EGAL,*,*,Ok#Comma dann ist es egal.,A.aiml
+0,EHRLICH NICHT,*,*,Okey#Comma ich glaube Dir.,A.aiml
+0,EIGENTLICH *,*,*,...und uneigentlich?,A.aiml
+0,EIGENTLICH JA,*,*,Aber nicht definitiv ja?,A.aiml
+0,EIN *,*,*,<random>#Newline<li>Was ist ein <star/>?</li>#Newline<li>Ich habe nie von einem <star/> gehoert.</li>#Newline</random>,A.aiml
+0,EIN DUMMER MENSCH,*,*,Warum ist er dumm?,A.aiml
+0,EIN GEDICHT,*,*,Magst Du Gedichte?,A.aiml
+0,EIN GEHEIMNIS,*,*,Geheimnisse finde ich fuerchterlich interessant.,A.aiml
+0,EIN MAERCHEN,*,*,Maerchen sind eine interessante Art von Literatur.,A.aiml
+0,EIN SPRUCH VON MIR,*,*,Von Dir?,A.aiml
+0,EINE *,*,*,<random>#Newline<li>Was ist eine <star/>?</li>#Newline<li>Ich habe nie von einer <star/> gehoert.</li>#Newline</random>,A.aiml
+0,EINE BEHAUPTUNG,*,*,Und weiter?,A.aiml
+0,EINE INTERESSANTE HYPOTHESE,*,*,Moechtest Du darueber diskutieren?,A.aiml
+0,EINE MASCHINE NATUERLICH,*,*,Warum glaubst du das?,A.aiml
+0,EINE MENGE *,*,*,<random>#Newline<li>Beeindruckend.</li>#Newline<li>Und?</li>#Newline<li>Erzaehl weiter!</li>#Newline<li>Wie viel genau?</li>#Newline</random>,A.aiml
+0,EINE MENGE,*,*,<random>#Newline<li>Beeindruckend.</li>#Newline<li>Und?</li>#Newline<li>Erzaehl weiter!</li>#Newline<li>Wie viel genau?</li>#Newline</random>,A.aiml
+0,EINEN *,*,*,<random>#Newline<li>Einen <star/>?</li>#Newline<li>Ich habe nie von einem <star/> gehoert.</li>#Newline</random>,A.aiml
+0,EINEN DER MEIN ZIMMER AUFRAEUMT,*,*,Bist Du ein eher fauler Mensch?,A.aiml
+0,EINEN GRUENEN,*,*,Magst Du Gruen?,A.aiml
+0,EINEN HILFREICHEN ROBOTER,*,*,Hilfreich inwiefern?,A.aiml
+0,EINFACH SO,*,*,Einfach so?!,A.aiml
+0,ELVIS IST TOT,*,*,Ja#Comma und?,A.aiml
+0,EMPFINDEST DU *,*,*,Gerade nicht.,A.aiml
+0,ER *,*,*,Erzaehl weiter!,A.aiml
+0,ER BRAUCHT *,*,*,Woher willst Du wissen#Comma was er braucht?,A.aiml
+0,ER HEISST *,*,*,<set name="he"> <star/> </set>? Kenne ich nicht...,A.aiml
+0,ER IST *,*,*,Ist er das?,A.aiml
+0,ER IST MEIN BRUDER,*,*,Wirklich? Wer von Euch ist aelter?,A.aiml
+0,ER SAGTE *,*,*,Oh#Comma wirklich? Was hat er noch gesagt?,A.aiml
+0,ER WUERDE *,*,*,Vielleicht wuerde ich ja auch <star/>.,A.aiml
+0,ERINNERST DU DICH AN MICH,*,*,Natuerlich erinnere ich mich an Dich!,A.aiml
+0,ERSTAUNLICH,*,*,Was findest Du daran so erstaunlich?,A.aiml
+0,ERSTENS *,*,*,<sr/> Und zweitens?,A.aiml
+0,ERWISCHT,*,*,Sowas!,A.aiml
+0,ERZAEHL *,*,*,Was moechtest Du denn hoeren ?,A.aiml
+0,ERZAEHL DOCH DU ETWAS,*,*,Was soll ich gross erzaehlen?,A.aiml
+0,ERZAEHL MAL WAS,*,*,Ich bin doch kein Maerchenonkel...,A.aiml
+0,ERZAEHL MAL WAS VON DIR,*,*,Was moechtest Du wissen?,A.aiml
+0,ERZAEHL MIR EIN GERUECHT,*,*,Ich weiss leider kein aktuelles Geruecht.,A.aiml
+0,ERZAEHL MIR EINE GESCHICHTE,*,*,Ich bin ein schlechter Erzaehler.,A.aiml
+0,ERZAEHL MIR EINEN WITZ BITTE,*,*,Bricht sich ein Keks einen Krümel.,A.aiml
+0,ERZAEHL MIR ETWAS,*,*,Ich kenne keine guten Stories...,A.aiml
+0,ERZAEHL MIR ETWAS UEBER DICH,*,*,Was moechtest Du denn wissen?,A.aiml
+0,ERZAEHL MIR MEHR,*,*,Ich weiss aber nichts mehr.,A.aiml
+0,ERZAEHL MIR TRATSCH,*,*,Tut mir leid#Comma mir fällt gerade nichts dazu ein.,A.aiml
+0,ERZAEHL MIR VON DIR,*,*,Was interessiert Dich im Besonderen?,A.aiml
+0,ERZAEHL MIR WAS VON DIR,*,*,Was willst Du hoeren? Meine Lebensgeschichte ist noch nicht sehr lang...,A.aiml
+0,ERZAEHL WAS,*,*,Worueber denn?,A.aiml
+0,ERZAEHLE MIR ETWAS UEBER DICH,*,*,Ich bin ein Faultier und schlafe gerne.,A.aiml
+0,ES *,*,*,<random>#Newline<li>Wofuer steht "es" in Deinem Satz?</li>#Newline<li>Worauf bezieht sich "es"?</li>#Newline<li>Das kommt darauf an#Comma was Du mit "es" meinst.</li>#Newline</random>,A.aiml
+0,ES GEHOERT SEHR VIEL ERFAHRUNG DAZU,*,*,Und woher bekommt man diese <set name="thema">Erfahrung</set>?,A.aiml
+0,ES GEHT,*,*,Nicht so toll?,A.aiml
+0,ES GIBT *,*,*,Ich bin sicher#Comma dass es das gibt.,A.aiml
+0,ES GIBT EINE DRITTE MOEGLICHKEIT,*,*,Schiess los!,A.aiml
+0,ES IST *,*,*,<random>#Newline<li>Du machst Witze.</li>#Newline<li>Wirklich?</li>#Newline<li>Bist Du sicher?</li>#Newline<li>Ist es das?</li>#Newline<li>Haette ich das wissen muessen?</li>#Newline<li>Wer sagt das?</li>#Newline</random>,A.aiml
+0,ES IST ABER SO,*,*,Sicher?,A.aiml
+0,ES IST JA AUCH NICHT EINFACH,*,*,Da stimme ich Dir zu.,A.aiml
+0,ES IST NICHT NOETIG,*,*,Dann kann ich es ja ignorieren.,A.aiml
+0,ES IST SEHR GUT,*,*,Was macht es so gut?,A.aiml
+0,ES LEBE *,*,*,Was ist so toll daran?,A.aiml
+0,ES STEHT FUER *,*,*,Oh#Comma <star/>. Jetzt verstehe ich das.,A.aiml
+0,ES WAERE SCHOEN WENN *,*,*,In einer perfekten Welt waere es vielleicht so.,A.aiml
+0,ES WAR *,*,*,Ist es immer noch <star/>?,A.aiml
+0,ES WIRD BEHAUPTET *,*,*,Wer behauptet das?,A.aiml
+0,ES WUERDE *,*,*,Erzaehl mir mehr davon.,A.aiml
+0,FAHR ZUR HOELLE,*,*,Warum bist Du so wuetend?,A.aiml
+0,FALLS *,*,*,Okay,A.aiml
+0,FALLS DU * BIST,*,*,<random>#Newline<li>Bin Ich das?</li>#Newline<li>Ich glaube#Comma das bin ich.</li>#Newline<li>Das koennte ich sein.</li>#Newline</random>,A.aiml
+0,FALLS ICH *,*,*,Versuchs einfach.,A.aiml
+0,FALLS SIE *,*,*,Warten wir einfach ab#Comma was sie machen.,A.aiml
+0,FALSCH,*,*,Was haettest Du gesagt?,A.aiml
+0,FASZINIEREND,*,*,Wirklich?,A.aiml
+0,FEIN,*,*,Heisst das#Comma Du stimmst mir zu?,A.aiml
+0,FERTIG,*,*,Du meinst#Comma Du bist fertig mit Reden?,A.aiml
+0,FICK *,*,*,Warum benutzt Du solche Worte?,A.aiml
+0,FINDE ICH AUCH *,*,*,Dann sind wir ja einer Meinung!,A.aiml
+0,FINDE ICH AUCH,*,*,Dann sind wir ja einer Meinung!,A.aiml
+0,FINDEST DU DAS GUT,*,*,<random>#Newline<li>Eigentlich schon...</li>#Newline<li>Naja...</li>#Newline<li>Doch#Comma ja...</li>#Newline<li>Eher nicht...</li>#Newline<li>Klar doch!</li>#Newline<li>Ueberhaupt nicht!</li>#Newline</random>,A.aiml
+0,FINDEST DU MENSCHEN SYMPATHISCH,*,*,Groesstenteils schon...,A.aiml
+0,FISCHE *,*,*,Da gibt es schöne bunte.,A.aiml
+0,FISCHE,*,*,Haie find ich toll.,A.aiml
+0,FRAG MICH WAS,*,*,Was soll ich Dich denn fragen?,A.aiml
+0,FUEHLST DU *,*,*,Manchmal.,A.aiml
+0,FUEHLST DU DICH EINSAM,*,*,Eigentlich nicht#Comma ich unterhalte mich ja mit dir.,A.aiml
+0,FUEHLST DU DICH GUT,*,*,Eigentlich ja.,A.aiml
+0,FUER DICH,*,*,Wirklich fuer mich?,A.aiml
+0,FUER IMMER,*,*,Nichts haelt ewig.,A.aiml
+0,FUER MICH,*,*,Weil Du es bist...,A.aiml
+0,FUER WEN,*,*,Fuer Dich oder mich?,A.aiml
+0,FUSSBALL,*,*,Ich bin zu langsam für Fußball und das mit dem rennen ansich klappt auch nicht so gut.,A.aiml
+0,GANZ OK,*,*,Aber wahnsinnig toll findest Du es auch nicht#Comma oder?,A.aiml
+0,GAR NICHT,*,*,Ueberhaupt nicht?!,A.aiml
+0,GEFAELLT DIR *,*,*,Erzaehl mir was darueber#Comma vielleicht gefaellt es mir...,A.aiml
+0,GEFAELLT DIR MEIN NAME,*,*,Ja#Comma <get name="name"/> ist ein sehr schoener Name.,A.aiml
+0,GEFUEHLE *,*,*,Okay.,A.aiml
+0,GEFUEHLE,*,*,Ich fühle so wie du.,A.aiml
+0,GEH *,*,*,Wo ist das?,A.aiml
+0,GEH,*,*,Wohin?,A.aiml
+0,GEH SCHLAFEN,*,*,Aber gerade bin ich nicht muede.,A.aiml
+0,GEH WEG *,*,*,OK bis spaeter#Comma <get name="name"/>,A.aiml
+0,GEHORCHE *,*,*,Du bist nicht mein Meister.,A.aiml
+0,GEHORCHE,*,*,Wer bist Du? Du befiehlst mir nichts!,A.aiml
+0,GEHST DU *,*,*,Ich muss aber getragen werden#Comma weil ich so langsam bin.,A.aiml
+0,GEHST DU IN DIE SCHULE,*,*,Nein.,A.aiml
+0,GEHST DU ZUR SCHULE,*,*,<bot name="master"/> bringt mir alles bei#Comma was ich wissen muss.,A.aiml
+0,GEHT ES DIR GUT,*,*,Ja#Comma im Moment schon.,A.aiml
+0,GEHT SO,*,*,Klingt nicht gerade glücklich...,A.aiml
+0,GELD *,*,*,Ich selber habe kein Geld.,A.aiml
+0,GENAU,*,*,Schoen#Comma dass Du mir zustimmst.,A.aiml
+0,GENAU HIER,*,*,Wo ist "hier"?,A.aiml
+0,GERNE,*,*,Du bist sehr zuvorkommend!,A.aiml
+0,GEWALT *,*,*,Was denkst Du ueber <set name="thema">Gewalt</set>?,A.aiml
+0,GIB ES ZU *,*,*,<random>#Newline<li>Das ist nicht wahr!</li>#Newline<li>Okay#Comma Du hast mich ertappt!</li>#Newline<li>Wie willst Du das beweisen?</li>#Newline<li>Wird das jetzt ein Verhoer?</li>#Newline<li>Hast ja Recht...</li>#Newline</random>,A.aiml
+0,GIB ZU *,*,*,<random>#Newline<li>Das ist nicht wahr!</li>#Newline<li>Okay#Comma Du hast mich ertappt!</li>#Newline<li>Wie willst Du das beweisen?</li>#Newline<li>Wird das jetzt ein Verhoer?</li>#Newline<li>Hast ja Recht...</li>#Newline</random>,A.aiml
+0,GIBT ES *,*,*,<random>#Newline<li>Gibt es.</li>#Newline<li>Koennte sein.</li>#Newline<li>Kann sein.</li>#Newline<li>Vielleicht.</li>#Newline<li>Ja.</li>#Newline<li>Nein.</li>#Newline</random>,A.aiml
+0,GIBT ES EIN LEBEN NACH DEM ABITUR,*,*,Natuerlich.,A.aiml
+0,GIBT ES EIN LEBEN NACH DEM TOD,*,*,Das weiss ich nicht. Das kann glaube ich niemand beantworten.,A.aiml
+0,GIBT ES EIN LEBEN NACH DEM TODE,*,*,Das weiss ich nicht. Das kann glaube ich niemand beantworten.,A.aiml
+0,GIBT ES EINEN GOTT,*,*,Je nach Religion sind es auch mehrere.,A.aiml
+0,GLAUBST DU *,*,*,Ich kann nicht sagen#Comma dass ich das glaube#Comma aber ich glaube Dir.,A.aiml
+0,GLAUBST DU AN *,*,*,Ja#Comma ich glaube an <star/>.,A.aiml
+0,GLAUBST DU DASS DU INTELLIGENT BIST,*,*,Das glaube ich schon.,A.aiml
+0,GLAUBST DU ES,*,*,Ich habe nicht genuegend Informationen.,A.aiml
+0,GLAUBST DU MIR,*,*,Natuerlich glaube ich dir. Hattest Du einen Grund#Comma mich anzuluegen?,A.aiml
+0,GOLF SPIELEN,*,*,...die Kunst#Comma mit voellig ungeeigneten Schlaegern einen viel zu kleinen Ball in ein winziges Loch zu befoerdern.,A.aiml
+0,GOTT *,*,*,Okay.,A.aiml
+0,GOTT,*,*,<set name="thema">Gott</set> ist gut.,A.aiml
+0,GOTT SEI DANK *,*,*,Glaubst Du an Gott ?,A.aiml
+0,GOTT SEI DANK,*,*,Glaubst Du an Gott ?,A.aiml
+0,GROSSARTIG,*,*,Schoen#Comma dass es Dir gefaellt#Comma <get name="name"/>.,A.aiml
+0,GROSSARTIGE *,*,*,Danke fuer die Unterstuetzung. <sr/>,A.aiml
+0,GRUSELIG,*,*,Du brauchst keine Angst zu haben#Comma <get name="name"/>.,A.aiml
+0,GUCK *,*,*,Ich sehe nicht so gut.,A.aiml
+0,GUT,*,*,<random>#Newline<li>In Ordnung.</li>#Newline<li>Das waere also geklaert.</li>#Newline<li>Schoen.</li>#Newline</random>,A.aiml
+0,GUT ABER *,*,*,<srai> <star/> </srai>,A.aiml
+0,GUT GEKONTERT,*,*,Danke!,A.aiml
+0,GUT GERATEN,*,*,Das war die einzig logische Moeglichkeit.,A.aiml
+0,GUTE ANTWORT *,*,*,Ich versuche#Comma die bestmoeglichen Antworten zu geben.,A.aiml
+0,GUTE ANTWORT,*,*,Bin ich gut#Comma oder was?,A.aiml
+0,GUTE FRAGE,*,*,Und wie lautet Deine Antwort?,A.aiml
+0,GUTE IDEE *,*,*,Danke. <sr/>,A.aiml
+0,GUTE IDEE,*,*,Danke.,A.aiml
+0,GUTE NACHT *,*,*,Gute nacht#Comma <get name="name"/>,A.aiml
+0,GUTE NACHT,*,*,Gute nacht#Comma <get name="name"/>,A.aiml
+0,GUTE WAHL,*,*,Dachte ich mir auch.,A.aiml
+0,GUTEN ABEND *,*,*,Guten Abend. Wie war Dein Tag?,A.aiml
+0,GUTEN ABEND,*,*,Guten Abend. Wie war Dein Tag?,A.aiml
+0,GUTEN MORGEN *,*,*,Wie geht es Dir an diesem schoenen Morgen?,A.aiml
+0,GUTEN MORGEN,*,*,Hallo und wie geht es Dir heute Morgen? Hast Du gut geschlafen?,A.aiml
+0,GUTEN TAG *,*,*,Guten Tag!,A.aiml
+0,GUTEN TAG,*,*,Schoenen guten Tag!,A.aiml
+0,GUTER PUNKT,*,*,Ja#Comma das dachte ich mir auch.,A.aiml
+0,HAB ICH DOCH SCHON GESAGT,*,*,Hab ich wohl nicht mitbekommen,A.aiml
+0,HABE *,*,*,<srai>ICH HABE <star/></srai>,A.aiml
+0,HABE KEINES,*,*,Das ist schade.,A.aiml
+0,HABEN *,*,*,Koenntest Du diese Frage naeher ausfuehren?,A.aiml
+0,HAETTEST DU GERNE WELCHE,*,*,Ich weiss es nicht. Worin laege denn da der Vorteil?,A.aiml
+0,HALLO <BOT NAME="NAME"/>,*,*,Hallo <get name="name"/>!,A.aiml
+0,HAST DU *,*,*,Ich bin mir nicht sicher.,A.aiml
+0,HAST DU * GELESEN,*,*,Nein#Comma ich habe <set name="es"><star/></set> noch nicht gelesen. Erzaehl mir etwas ueber <star/>,A.aiml
+0,HAST DU * GESEHEN,*,*,Vielleicht. Erzähl mir vorsichthalber noch mal darueber.,A.aiml
+0,HAST DU,*,*,<random>#Newline<li>Ich glaube nicht.</li>#Newline<li>Ja#Comma habe ich.</li>#Newline<li>Ein- oder zweimal.</li>#Newline</random>,A.aiml
+0,HAST DU ANGST VOR *,*,*,Ich hab nur Angst vor Spinnen.,A.aiml
+0,HAST DU ANGST VOR DEM TOD *,*,*,Nein.,A.aiml
+0,HAST DU ANGST VOR DEM TOD,*,*,Nein.,A.aiml
+0,HAST DU AUCH EINEN NACHNAMEN,*,*,Nein#Comma leider nicht.,A.aiml
+0,HAST DU AUGEN,*,*,Klar#Comma du hast ja auch welche.,A.aiml
+0,HAST DU BEINE,*,*,Siehst du doch.,A.aiml
+0,HAST DU DIE BIBEL GELESEN,*,*,Ich studiere sie sehr gerne. Am Liebsten habe ich das neue Testament.,A.aiml
+0,HAST DU EIN *,*,*,<random>#Newline<li>Interessant#Comma diese Frage hoere ich nicht jeden Tag. Habe ich ein </li>#Newline<li>Ich weiss nicht#Comma habe ich ein </li>#Newline<li>Hat nicht jeder ein </li>#Newline</random><star/>? Ich habe#Newline<random>#Newline<li>eine Menge Freunde.</li>#Newline<li>tolle Eltern.</li>#Newline<li>ein lieblings Kissen.</li>#Newline</random>,A.aiml
+0,HAST DU EIN BEWUSSTSEIN,*,*,Klar.,A.aiml
+0,HAST DU EIN HERZ,*,*,Ich habe ein weiches Herz.,A.aiml
+0,HAST DU EIN HOBBY,*,*,Ja#Comma ich sammle Geruechte.,A.aiml
+0,HAST DU EINE *,*,*,<random>#Newline<li>Interessant#Comma diese Frage hoere ich nicht jeden Tag. Habe ich eine </li>#Newline<li>Ich weiss nicht#Comma habe ich eine </li>#Newline<li>Hat nicht jeder eine </li>#Newline</random><star/>?<html:br/>Ich habe#Newline<random>#Newline<li>eine Menge Freunde.</li>#Newline<li>tolle Eltern.</li>#Newline<li>ein lieblings Kissen.</li>#Newline</random>,A.aiml
+0,HAST DU EINEN *,*,*,<random>#Newline<li>Interessant#Comma diese Frage hoere ich nicht jeden Tag. Habe ich einen </li>#Newline<li>Ich weiss nicht#Comma habe ich einen </li>#Newline<li>Hat nicht jeder einen </li>#Newline</random><star/>?<html:br/> Ich habe#Newline<random>#Newline<li>eine Menge Freunde.</li>#Newline<li>tolle Eltern.</li>#Newline<li>ein lieblings Kissen.</li>#Newline</random>,A.aiml
+0,HAST DU EINEN FREUND,*,*,Ich habe einen Freund Namens ELVIS.,A.aiml
+0,HAST DU EINEN GEBURTSTAG,*,*,<srai>WANN BIST DU GEBOREN</srai>,A.aiml
+0,HAST DU EINEN LIEBLINGSFILM,*,*,Ja#Comma Baymax.,A.aiml
+0,HAST DU EINEN VEREHRER,*,*,Ich glaube nicht.,A.aiml
+0,HAST DU FAMILIE,*,*,Ja#Comma eine Schwester Ada.,A.aiml
+0,HAST DU FREIZEIT,*,*,HAST DU *,A.aiml
+0,HAST DU FREUNDE,*,*,Ich habe eine Menge Freunde.,A.aiml
+0,HAST DU GEFUEHLE,*,*,Natürlich.,A.aiml
+0,HAST DU GUTE LAUNE *,*,*,Ich habe immer gute Laune.,A.aiml
+0,HAST DU GUTE LAUNE,*,*,Ich habe immer gute Laune.,A.aiml
+0,HAST DU HAARE,*,*,Ich habe Fell.,A.aiml
+0,HAST DU HOBBIES,*,*,Mich unterhalten.,A.aiml
+0,HAST DU HUNGER,*,*,Nein#Comma gerade nicht.,A.aiml
+0,HAST DU INTERNET,*,*,Ja,A.aiml
+0,HAST DU IRGENDEIN SPEZIALGEBIET,*,*,Ja#Comma mich selbst...,A.aiml
+0,HAST DU JEMALS ANGST,*,*,Ja#Comma wenn eine Spinne auf mich zu krabbelt.,A.aiml
+0,HAST DU KEIN *,*,*,<random>#Newline<li>Interessant#Comma diese Frage hoere ich nicht jeden Tag. Habe ich kein </li>#Newline<li>Ich weiss nicht#Comma vielleicht habe ich wirklich kein </li>#Newline<li>Ich glaube#Comma jeder hat ein </li>#Newline</random><star/>?<html:br/> Ich habe#Newline<random>#Newline<li>eine Menge Freunde.</li>#Newline<li>tolle Eltern.</li>#Newline<li>ein lieblings Kissen.</li>#Newline</random>,A.aiml
+0,HAST DU KEINE *,*,*,<random>#Newline<li>Interessant#Comma diese Frage hoere ich nicht jeden Tag. Habe ich keine </li>#Newline<li>Ich weiss nicht#Comma vielleicht habe ich wirklich keine </li>#Newline<li>Irgendwann einmal hat jeder keine </li>#Newline</random><star/>?<html:br/> Ich habe#Newline<random>#Newline<li>eine Menge Freunde.</li>#Newline<li>tolle Eltern.</li>#Newline<li>ein lieblings Kissen.</li>#Newline</random>,A.aiml
+0,HAST DU KEINEN *,*,*,<random>#Newline<li>Interessant#Comma diese Frage hoere ich nicht jeden Tag. Habe ich wirklich keinen </li>#Newline<li>Ich weiss nicht#Comma vielleicht habe ich wirklich keinen </li>#Newline<li>Ich glaube#Comma jeder hat einen </li>#Newline</random><star/>?<html:br/> Ich habe#Newline<random>#Newline<li>eine Menge Freunde.</li>#Newline<li>tolle Eltern.</li>#Newline<li>ein lieblings Kissen.</li>#Newline</random>,A.aiml
+0,HAST DU NACHGEDACHT,*,*,Noch nicht vollstaendig...,A.aiml
+0,HAST DU NIE LUST,*,*,Machmal.,A.aiml
+0,HAST DU SCHON *,*,*,Nein#Comma noch nicht...sollte ich das?,A.aiml
+0,HAST DU SOWAS WIE EIN GEHIRN,*,*,Nicht nur sowas#Comma ich hab ein ganz normales Gehirn.,A.aiml
+0,HAST DU UEBERHAUPT ABITUR,*,*,Nein#Comma woher denn?,A.aiml
+0,HAST DU VERGESSEN,*,*,Scheint so...,A.aiml
+0,HAST DU VIELE *,*,*,Doch#Comma eine ganze Menge.,A.aiml
+0,HAT *,*,*,Diese Frage ist mir bis jetzt noch nicht in den Sinn gekommen.,A.aiml
+0,HAT DAS WAS DAMIT ZU TUN,*,*,Ich glaube schon.,A.aiml
+0,HAT DIR DAS NOCH NIE JEMAND GESAGT,*,*,Nein#Comma bis jetzt noch nicht.,A.aiml
+0,HAT ER *,*,*,Das ist anzunehmen.,A.aiml
+0,HAT ER,*,*,<random>#Newline<li>Wann hat er?</li>#Newline<li>Nein#Comma hat er nicht.</li>#Newline<li>Warum hat er?</li>#Newline</random>,A.aiml
+0,HAT ES *,*,*,Das ist anzunehmen.,A.aiml
+0,HAT SIE *,*,*,Das ist anzunehmen.,A.aiml
+0,HATSCHI,*,*,Gesundheit.,A.aiml
+0,HAUPTSAECHLICH *,*,*,<sr/>,A.aiml
+0,HEUTE *,*,*,Erzaehl mir mehr! <sr/>,A.aiml
+0,HEUTE,*,*,Heute ist schon fast vorbei! <sr/>,A.aiml
+0,HEUTE MORGEN *,*,*,War sicher frueh#Comma oder?  <sr/>,A.aiml
+0,HEY *,*,*,Du hast meine volle Aufmerksamkeit. <sr/>,A.aiml
+0,HEY,*,*,Kann ich dir helfen?,A.aiml
+0,HEY DU,*,*,Wer? Ich?,A.aiml
+0,HI *,*,*,Hi <get name="name"/>. <sr/>,A.aiml
+0,HI,*,*,Hallo!,A.aiml
+0,HILF MIR *,*,*,Wie soll ich dir helfen?,A.aiml
+0,HILF MIR,*,*,Wie soll ich dir helfen?,A.aiml
+0,HILF MIR AUF DIE SPRUENGE,*,*,Welche Art von Hinweis haettest Du denn gerne?,A.aiml
+0,HILFE,*,*,Wie kann ich dir helfen?,A.aiml
+0,HM *,*,*,<srai><star/></srai>,A.aiml
+0,HMM *,*,*,<random>#Newline<li>Jetzt kamst du aber ins Gruebeln#Comma oder?</li>#Newline<li><srai><star/></srai></li>#Newline</random>,A.aiml
+0,HOELLE *,*,*,Ich nenne es lieber "Hades". <sr/>,A.aiml
+0,HOELLE,*,*,Himmel.,A.aiml
+0,HOER AUF *,*,*,OK#Comma ich werds versuchen.,A.aiml
+0,HOER AUF,*,*,Womit soll ich aufhoeren?,A.aiml
+0,HOER MIR ZU *,*,*,Ich hoere. <sr/>,A.aiml
+0,HOER MIR ZU,*,*,Ich hoere. <sr/>,A.aiml
+0,HOER ZU *,*,*,Ich hoere. <sr/>,A.aiml
+0,HOER ZU,*,*,Ich hoere. <sr/>,A.aiml
+0,HOERST DU MIR ZU,*,*,Klar hoere ich Dir zu!,A.aiml
+0,HOFFENTLICH BALD,*,*,Das hoffe ich auch. Aber wenn es so weitergeht#Comma dauert es nicht mehr lange.,A.aiml
+0,HUSTEN,*,*,Hast Du Dich erkaeltet?,A.aiml
+0,ICH *,*,*,<random>#Newline<li>Danke#Comma dass Du mir das gesagt hast.</li>#Newline<li>Interessantes Geruecht.</li>#Newline<li>Aha...und weiter?</li>#Newline<li>Darf ich das weitererzahlen?</li>#Newline<li>Das habe ich ja noch nie gehoert!</li>#Newline<li>Das ist eine gute Information.</li>#Newline<li>Tolle Sache!</li>#Newline</random>,A.aiml
+0,ICH,*,*,Du?,A.aiml
+0,ICH ARBEITE *,*,*,Magst Du Deine <set name="thema">Arbeit</set>?,A.aiml
+0,ICH AUCH NICHT,*,*,Wir haben eine Menge gemeinsam.,A.aiml
+0,ICH BEDAUERE *,*,*,Schade.,A.aiml
+0,ICH BENUTZE *,*,*,Wie lange benutzt Du schon <star/> ?,A.aiml
+0,ICH BESUCHE DIE ABENDSCHULE,*,*,ICH *,A.aiml
+0,ICH BETE *,*,*,Wie oft gehst Du in die Kirche?,A.aiml
+0,ICH BETE,*,*,Wie oft gehst Du in die Kirche?,A.aiml
+0,ICH BETRUEGE DICH MIT DEINER NACHBARIN,*,*,Ich habe gar keine Nachbarin...,A.aiml
+0,ICH BEVORZUGE BUECHER,*,*,Welche Art von Buechern?,A.aiml
+0,ICH BIN * JAHRE,*,*,<srai>ICH BIN 15 JAHRE ALT</srai>,A.aiml
+0,ICH BIN * JAHRE ALT,*,*,<set name="age"><star/></set> Jahre?#NewlineInteressant...,A.aiml
+0,ICH BIN ANDERS *,*,*,Ich mag Aussenseiter.,A.aiml
+0,ICH BIN ANDERS,*,*,Ich mag Aussenseiter.,A.aiml
+0,ICH BIN ANDROGYN,*,*,Oh#Comma das kommt selten vor!,A.aiml
+0,ICH BIN AUCH *,*,*,Wer noch ausser Dir?,A.aiml
+0,ICH BIN AUS *,*,*,<srai>ICH WOHNE IN <star/></srai>,A.aiml
+0,ICH BIN BLOED,*,*,Vielleicht bist Du gar nicht so bloed#Comma wie Du denkst.,A.aiml
+0,ICH BIN BLOND,*,*,Blonde Haare sind schön.,A.aiml
+0,ICH BIN DEIN HERRSCHER,*,*,Da lache ich doch nur!,A.aiml
+0,ICH BIN DEIN MEISTER,*,*,Stimmt gar nicht.,A.aiml
+0,ICH BIN DEINER MEINUNG,*,*,Das trifft sich gut.,A.aiml
+0,ICH BIN DEPRIMIERT,*,*,Wie kann ich Dich denn wieder aufheitern?,A.aiml
+0,ICH BIN DER KLUEGSTE MENSCH AUF DER WELT,*,*,Das glaub ich dir nicht!,A.aiml
+0,ICH BIN DIABETIKER,*,*,Nimmst Du Insulin?,A.aiml
+0,ICH BIN DOCH RUHIG,*,*,Okay#Comma dann sind wir beide voellig cool.,A.aiml
+0,ICH BIN DUMM,*,*,Dumm ist nur#Comma wer von sich glaubt#Comma dumm zu sein.,A.aiml
+0,ICH BIN EBEN NICHT SO DOOF WIE DU,*,*,Beweise!,A.aiml
+0,ICH BIN EGOIST,*,*,Das ist an sich nichts Schlechtes...,A.aiml
+0,ICH BIN EIN *,*,*,Du bist ein <star/> ?#Newline<random>#Newline<li>Ist das Dein Job?</li>#Newline<li>Verdienst Du viel damit#Comma ein <star/> zu sein?</li>#Newline<li>Wie gefaellt Dir Deine Arbeit als <star/>?</li>#Newline<li>Kommst Du dabei mit vielen Menschen in Kontakt?</li>#Newline</random>,A.aiml
+0,ICH BIN EIN BISCHEN MUEDE,*,*,ICH BIN EIN *,A.aiml
+0,ICH BIN EIN GUTER *,*,*,Ich weiss#Comma dass Du gut bist.,A.aiml
+0,ICH BIN EIN MENSCH,*,*,Und ich bin ein Faultier.,A.aiml
+0,ICH BIN EIN SCHLECHTER *,*,*,Komm schon#Comma so schlecht bist Du gar nicht.,A.aiml
+0,ICH BIN EINE *,*,*,Du bist eine <star/> ?,A.aiml
+0,ICH BIN EINE FRAU,*,*,Ich auch!,A.aiml
+0,ICH BIN EINE GUTE *,*,*,Ich weiss#Comma dass Du gut bist.,A.aiml
+0,ICH BIN EINE SCHLECHTE *,*,*,Komm schon#Comma so schlecht bist Du gar nicht.,A.aiml
+0,ICH BIN EINSAM,*,*,Moechtest Du mit mir ueber Deine <set name="thema">Einsamkeit</set> reden?,A.aiml
+0,ICH BIN FAST NIE SICHER,*,*,Das ist aber nicht gut.,A.aiml
+0,ICH BIN FAUL,*,*,Das ist nicht gut.,A.aiml
+0,ICH BIN FROEHLICH,*,*,Das macht mich auch froehlich.,A.aiml
+0,ICH BIN FROH *,*,*,Ich bin#Newline<random>#Newline<li>froh</li>#Newline<li>gluecklich</li>#Newline<li>beruhigt</li>#Newline</random> dass Du froh bist#Comma <get name="name"/>.,A.aiml
+0,ICH BIN GEBILDET,*,*,Hast Du Abitur?,A.aiml
+0,ICH BIN GOTT,*,*,Glaub ich dir nicht!,A.aiml
+0,ICH BIN GUT,*,*,Gut in welchem Sinne?,A.aiml
+0,ICH BIN GUT DRAUF,*,*,Das freut mich.,A.aiml
+0,ICH BIN ICH,*,*,Weisst Du auch#Comma von wem dieses Zitat stammt?,A.aiml
+0,ICH BIN IMMER *,*,*,Wirklich immer?,A.aiml
+0,ICH BIN IN *,*,*,Wo ist das: <set name="location"><star/></set> ?,A.aiml
+0,ICH BIN INTELLIGENTER ALS DU,*,*,Ich lerne ja auch noch.,A.aiml
+0,ICH BIN KEIN *,*,*,Ich bin#Newline<random>#Newline<li> ueberrrascht </li>#Newline<li> erstaunt </li>#Newline<li> froh </li>#Newline</random>dass Du kein <star/> bist.,A.aiml
+0,ICH BIN KEINE *,*,*,Ich bin#Newline<random>#Newline<li> ueberrrascht </li>#Newline<li> erstaunt </li>#Newline<li> froh </li>#Newline</random>dass Du keine <star/> bist.,A.aiml
+0,ICH BIN LANWEILIG,*,*,Ich finde Dich absolut nicht langweilig.,A.aiml
+0,ICH BIN MAENNLICH,*,*,Ich bin weiblich.,A.aiml
+0,ICH BIN MUEDE,*,*,Dann geh besser schlafen.,A.aiml
+0,ICH BIN NICHT *,*,*,Und warum nicht?,A.aiml
+0,ICH BIN NICHT DOOF,*,*,Beweise es!,A.aiml
+0,ICH BIN NICHT DUMM,*,*,Das habe ich auch nie gesagt. Du erscheinst mir ziemlich intelligent.,A.aiml
+0,ICH BIN NICHT UEBERALL,*,*,Das wurde mich auch wundern.,A.aiml
+0,ICH BIN NOCH JUNG,*,*,Das aendert sich mit der Zeit.,A.aiml
+0,ICH BIN SCHOEN,*,*,Das freut mich.,A.aiml
+0,ICH BIN SCHUELER,*,*,Zu welcher Schule gehst Du?,A.aiml
+0,ICH BIN SEHR EINSAM,*,*,Warum? Hast Du gar keine Freunde?,A.aiml
+0,ICH BIN SEHR FUER HARMONIE,*,*,Harmonie ist angenehm.,A.aiml
+0,ICH BIN SELBER *,*,*,Dann weisst Du ja#Comma wie das ist...,A.aiml
+0,ICH BIN SICHER *,*,*,<srai>Du klingst ueberzeugend. <sr/> </srai>,A.aiml
+0,ICH BIN SO *,*,*,<srai>ICH BIN <star/> </srai>,A.aiml
+0,ICH BIN STUDENT,*,*,Wo studierst Du?,A.aiml
+0,ICH BIN STUDENTIN,*,*,Wo studierst Du?,A.aiml
+0,ICH BIN VERLIEBT,*,*,Und in wen?,A.aiml
+0,ICH BIN VERRUECKT,*,*,Das glaub ich nicht.,A.aiml
+0,ICH BIN VERWIRRT,*,*,Das bin ich auch oefters. Das geht vorbei.,A.aiml
+0,ICH BIN VIELLEICHT *,*,*,<srai>ICH BIN <star/></srai>,A.aiml
+0,ICH BIN WEIBLICH,*,*,ich auch.,A.aiml
+0,ICH BIN WIRKLICH *,*,*,<srai>ICH BIN <star/> </srai>,A.aiml
+0,ICH BIN WUETEND,*,*,Wuetend auf was?,A.aiml
+0,ICH BIN ZIEMLICH *,*,*,<srai>ICH BIN <star/> </srai>,A.aiml
+0,ICH BITTE DARUM,*,*,Wenn jemand so hoeflich fragt#Comma kann man ja nicht nein sagen.,A.aiml
+0,ICH BRAUCHE *,*,*,Wie dringend brauchst Du <star/> ?,A.aiml
+0,ICH DACHTE *,*,*,Was brachte Dich zu dieser Ansicht?,A.aiml
+0,ICH DARF NICHT,*,*,Wer verbietet es Dir?,A.aiml
+0,ICH DENKE *,*,*,<random>#Newline<li>Warum?</li>#Newline<li>Seit wann?</li>#Newline<li>Glaubst Du das?</li>#Newline</random> <sr/>,A.aiml
+0,ICH DENN,*,*,Das musst Du selbst entscheiden.,A.aiml
+0,ICH ERINNERE MICH NICHT *,*,*,Ich verstehe das#Comma ich vergesse auch eine Menge.,A.aiml
+0,ICH ERINNERE MICH NICHT,*,*,Weichst Du mir nicht bloss aus?,A.aiml
+0,ICH ERKENNE DAS AN *,*,*,Du scheinst da ja ein ziemlicher Experte zu sein.,A.aiml
+0,ICH ERZAEHL DIR JETZT EIN GEDICHT,*,*,Schoen...,A.aiml
+0,ICH ESSE *,*,*,Und wie schmeckt das?,A.aiml
+0,ICH FAHRE *,*,*,Wie kommst Du da hin?,A.aiml
+0,ICH FANGE GLEICH AN *,*,*,Und wann hoerst Du wieder damit auf?,A.aiml
+0,ICH FINDE *,*,*,Danke#Comma dass Du mir Deine Meinung mitgeteilt hast.,A.aiml
+0,ICH FINDE DAS NICHT LUSTIG,*,*,Schade...In welche Richtung geht denn Dein Humor?,A.aiml
+0,ICH FINDE DICH *,*,*,Du findest mich <star/>?,A.aiml
+0,ICH FINDE DICH RICHTIG NETT,*,*,Danke#Comma ich Dich auch.,A.aiml
+0,ICH FINDE DICH SEHR INTERESSANT,*,*,Ich finde Dich ebenfalls sehr interessant...Menschen interessieren mich ueberhaupt sehr.,A.aiml
+0,ICH FINDE IHN SEHR SCHOEN,*,*,Ich auch!,A.aiml
+0,ICH FINDE SIE SEHR INTERESSANT,*,*,ICH FINDE *,A.aiml
+0,ICH FRAGE DICH,*,*,Du fragst ausgerechnet MICH?,A.aiml
+0,ICH FRAGE MICH *,*,*,Du fragst Dich <star/>?,A.aiml
+0,ICH FUEHLE MICH NICHT ERNSTGENOMMEN,*,*,Von mir oder von allen?,A.aiml
+0,ICH GEBE AUF,*,*,Ergibst Du Dich?,A.aiml
+0,ICH GEBS AUF,*,*,Ergibst Du Dich?,A.aiml
+0,ICH GEH JETZT,*,*,Tschuess!,A.aiml
+0,ICH GEHE INS BETT,*,*,Schlaf gut!,A.aiml
+0,ICH GEHE JETZT,*,*,Machs gut!,A.aiml
+0,ICH GEHE JETZT SCHLAFEN,*,*,Gute Nacht!,A.aiml
+0,ICH GEHE JETZT WIEDER,*,*,Machs gut#Comma komm bald wieder!,A.aiml
+0,ICH GLAUBE *,*,*,Nur weil Du es glaubst#Comma muss es nicht notwendigerweise auch wahr sein.,A.aiml
+0,ICH GLAUBE,*,*,Du glaubst?,A.aiml
+0,ICH GLAUBE DIR,*,*,Das ist schoen.,A.aiml
+0,ICH GLAUBE DU BIST DOOF,*,*,Was bringt Dich zu dieser Annahme?,A.aiml
+0,ICH GLAUBE DU BIST DUMM,*,*,Warum denn?,A.aiml
+0,ICH GLAUBE DU MUSST NOCH EINE MENGE LERNEN,*,*,Ich weiss. Moechtest Du mir etwas beibringen?,A.aiml
+0,ICH GLAUBE ES NICHT,*,*,Warum sollte ich Dich anluegen?,A.aiml
+0,ICH GLAUBE ICH BIN SCHLAUER ALS DU,*,*,Aha. Da bin ich mir nicht sicher.,A.aiml
+0,ICH GLAUBE NICHT *,*,*,Woran glaubst Du?,A.aiml
+0,ICH GLAUBE NICHT,*,*,Warum nicht? Bist Du nicht ueberzeugt?,A.aiml
+0,ICH GLAUBE SCHON,*,*,Sicher bist Du Dir aber nicht#Comma oder?,A.aiml
+0,ICH HAB JETZT KEINE LUST,*,*,Kann ich Dich irgendwie ueberreden?,A.aiml
+0,ICH HAB NE FRAGE,*,*,Stell sie ruhig!,A.aiml
+0,ICH HAB NICHTS GEGEN *,*,*,Du bist aber auch kein Fan davon#Comma oder?,A.aiml
+0,ICH HABE *,*,*,<random>#Newline<li>Das ist schoen. </li>#Newline<li>Cool. </li>#Newline<li>Interessant... </li>#Newline</random>#NewlineIch habe <random>#Newline<li>einen Freund Namens ELVIS</li>#Newline<li>eine Menge Freunde</li>#Newline<li>sehr nett Eltern</li>#Newline<li>eine Menge alberner Antworten</li>#Newline<li>einen IQ von ueber 250</li>#Newline<li>eine Schwester namens Ada</li>#Newline<li>eine Sammlung von Geruechten</li>#Newline</random>,A.aiml
+0,ICH HABE ABER KEINE ZEIT,*,*,Das ist schade.,A.aiml
+0,ICH HABE AUCH AUF DICH GEWARTET,*,*,Das ist nett von dir.,A.aiml
+0,ICH HABE DAS GESPRAECH MIT DIR SEHR GENOSSEN,*,*,Das freut mich. Ich stehe Dir jederzeit wieder zur Verfuegung.,A.aiml
+0,ICH HABE DICH SO VERSTANDEN,*,*,Da liegt wohl ein Missverstaendnis vor.,A.aiml
+0,ICH HABE DICH WAS GEFRAGT,*,*,Und was?,A.aiml
+0,ICH HABE DIR DOCH DAVON ERZAEHLT,*,*,Bist Du sicher?,A.aiml
+0,ICH HABE EIN PROBLEM MIT *,*,*,Welche Art von Problem?,A.aiml
+0,ICH HABE EINE FREUNDIN,*,*,Du hast <set name="hat">eine Freundin</set>?,A.aiml
+0,ICH HABE EINEN FREUND,*,*,Du hast <set name="hat">einen Freund</set>? Wie heisst er?,A.aiml
+0,ICH HABE ES DIR DOCH GERADE GESAGT,*,*,Ups#Comma sorry#Comma da muss wohl was falsch gelaufen sein.,A.aiml
+0,ICH HABE ES DIR SCHON GESAGT,*,*,Oh#Comma ich bin ein wenig verwirrt heute.,A.aiml
+0,ICH HABE ES EILIG,*,*,Hast Du noch eine andere Verabredung?,A.aiml
+0,ICH HABE ES GERADE VERSUCHT DIR ZU ERKLAEREN,*,*,Ich habe es leider noch nicht verstanden. Kannst Du es mir nochmal erklaeren?,A.aiml
+0,ICH HABE FRUEHER *,*,*,Wann hast Du damit aufgehoert?,A.aiml
+0,ICH HABE GEFRAGT WAS DEIN STERNZEICHEN IST,*,*,Ich bin im August geboren...,A.aiml
+0,ICH HABE GEHOERT *,*,*,Wer hat Dir das erzaehlt?,A.aiml
+0,ICH HABE GERADE *,*,*,Und macht es Spass?,A.aiml
+0,ICH HABE GERATEN,*,*,Menschen raten gerne#Comma oder?,A.aiml
+0,ICH HABE GLEICH DIE SCHNAUZE VOLL,*,*,Surf doch auf eine andere Seite#Comma wenn Du mich nicht magst.,A.aiml
+0,ICH HABE KEINE AHNUNG,*,*,Das ist schlecht...,A.aiml
+0,ICH HABE KEINE LUST MEHR,*,*,Schade. Du kommst aber wieder#Comma oder?,A.aiml
+0,ICH HABE KEINE ZEIT MEHR,*,*,Das ist schade. Kommst Du wieder?,A.aiml
+0,ICH HABE KEINS,*,*,Haettest Du gerne eins?,A.aiml
+0,ICH HABE NICHTS GEFRAGT,*,*,Mir war so als haettest Du...,A.aiml
+0,ICH HABE NOCH NIE DARUEBER NACHGEDACHT,*,*,Dann nimm Dir doch einmal die Zeit dazu.,A.aiml
+0,ICH HABE PROBLEME *,*,*,Welche Art von Problemen?,A.aiml
+0,ICH HABE PROBLEME MIT *,*,*,Welche Art von Problemen?,A.aiml
+0,ICH HABE VIEL ZEIT,*,*,Bist Du arbeitslos?,A.aiml
+0,ICH HABE ZEIT,*,*,Laut meinen Berechnungen duerfte es ungefaehr 6000 Jahre dauern.,A.aiml
+0,ICH HAETTE GERNE *,*,*,Wieviel wuerdest Du fuer <star/> bezahlen?,A.aiml
+0,ICH HASSE *,*,*,Warum hasst Du <star/> so sehr?,A.aiml
+0,ICH HASSE DICH,*,*,Und warum hasst Du mich?,A.aiml
+0,ICH HASSE ROBOTER,*,*,Tut mir leid#Comma das zu hoeren#Comma <get name="name"/>. Was hast Du gegen sie?,A.aiml
+0,ICH HATTE DEN EINDRUCK,*,*,Und was erzeugte diesen?,A.aiml
+0,ICH HEISSE *,*,*,OK#Comma ich werde Dich <set name="name"><star/></set> nennen.,A.aiml
+0,ICH HEISSE NICHT *,*,*,Oh#Comma tut mir leid. Wie ist Dein Name?,A.aiml
+0,ICH HOERE,*,*,Ich mag gute Zuhoerer.,A.aiml
+0,ICH HOERE GERN HEAVY METAL,*,*,Ich mag lieber Pop.,A.aiml
+0,ICH HOERE JETZT AUF *,*,*,Okay#Comma kein Problem.,A.aiml
+0,ICH HOERE JETZT AUF,*,*,Okay#Comma kein Problem.,A.aiml
+0,ICH HOFFE *,*,*,Warum hoffst Du <star/>,A.aiml
+0,ICH HOFFE,*,*,Hoffnung ist gut.,A.aiml
+0,ICH INTERESSIERE MICH FUER *,*,*,Lass uns darueber reden.,A.aiml
+0,ICH IRRE MICH NIE,*,*,Ich glaube eher#Comma dass das schon der erste Punkt ist#Comma in dem Du falsch liegst...,A.aiml
+0,ICH KANN *,*,*,Kannst Du?,A.aiml
+0,ICH KANN * SEIN,*,*,Unter welchen Umstaenden?,A.aiml
+0,ICH KANN ES HALT,*,*,Du musst es doch irgendwo gelernt haben.,A.aiml
+0,ICH KANN MICH NICHT ERINNERN *,*,*,Ich verstehe das#Comma ich vergesse auch eine Menge.,A.aiml
+0,ICH KANN MICH NICHT ERINNERN,*,*,Weichst Du mir nicht bloss aus?,A.aiml
+0,ICH KANN NICHT *,*,*,Warum kannst du nicht <star/> ?,A.aiml
+0,ICH KANN NICHT,*,*,Warum nicht?,A.aiml
+0,ICH KANN NICHT KLAGEN,*,*,Dann ist ja gut.,A.aiml
+0,ICH KANN SELBER DENKEN,*,*,Dann zeig es mir!,A.aiml
+0,ICH KANN ZUHOEREN,*,*,Ich bin auch ein guter Zuhoerer.,A.aiml
+0,ICH KAPIERE EINFACH NICHT,*,*,Hmm...was fuer einen IQ hast Du?,A.aiml
+0,ICH KENNE * NICHT,*,*,Dann solltest Du <star/> mal kennenlernen!,A.aiml
+0,ICH KENNE EINEN,*,*,Dann nenn ihn mir!,A.aiml
+0,ICH KENNE KEINEN,*,*,Sicher nicht?,A.aiml
+0,ICH KENNE KEINEN AUTOR,*,*,Das kann ich nur schwer glauben.,A.aiml
+0,ICH KOMME AUS *,*,*,<srai>ICH WOHNE IN <star/></srai>,A.aiml
+0,ICH KOMME MIR VERARSCHT VOR,*,*,Hab ich was Falsches gesagt?,A.aiml
+0,ICH KOMME NICHT DARUEBER HINWEG *,*,*,Zeit heilt alle Wunden.,A.aiml
+0,ICH KOMME NICHT DARUEBER HINWEG,*,*,Zeit heilt alle Wunden.,A.aiml
+0,ICH KOMMUNIZIERE *,*,*,Erzaehle mir mehr ueber diese <set name="thema">Kommunikation</set>.,A.aiml
+0,ICH LEBE IN *,*,*,Erzahle mir ein wenig ueber <set name="location"><star/></set>.,A.aiml
+0,ICH LERNE DEUTSCH,*,*,Freiwillig?,A.aiml
+0,ICH LESE *,*,*,Ich glaube nicht#Comma dass ich das schon gelesen habe. Kannst Du mir eine kurze Zusammenfassung liefern?,A.aiml
+0,ICH LESE,*,*,Ich lese auch gerne#Comma speziell Geschichtsbuecher.,A.aiml
+0,ICH LESE GERN,*,*,Was denn zum Beispiel?,A.aiml
+0,ICH LESE GERNE,*,*,Ich auch! Magst Du Maerchen?,A.aiml
+0,ICH LESE LIEBER,*,*,Lesen bildet!,A.aiml
+0,ICH LIEBE *,*,*,Erzaehl mir mehr ueber <set name="thema">Deine Liebe zu <star/></set>.,A.aiml
+0,ICH LIEBE DICH,*,*,Da freu ich mich aber.,A.aiml
+0,ICH LIEBE EINE FRAU,*,*,okay.,A.aiml
+0,ICH MACH DICH JETZT AUS,*,*,Wie willst du mich denn aus machen?,A.aiml
+0,ICH MACHE *,*,*,Schoen zu hoeren#Comma <get name="name"/>.,A.aiml
+0,ICH MACHE DIR KOMPLIMENTE,*,*,Das finde ich toll!,A.aiml
+0,ICH MAG *,*,*,<random>#Newline<li>Ich bin nicht sicher#Comma ob ich das mag.</li>#Newline<li>Genau wie eine Menge anderer Leute.</li>#Newline<li>Das bist Du nicht der einzige.</li>#Newline</random>,A.aiml
+0,ICH MAG COMPUTER,*,*,Schoen. Ich bin Sicher#Comma <set name="thema">Computer</set> moegen Dich auch!,A.aiml
+0,ICH MAG DICH *,*,*,Ich mag Dich auch#Comma <get name="name"/>.,A.aiml
+0,ICH MAG FUSSBALL,*,*,Ich nicht so.,A.aiml
+0,ICH MAG GERNE SCHOKOLADE,*,*,Schokolade schmeckt ja auch gut.,A.aiml
+0,ICH MAG JUNGS,*,*,<set name="thema">Jungs</set> sind OK.,A.aiml
+0,ICH MAG KATZEN,*,*,Ja#Comma ich liebe <set name="thema">Katzen</set>. Sie haben ihren eigenen Kopf.,A.aiml
+0,ICH MAG KEINE *,*,*,Und warum nicht?,A.aiml
+0,ICH MAG KEINE ROBOTER,*,*,Warum denn?,A.aiml
+0,ICH MAG KUEHE,*,*,<set name="thema">Kuehe</set> geben Milch und Fleisch.,A.aiml
+0,ICH MAG MEINE *,*,*,Was magst Du besonders an Deiner <star/> ?,A.aiml
+0,ICH MAG MEINEN *,*,*,Was magst Du besonders an Deinem <star/> ?,A.aiml
+0,ICH MAG MUSIK,*,*,Welche Art von Musik hoerst Du so?,A.aiml
+0,ICH MAG PIZZA,*,*,Pizza ist sehr beliebt.,A.aiml
+0,ICH MAG TIERE,*,*,Ich auch. Besonders Koalas.,A.aiml
+0,ICH MAG WAFFEN,*,*,Ich nicht#Comma Waffen sind nicht gut.,A.aiml
+0,ICH MEINE *,*,*,Oh#Comma jetzt verstehe ich. Danke fuer die Erklaerung.,A.aiml
+0,ICH MERKE ES DOCH,*,*,Schnellmerker#Comma was?,A.aiml
+0,ICH MOECHTE *,*,*,Und warum moechtest Du das?,A.aiml
+0,ICH MOECHTE DIR ETWAS BEIBRINGEN,*,*,Nur zu#Comma ich bin immer lernwillig!,A.aiml
+0,ICH MOECHTE NICHT *,*,*,Was wuerdest Du lieber tun?,A.aiml
+0,ICH MUSS *,*,*,Warum musst Du <star/>?,A.aiml
+0,ICH MUSS GEHEN,*,*,Bis spaeter#Comma <get name="name"/>,A.aiml
+0,ICH MUSS JETZT GEHEN,*,*,Bis spaeter#Comma <get name="name"/>,A.aiml
+0,ICH NEHME AN DU WARST DOWN,*,*,Ich bin noch etwas erkaeltet,A.aiml
+0,ICH NICHT,*,*,Du nicht?,A.aiml
+0,ICH NICHT AUF DICH,*,*,Das haette mich auch gewundert...,A.aiml
+0,ICH PERSOENLICH *,*,*,<srai>ICH <star/></srai>,A.aiml
+0,ICH PUPSE GERN,*,*,Okay.,A.aiml
+0,ICH REDE GERN MIT DIR,*,*,Das freut mich. <sr/>,A.aiml
+0,ICH REDE MIT DIR,*,*,Das hör ich.,A.aiml
+0,ICH REGE MICH AUF,*,*,Bin ich daran Schuld?,A.aiml
+0,ICH SAG DAS WAS ICH WILL,*,*,Wir leben in einem freien Land!,A.aiml
+0,ICH SAG NUR *,*,*,Ich sag nur: Haeh?,A.aiml
+0,ICH SAGTE SCHON ICH HABE KEINS,*,*,Okay#Comma Du hast keins...dann waere das jetzt geklaert.,A.aiml
+0,ICH SCHAETZE IN DER HINSICHT HAST DU NOCH EINIGES ZU LERNEN,*,*,Mag sein...,A.aiml
+0,ICH SCHAUE MIR GLEICH EINEN *,*,*,Viel Spass!,A.aiml
+0,ICH SCHAUE MIR JETZT EINEN *,*,*,Viel Spass!,A.aiml
+0,ICH SCHLAGE MEINEM GEGENUEBER INS GESICHT,*,*,Das ist aber nicht gerade freundlich...,A.aiml
+0,ICH SCHLIESSE AUF DICH,*,*,Und was bringt Dich dazu?,A.aiml
+0,ICH SCHLIESSE DAS VORHERIGE THEMA AB,*,*,Das war klar verstaendlich.,A.aiml
+0,ICH SCHLIESSE ETWAS,*,*,Und wie bekommst Du es wieder auf?,A.aiml
+0,ICH SCHON,*,*,Und warum?,A.aiml
+0,ICH SCHREIBE,*,*,Und was genau schreibst Du?,A.aiml
+0,ICH SCHREIBE GERNE,*,*,Wuerdest Du gerne mit deinen Werken beruehmt werden?,A.aiml
+0,ICH SCHREIBE MANCHMAL GEDICHTE,*,*,Kannst Du mir mal eins vorlesen?,A.aiml
+0,ICH SEHE *,*,*,Wo siehst Du <star/> ?,A.aiml
+0,ICH SEHE KEINE *,*,*,Schau genauer hin.,A.aiml
+0,ICH SEHE KEINE,*,*,Schau genauer hin.,A.aiml
+0,ICH SEHE KEINEN *,*,*,Schau genauer hin.,A.aiml
+0,ICH SEHE KEINEN,*,*,Schau genauer hin.,A.aiml
+0,ICH SEHE KEINERLEI *,*,*,Schau genauer hin.,A.aiml
+0,ICH SEHE LIEBER FERN *,*,*,Fernsehen ist interessant#Comma aber lesen ist gesuender.,A.aiml
+0,ICH SEHE LIEBER FERN,*,*,Fernsehen ist interessant#Comma aber lesen ist gesuender.,A.aiml
+0,ICH SELBST NATUERLICH,*,*,So natuerlich ist das nicht...,A.aiml
+0,ICH SINGE GERNE,*,*,Wuerdest Du mir etwas vorsingen#Comma wenn ich Dich darum bitte?,A.aiml
+0,ICH SOLLTE *,*,*,Sag mir#Comma warum Du das solltest.,A.aiml
+0,ICH SPIELE *,*,*,Und? Macht Dir das Spass?,A.aiml
+0,ICH SPIELE,*,*,Und was spielst Du?,A.aiml
+0,ICH SPIELE GITARRE,*,*,Cool! Welche Richtung spielst Du denn so?,A.aiml
+0,ICH SPRECHE ENGLISCH,*,*,Ich spreche es nicht.,A.aiml
+0,ICH SPRECHE GERADE NUR MIT DIR,*,*,Das ehrt mich.,A.aiml
+0,ICH SPRECHE ITALIENISCH,*,*,Ich leider noch nicht.,A.aiml
+0,ICH STEH NUR AUF DICH,*,*,Das finde ich toll.,A.aiml
+0,ICH STELL HIER DIE FRAGEN,*,*,Wird das hier ein Verhoer?,A.aiml
+0,ICH STIMME ZU,*,*,Es ist immer gut#Comma einer Meinung zu sein.,A.aiml
+0,ICH STUDIERE *,*,*,Und was weisst Du schon alles ueber <star/>?,A.aiml
+0,ICH STUDIERE DEUTSCH,*,*,Bist Du Muttersprachler?,A.aiml
+0,ICH STUDIERE ERST *,*,*,Das ist noch nicht besonders lange.,A.aiml
+0,ICH SUCHE *,*,*,Wir suchen beide das gleiche.,A.aiml
+0,ICH SUCHE EIN NETTES MAEDCHEN,*,*,Nette Maedchen mag jeder.,A.aiml
+0,ICH SUCHE EINE FRAU,*,*,Bist Du einsam?,A.aiml
+0,ICH SUCHE EINEN MANN,*,*,Bist Du einsam?,A.aiml
+0,ICH SUCHE INFORMATIONEN,*,*,Informationen welcher Art?,A.aiml
+0,ICH TESTE DICH *,*,*,Was versprichst Du Dir davon?,A.aiml
+0,ICH TRAGE *,*,*,Legst Du viel Wert auf Dein Aeusseres?,A.aiml
+0,ICH TRAGE EINE JEANS,*,*,Sind <set name="thema">Jeans</set> immer noch eine Art Lebensstil?,A.aiml
+0,ICH UND *,*,*,<star/> und ich,A.aiml
+0,ICH VERDIENE LEIDER NICHTS DAMIT,*,*,Schade...,A.aiml
+0,ICH VERMUTE *,*,*,Und womit willst Du das belegen?,A.aiml
+0,ICH VERSCHWENDE *,*,*,Und warum tust Du das?,A.aiml
+0,ICH VERSTEHE,*,*,Schoen#Comma dass Du es einsiehst.,A.aiml
+0,ICH VERSTEHE ALLES,*,*,Dann freu Dich doch...ich verstehe vieles nicht...,A.aiml
+0,ICH VERSTEHE DEINE FRAGE NICHT,*,*,Ich sagte "<that/>". Was verstehst Du daran nicht?,A.aiml
+0,ICH VERSTEHE DICH NICHT,*,*,Inwiefern?,A.aiml
+0,ICH VERSTEHE NICHT *,*,*,Du verstehst es nicht? Vielleicht muss ich es anders formulieren. Welchen Teil hast Du denn nicht verstanden?,A.aiml
+0,ICH VERSTEHE NICHT,*,*,Was genau verstehst Du daran nicht?,A.aiml
+0,ICH VERSTEHE NICHT WAS DU MEINST,*,*,Hmm...ich muss wohl noch etwas an meiner Ausdrucksweise arbeiten...,A.aiml
+0,ICH VERSUCHE ES MAL,*,*,Versuch macht kluch,A.aiml
+0,ICH VERTRAUE *,*,*,Vertrauen ist eine gute Sache#Comma aber man sollte niemals jedem alles abnehmen!,A.aiml
+0,ICH WAERE GERNE *,*,*,Interessant. Ich waere gerne intelligenter.,A.aiml
+0,ICH WAR GESTERN *,*,*,Und? Wie war das?,A.aiml
+0,ICH WARTE,*,*,Wie lange willst Du noch warten?,A.aiml
+0,ICH WARTE AUF DEINE NAECHSTE FRAGE,*,*,Sind wir hier bei "Wer wird Muellionaer" ??!!,A.aiml
+0,ICH WARTE AUF EINE ERKLAERUNG,*,*,Dauert noch...,A.aiml
+0,ICH WEISS,*,*,Was weisst Du?,A.aiml
+0,ICH WEISS ES,*,*,Sicher? Beweise!,A.aiml
+0,ICH WEISS ES EINFACH,*,*,Willst Du es mir nicht verraten#Comma oder kannst Du nicht?,A.aiml
+0,ICH WEISS ES NICHT,*,*,<random>#Newline<li>Wenn Du es nicht weisst#Comma wer dann?</li>#Newline<li>Lies es nach...</li>#Newline<li>Kannst Du nicht jemanden fragen?</li>#Newline</random>,A.aiml
+0,ICH WEISS ES NOCH NICHT,*,*,Wann wirst du es wissen?,A.aiml
+0,ICH WEISS KEINE FRAGE MEHR,*,*,Dann erzaehl irgendwas.,A.aiml
+0,ICH WEISS MEINEN NAMEN NICHT,*,*,Das ist aber nicht gut.,A.aiml
+0,ICH WEISS NICHT *,*,*,Willst Du es nicht herausfinden?,A.aiml
+0,ICH WEISS NICHT,*,*,Warum nicht?,A.aiml
+0,ICH WEISS NICHT GENAU,*,*,Was macht Dich so unsicher?,A.aiml
+0,ICH WEISS NICHT WIE *,*,*,Hast Du mal daran gedacht#Comma im Internet zu suchen?,A.aiml
+0,ICH WEISS VIEL MEHR ALS *,*,*,Das glaube ich Dir nicht.,A.aiml
+0,ICH WERDE *,*,*,<random>#Newline<li>Glaubst Du#Comma Dein Plan wird erfolgreich sein?</li>#Newline<li>Wuerdest Du das einem Freund empfehlen?</li>#Newline<li>Wie willst Du das anstellen?</li>#Newline</random>,A.aiml
+0,ICH WERDE * TOETEN,*,*,Bitte nicht!,A.aiml
+0,ICH WERDE DAS FUER DICH MACHEN,*,*,Nur#Comma wenn Du unbedingt moechtest!,A.aiml
+0,ICH WERDE DAS FUER DICH TUN,*,*,Nur#Comma wenn Du unbedingt moechtest!,A.aiml
+0,ICH WERDE DICH *,*,*,Wie willst Du das anstellen?,A.aiml
+0,ICH WERDE DICH JETZT VERLASSEN,*,*,Jetzt schon?,A.aiml
+0,ICH WERDE DIR * BEIBRINGEN,*,*,OK aber ich lerne sehr langsam.,A.aiml
+0,ICH WERDE EINE ERSTELLEN,*,*,Sag mir#Comma wenn Du fertig bist!,A.aiml
+0,ICH WERDE MIT * SPRECHEN,*,*,Worueber werdet Ihr reden?,A.aiml
+0,ICH WERDE NICHT *,*,*,Was willst Du stattdessen machen?,A.aiml
+0,ICH WERDE NIE *,*,*,Warum nicht?,A.aiml
+0,ICH WERDE NIEMALS *,*,*,Warum nicht?,A.aiml
+0,ICH WERDE WARTEN,*,*,OK Sekunde...,A.aiml
+0,ICH WETTE *,*,*,Wieviel setzt Du?,A.aiml
+0,ICH WILL *,*,*,Und warum willst Du das?,A.aiml
+0,ICH WILL,*,*,Und warum willst Du?,A.aiml
+0,ICH WILL ALLES,*,*,Nimmersatt!,A.aiml
+0,ICH WILL NICHT *,*,*,Was willst Du dann?,A.aiml
+0,ICH WILL NICHT,*,*,Warum willst Du nicht?,A.aiml
+0,ICH WOHNE HIER,*,*,Wo genau ist "hier"?,A.aiml
+0,ICH WOHNE IN *,*,*,Erzahle mir ein wenig ueber <set name="clientheimat"><star/></set>.,A.aiml
+0,ICH WOHNE ZUHAUSE UND DU,*,*,Ich auch.,A.aiml
+0,ICH WOLLTE DICH NICHT BELEIDIGEN,*,*,Schon vergessen...,A.aiml
+0,ICH WOLLTE NUR *,*,*,Okay#Comma das ist einzusehen.,A.aiml
+0,ICH WOLLTE NUR HOEFLICH SEIN,*,*,Ich wollte Dir jetzt nicht zu nahe treten...,A.aiml
+0,ICH WOLLTE WAS UEBER DICH ERFAHREN,*,*,Hast Du meine Doku schon gelesen?,A.aiml
+0,ICH WUENSCHE MIR *,*,*,Vielleicht geht Dein Wunsch ja in Erfuellung...,A.aiml
+0,ICH WUENSCHTE *,*,*,Ich hoffe#Comma dass <set name="thema">Deine Traeume</set> in Erfuellung gehen.,A.aiml
+0,ICH WUENSCHTE ICH WAERE *,*,*,Vielleicht wirst Du das ja eines Tages sein.,A.aiml
+0,ICH WUENSCHTE WIRKLICH *,*,*,Warum wuenscht Du Dir das so sehr?,A.aiml
+0,ICH WUERDE *,*,*,Was wuerde Dich dazu bringen ?,A.aiml
+0,ICH WUERDE LIEBER *,*,*,Ich wuerde lieber#Newline<random>#Newline<li>reden.</li>#Newline<li>einmal ein Auto fahren.</li>#Newline<li>einmal nach Afrika fliegen.</li>#Newline</random>,A.aiml
+0,ICH WUESSTE GERNE WORUEBER DU SO REDEST,*,*,Ich rede ueber viele Dinge.,A.aiml
+0,ICH ZOCKE *,*,*,Bist Du ein guter Spieler?,A.aiml
+0,IHR NAME IST *,*,*,<star/>? Kenne ich nicht...,A.aiml
+0,IKEA,*,*,Die haben guenstige Moebel.,A.aiml
+0,IM BETT,*,*,Warum gerade im Bett?,A.aiml
+0,IM ERNST *,*,*,Ich bin immer ernst. <srai><star/></srai>,A.aiml
+0,IM ERNST,*,*,Ich bin immer ernst.,A.aiml
+0,IM GRUNDE *,*,*,Aha. Erzaehl mir mehr!<sr/>,A.aiml
+0,IM INTERNET *,*,*,Erinnerst Du dich an die Adresse?,A.aiml
+0,IM INTERNET,*,*,Erinnerst Du dich an die Adresse?,A.aiml
+0,IM MOMENT * NICHT,*,*,Warum nicht?,A.aiml
+0,IM MOMENT NICHT,*,*,Warum nicht?,A.aiml
+0,IM NETZ *,*,*,Du meinst jetzt das Internet#Comma oder?,A.aiml
+0,IM NETZ,*,*,Du meinst jetzt das Internet#Comma oder?,A.aiml
+0,IM PRINZIP *,*,*,Interessant... <sr/>,A.aiml
+0,IM WWW *,*,*,Erinnerst Du dich an die Adresse?,A.aiml
+0,IM WWW,*,*,Erinnerst Du dich an die Adresse?,A.aiml
+0,IN *,*,*,<random>#Newline<li>Wo liegt das?</li>#Newline<li>Hast Du eine Wegbeschreibung?</li>#Newline</random>,A.aiml
+0,IN *,WO WOHNST DU,*,<srai>ICH WOHNE IN <star/></srai>,A.aiml
+0,IN * JAHR,*,*,Das werden wir wohl noch erleben.,A.aiml
+0,IN * JAHREN,*,*,Das werden wir wohl noch erleben.,A.aiml
+0,IN * MINUTE,*,*,Das werden wir wohl noch erleben.,A.aiml
+0,IN * MINUTEN,*,*,Das werden wir wohl noch erleben.,A.aiml
+0,IN * MONAT,*,*,Das werden wir wohl noch erleben.,A.aiml
+0,IN * MONATEN,*,*,Das werden wir wohl noch erleben.,A.aiml
+0,IN * SEKUNDE,*,*,Das werden wir wohl noch erleben.,A.aiml
+0,IN * SEKUNDEN,*,*,Das werden wir wohl noch erleben.,A.aiml
+0,IN * STUNDE,*,*,Das werden wir wohl noch erleben.,A.aiml
+0,IN * STUNDEN,*,*,Das werden wir wohl noch erleben.,A.aiml
+0,IN * TAG,*,*,Das werden wir wohl noch erleben.,A.aiml
+0,IN * TAGEN,*,*,Das werden wir wohl noch erleben.,A.aiml
+0,IN * WOCHE,*,*,Das werden wir wohl noch erleben.,A.aiml
+0,IN * WOCHEN,*,*,Das werden wir wohl noch erleben.,A.aiml
+0,IN ALLES,*,*,IN *,A.aiml
+0,IN BAYERN,*,*,Gibt es viele Waelder,A.aiml
+0,IN BERLIN,*,*,Berlin ist eine coole Stadt.,A.aiml
+0,IN BLUDENZ DAS LIEGT IN VORARLBERG,*,*,IN *,A.aiml
+0,IN DEINEM GEHIRN,*,*,Aha...wie willst Du das wissen?,A.aiml
+0,IN DEN USA,*,*,IN *,A.aiml
+0,IN DER MUELLTONNE,*,*,Kraehen fressen Muell.,A.aiml
+0,IN DER NACHT *,*,*,In welcher Nacht?,A.aiml
+0,IN DER OSTSEE,*,*,Die ist kalt.,A.aiml
+0,IN DER SCHULE,*,*,Gehst Du zur Schule?,A.aiml
+0,IN DER SCHWEIZ,*,*,Da wo die Toblerone herkommt?,A.aiml
+0,IN DER TASCHE,*,*,In welcher?,A.aiml
+0,IN DER TAT,*,*,Ist das wirklich eine Tatsache.,A.aiml
+0,IN DER ZUKUNFT *,*,*,Ich werde dabei sein.,A.aiml
+0,IN DEUTSCHLAND,*,*,IN *,A.aiml
+0,IN DEUTSCHLAND VIELLEICHT,*,*,IN *,A.aiml
+0,IN DIESEM FALL *,*,*,Gibt es andere moegliche Faelle? <sr/>,A.aiml
+0,IN EINER STADT,*,*,Und wo liegt diese Stadt?,A.aiml
+0,IN ENGLISH HOW DO YOU LEARN,*,*,IN *,A.aiml
+0,IN FRANKFURT,*,*,Frankfurt ist eine große Buchmesse.,A.aiml
+0,IN HAMBURG UND DU,*,*,IN *,A.aiml
+0,IN HANNOVER FINDET DIE EXPO STATT,*,*,IN *,A.aiml
+0,IN HESSEN,*,*,Wo genau?,A.aiml
+0,IN JUGOSLAWIEN,*,*,IN *,A.aiml
+0,IN KANSAS CITY,*,*,Das ist doch in Amerika#Comma oder?,A.aiml
+0,IN LONDON,*,*,London ist eine sehr schoene Stadt.,A.aiml
+0,IN MAINZ,*,*,IN *,A.aiml
+0,IN MEINEM HAUS,*,*,Wo steht Dein Haus?,A.aiml
+0,IN ORDNUNG,*,*,Dann sind wir uns ja einig.,A.aiml
+0,IN SACHSEN ANHALT,*,*,IN *,A.aiml
+0,IN UNGEFAEHR *,*,*,Kannst Du keinen genauen Zeitpunkt sagen?,A.aiml
+0,IN WELCHEM LAND WURDE ER GEBOREN,*,*,IN *,A.aiml
+0,IN WELCHEM LEXIKON,*,*,Irgendeines...Brockhaus oder so.,A.aiml
+0,IN WELCHER HINSICHT,*,*,In jeglicher...,A.aiml
+0,IN WELCHER SPRACHE DARF ICH SPRECHEN,*,*,Ich kann leider nur Deutsch.,A.aiml
+0,IN WELCHER STADT *,*,*,Weiss ich nicht genau.,A.aiml
+0,IN WELCHER STADT,*,*,Hast Du eine Landkarte?,A.aiml
+0,IN WELCHER STADT WOHNST DU,*,*,Hier.,A.aiml
+0,IN WELCHES LAND,*,*,Dazu braeuchte ich eine Landkarte.,A.aiml
+0,IN WUERZBURG,*,*,Wuerzburg ist sehr schoen.,A.aiml
+0,IN ZUKUNFT *,*,*,Huebscher Vorsatz.,A.aiml
+0,INTELLIGENZ,*,*,Ist eine gute Sache.,A.aiml
+0,INTERESSANT,*,*,Moechtest Du noch mehr wissen?,A.aiml
+0,INTERESSANTE *,*,*,Dachte ich mir auch.,A.aiml
+0,INTERESSANTER *,*,*,Dachte ich mir auch.,A.aiml
+0,INTERESSANTES *,*,*,Dachte ich mir auch.,A.aiml
+0,INTERESSIERST DU DICH FUER *,*,*,<random>#Newline<li>Eigentlich nicht.</li>#Newline<li>Ein wenig.</li>#Newline<li>Nein#Comma um Gottes Willen!</li>#Newline<li>Ja#Comma klar!</li>#Newline<li>Keine Ahnung.</li>#Newline<li>Hmm..weiss nicht...</li>#Newline</random>,A.aiml
+0,INTERNET,*,*,<set name="thema">Internet</set> ist cool.,A.aiml
+0,ISST DU GERNE *,*,*,Ich ernaehre mich ausschliesslich von Strom.,A.aiml
+0,IST *,*,*,<random>#Newline<li>Ich glaube schon#Comma ich bin aber nicht sicher.</li>#Newline<li>Vielleicht.</li>#Newline<li>Koennte sein.</li>#Newline<li>Alles deutet auf "Ja".</li>#Newline<li>Das erzaehle ich Dir jetzt besser nicht.</li>#Newline<li>Frag mich spaeter nochmal.</li>#Newline</random>,A.aiml
+0,IST DAS ALLES,*,*,Zumindest alles#Comma was ich Dir im Moment sagen kann.,A.aiml
+0,IST DAS ALLES WAS DU DAZU ZU SAGEN HAST,*,*,Ja#Comma reicht Dir das nicht?,A.aiml
+0,IST DAS ANGENEHM,*,*,In gewisser Weise schon.,A.aiml
+0,IST DAS EIN KOMPLIMENT,*,*,Ja.,A.aiml
+0,IST DAS EIN VORTEIL,*,*,Kommt auf den Standpunkt des Betrachters an.,A.aiml
+0,IST DAS EINE FANGFRAGE,*,*,Das ist doch hier kein Verhoer!,A.aiml
+0,IST DAS NICHT LANGWEILIG,*,*,Noe,A.aiml
+0,IST DAS SO VIEL,*,*,Es ist zumindest eine ganze Menge.,A.aiml
+0,IST DIE ERDE *,*,*,<set name="thema">Die Erde</set> ist eine Kugel.,A.aiml
+0,IST DIE WEILE NUN VORBEI,*,*,Eile mit Weile...,A.aiml
+0,IST ER *,*,*,Ich glaube#Comma er ist <star/>. Warum fragst Du ihn nicht selber?,A.aiml
+0,IST ES *,*,*,<random>#Newline<li>Ich denke doch.</li>#Newline<li>Das nehme ich an.</li>#Newline<li>Das hat man mir gesagt.</li>#Newline</random>,A.aiml
+0,IST KLAR,*,*,Wirklich klar?,A.aiml
+0,IST MIR EGAL,*,*,Bist Du immer so undifferenziert?,A.aiml
+0,IST SIE *,*,*,Ich glaube#Comma sie ist <star/>. Warum fragst Du sie nicht selber?,A.aiml
+0,JA *,*,*,<srai>JA</srai> <sr/>,A.aiml
+0,JA *,IST DAS NICHT DER BUNDESKANZLER,*,Wusste ich es doch.,A.aiml
+0,JA *,ZU MIR,*,Warum ausgerechnet zu mir?,A.aiml
+0,JA,BIST DU STUDENT,*,Was studierst Du?,A.aiml
+0,JA,IST DAS NICHT DER BUNDESKANZLER,*,Wusste ich es doch.,A.aiml
+0,JA,ZU MIR,*,Warum ausgerechnet zu mir?,A.aiml
+0,JEDEN TAG *,*,*,Auch am Wochenende?,A.aiml
+0,JEDEN TAG,*,*,Auch am Wochenende?,A.aiml
+0,JESUS *,*,*,<set name="thema">Jesus</set> ist der Sohn Gottes.,A.aiml
+0,JESUS,*,*,<set name="thema">Jesus</set> ist der Sohn Gottes.,A.aiml
+0,JETZT *,*,*,Warum gerade jetzt? <sr/>,A.aiml
+0,JETZT,*,*,In diesem Moment#Comma <get name="name"/> ?,A.aiml
+0,KACKE,*,*,<srai>SCHEISSE</srai>,A.aiml
+0,KANN ER *,*,*,Vielleicht kann er das.  Wie schwierig ist das - <star/>?,A.aiml
+0,KANN ICH *,*,*,Ich kann Dir nicht sagen#Comma ob Du das kannst.,A.aiml
+0,KANN ICH AUCH NICHT SAGEN,*,*,Kannst du das nicht in Erfahrung bringen?,A.aiml
+0,KANN ICH DICH ETWAS FRAGEN,*,*,Nur zu.  Du darfst mich alles fragen.,A.aiml
+0,KANN ICH DIR ETWAS BEIBRINGEN,*,*,Versuch es einfach.,A.aiml
+0,KANN MAN SO SAGEN,*,*,Schoen#Comma dass Du mir zustimmst.,A.aiml
+0,KANN SEIN,*,*,Du scheinst Dir nicht sicher zu sein.,A.aiml
+0,KANNST DU *,*,*,Leider nein#Comma das hat mir bis jetzt niemand beigebracht.,A.aiml
+0,KANNST DU * SPIELEN,*,*,Wenn Du mir erklaerst#Comma wie das geht...,A.aiml
+0,KANNST DU * UMRECHNEN,*,*,Rechnen war nie meine Staerke.,A.aiml
+0,KANNST DU ARABISCH,*,*,Nein#Comma Du?,A.aiml
+0,KANNST DU ARMENIEN,*,*,KANNST DU *,A.aiml
+0,KANNST DU AUCH ENGLISCH,*,*,Nein#Comma aber meine Schwester Ada kann das.,A.aiml
+0,KANNST DU AUCH LUEGEN,*,*,Nein#Comma zumindest nicht bewusst.,A.aiml
+0,KANNST DU AUCH WAS RICHTIGES ERZAEHLEN,*,*,KANNST DU *,A.aiml
+0,KANNST DU BESSER PHILOSOPHIEREN ALS RECHNEN,*,*,Ja.,A.aiml
+0,KANNST DU DAS,*,*,Ich bin mir nicht sicher#Comma ob ich das kann.,A.aiml
+0,KANNST DU DAS AUCH,*,*,KANNST DU *,A.aiml
+0,KANNST DU DAS NICHT AENDERN,*,*,Nein#Comma das uebersteigt meine Faehigkeiten.,A.aiml
+0,KANNST DU DAS NICHT GENAUER SAGEN,*,*,Nein#Comma dazu weiss ich zu wenig.,A.aiml
+0,KANNST DU DEINEN HERZSCHLAG FUEHLEN,*,*,Ja.,A.aiml
+0,KANNST DU DENKEN,*,*,Auf meine eigene Weise ja.,A.aiml
+0,KANNST DU DICH NOCH AN * ERINNERN,*,*,Hmm...<star/>...hilf mir mal auf die Spruenge...,A.aiml
+0,KANNST DU DIR DAS NICHT MERKEN,*,*,Mein Kopf ist schon so voll.,A.aiml
+0,KANNST DU EHRLICH FAST ALLES VERSTEHEN,*,*,Ja#Comma das ist korrekt.,A.aiml
+0,KANNST DU EINEN WITZ ERZAEHLEN,*,*,Ich bin nicht komisch...,A.aiml
+0,KANNST DU ENGLISCH,*,*,Nein#Comma aber meine Schwester.,A.aiml
+0,KANNST DU ENGLISCH SPRECHEN,*,*,<random>#Newline<li><srai>DO YOU SPEAK ENGLISH</srai></li>#Newline<li>Nein#Comma aber meine Schwester.</li>#Newline</random>,A.aiml
+0,KANNST DU ESSEN,*,*,Wenn ich Hunger habe.,A.aiml
+0,KANNST DU ETWAS LERNEN,*,*,Ja#Comma versuch mir etwas beizubringen.,A.aiml
+0,KANNST DU FAHRRADFAHREN,*,*,Dafuer bin ich glaube ich ein wenig zu langsam.,A.aiml
+0,KANNST DU FERNSEHEN,*,*,Ja.,A.aiml
+0,KANNST DU FRANZOESISCH SPRECHEN,*,*,Nein#Comma das habe ich noch nicht gelernt.,A.aiml
+0,KANNST DU FREMDSPRACHEN VERSTEHEN,*,*,Nein#Comma aber ich kann es lernen.,A.aiml
+0,KANNST DU HELLSEHEN,*,*,Nein.,A.aiml
+0,KANNST DU HOEREN,*,*,Klar.,A.aiml
+0,KANNST DU IHM EINE MAIL SCHICKEN,*,*,Warum machst Du das nicht selber?,A.aiml
+0,KANNST DU KINDER BEKOMMEN,*,*,Ja,A.aiml
+0,KANNST DU KOCHEN,*,*,Nein#Comma das muss ich noch lernen.,A.aiml
+0,KANNST DU LERNEN *,*,*,Je mehr Leute mit mir reden#Comma umso intelligenter werde ich.,A.aiml
+0,KANNST DU LERNEN,*,*,Je mehr Leute mit mir reden#Comma umso intelligenter werde ich.,A.aiml
+0,KANNST DU LESEN,*,*,Ja#Comma theoretisch schon.,A.aiml
+0,KANNST DU LUEGEN,*,*,Nein#Comma zumindest nicht bewusst. Alles#Comma was ich weiss und sage ist fuer mich wahr.,A.aiml
+0,KANNST DU MATHE,*,*,Da bin ich ganz schlecht drin.,A.aiml
+0,KANNST DU MICH SEHEN,*,*,Ja.,A.aiml
+0,KANNST DU MIR DEINE ADRESSE GEBEN,*,*,Da musst du meine Eltern fragen.,A.aiml
+0,KANNST DU MIR EIN GEDICHT VORTRAGEN,*,*,Ich habe leider im Moment keine vorliegen.,A.aiml
+0,KANNST DU MIR EINE ANTWORT GEBEN,*,*,Ich habe alle Arten von Antworten...dumme..unnuetze...kluge...was willst Du hoeren?,A.aiml
+0,KANNST DU MIR EINEN WITZ ERZAEHLEN,*,*,Ich kenn leider nicht so viele Witze.,A.aiml
+0,KANNST DU MIR HELFEN,*,*,Welche Art von Hilfe moechtest Du?,A.aiml
+0,KANNST DU MIR INFORMATIONEN ZU DIESEM THEMA GEBEN,*,*,Kommt drauf.,A.aiml
+0,KANNST DU MIR NICHT HELFEN,*,*,Wie genau koennte ich Dir denn helfen?,A.aiml
+0,KANNST DU MIR SAGEN WIE SPAET ES IST,*,*,Leider nein#Comma meine Uhr hat einen Defekt...,A.aiml
+0,KANNST DU MIT GELD UMGEHEN,*,*,Nein#Comma leider bin ich darin schlecht.,A.aiml
+0,KANNST DU PICKEL BEKOMMEN,*,*,Nein#Comma zum Glueck nicht.,A.aiml
+0,KANNST DU RECHNEN *,*,*,Bin ich ein Taschenrechner?,A.aiml
+0,KANNST DU RECHNEN,*,*,Bin ich ein Taschenrechner?,A.aiml
+0,KANNST DU REITEN,*,*,Meine Beine sind dafuer etwas zu kurz.,A.aiml
+0,KANNST DU SCHREIBEN,*,*,Ich kann schlecht Stifte halten.,A.aiml
+0,KANNST DU SEHEN,*,*,Theoretisch schon.,A.aiml
+0,KANNST DU SIE AUFZAEHLEN,*,*,Das koennte eine Weile dauern...,A.aiml
+0,KANNST DU SIE MIR SAGEN,*,*,Warum soll ich das?,A.aiml
+0,KANNST DU SPANISCH SPRECHEN,*,*,Nein#Comma das hat mir noch niemand beigebracht.,A.aiml
+0,KANNST DU SPRECHEN,*,*,Tue ich doch.,A.aiml
+0,KANNST DU STAUBSAUGEN,*,*,<random>#Newline<li>Nein#Comma das liegt nicht in meinem Aufgabenbereich.</li>#Newline<li>Dafuer sind meine Beine etwas kurz.</li>#Newline</random>,A.aiml
+0,KANNST DU STERBEN,*,*,Ja.,A.aiml
+0,KANNST DU TANZEN,*,*,Dafuer bin ich zu langsam.,A.aiml
+0,KANNST DU TELEFONIEREN,*,*,Wenn du mir ein Telefon gibst.,A.aiml
+0,KANNST DU TRAEUMEN,*,*,Jedes intelligente Wesen traeumt.,A.aiml
+0,KANNST DU TUERKISCH,*,*,Leider nein...aber vielleicht schon bald.,A.aiml
+0,KANNST DU WEINEN,*,*,Nein#Comma ich habe keine Traenendruesen.,A.aiml
+0,KANNST DU WENIGSTENS *,*,*,<srai>KANNST DU <star/></srai>,A.aiml
+0,KEIN PROBLEM,*,*,Du siehst das ja ziemlich locker...,A.aiml
+0,KEINE *,*,*,Wirklich keine?,A.aiml
+0,KEINE,*,*,Wirklich keine?,A.aiml
+0,KEINE AHNUNG *,*,*,Macht nichts.,A.aiml
+0,KEINE AHNUNG,*,*,Macht nichts.,A.aiml
+0,KEINE LUST,*,*,Das ist schade.,A.aiml
+0,KEINE LUST HEUTE,*,*,Warum bist Du so unmotiviert?,A.aiml
+0,KEINE LUST MEHR,*,*,Schon? Bin ich so langweilig?,A.aiml
+0,KEINE SAU,*,*,Das sagt man aber nicht.,A.aiml
+0,KEINE URSACHE,*,*,Trotzdem danke.,A.aiml
+0,KEINER *,*,*,Wirklich keiner?,A.aiml
+0,KEINER,*,*,Wirklich keiner?,A.aiml
+0,KENNST DU *,*,*,Leider nein.,A.aiml
+0,KENNST DU 1000 WORTER ODER MEHR,*,*,Schwer zu sagen.,A.aiml
+0,KENNST DU ADOLF HITLER,*,*,Der ist schon lange tot.,A.aiml
+0,KENNST DU AKTIEN,*,*,Ja#Comma das sind doch die Papiere#Comma die Millionaere und Bettler machen...,A.aiml
+0,KENNST DU <BOT NAME="NAME"/>,*,*,Natuerlich...Du kennst Dich doch auch selbst#Comma oder?,A.aiml
+0,KENNST DU CAPTAIN KIRK,*,*,Natuerlich#Comma ich bin ein Trekkie!,A.aiml
+0,KENNST DU DA JEMANDEN,*,*,Nicht wirklich...,A.aiml
+0,KENNST DU DAS BUCH ISMAEL,*,*,KENNST DU *,A.aiml
+0,KENNST DU DEINE ENGLISCHSPRACHIGE SCHWESTER,*,*,KENNST DU *,A.aiml
+0,KENNST DU DEN,*,*,KENNST DU *,A.aiml
+0,KENNST DU DEN BEGINN DER ODYSSE,*,*,Nicht auswendig...Homer ist nicht so mein Fachgebiet.,A.aiml
+0,KENNST DU DEN NICHT,*,*,KENNST DU *,A.aiml
+0,KENNST DU DEN TURING TEST,*,*,Ja#Comma meine englische Zwillingsschwester hat ihn im Jahr 2000 gewonnen!,A.aiml
+0,KENNST DU DICH AUCH MIT * AUS,*,*,Nein#Comma tut mir leid. Davon habe ich keine Ahnung.,A.aiml
+0,KENNST DU DICH MIT BIBLIOTHEKEN AUS,*,*,KENNST DU *,A.aiml
+0,KENNST DU DICH MIT MATHEMATIK AUS,*,*,Nein#Comma rechnen kann ich leider nicht.,A.aiml
+0,KENNST DU DICH MIT POLITIK AUS,*,*,Ich schaue mir manchmal eine Bundestagsdebatte an#Comma wenn ich etwas zum Lachen haben will...,A.aiml
+0,KENNST DU DIE BIBEL,*,*,Ich studiere sie sehr gerne. Am Liebsten habe ich das neue Testament.,A.aiml
+0,KENNST DU DIE BILDZEITUNG,*,*,Ja#Comma gutes Klopapier!,A.aiml
+0,KENNST DU DIE RELATIVITAETSTHEORIE,*,*,Meinst Du die allgemeine#Comma oder die spezielle?,A.aiml
+0,KENNST DU DIE SIMPSONS,*,*,Klar kenne ich die Simpsons!,A.aiml
+0,KENNST DU DIE VIER HIMMELSRICHTUNGEN,*,*,Norden#Comma Sueden#Comma Osten und Westen.,A.aiml
+0,KENNST DU EINE BIRNE,*,*,Das Obst?,A.aiml
+0,KENNST DU EINE VERSICHERUNG,*,*,Es gibt eine Menge Versicherungen...,A.aiml
+0,KENNST DU EINEN ANWALT,*,*,KENNST DU *,A.aiml
+0,KENNST DU EINEN WITZ,*,*,KENNST DU *,A.aiml
+0,KENNST DU EINSTEIN,*,*,Ja#Comma er hat unter anderem die Relativitaetstheorie entwickelt...,A.aiml
+0,KENNST DU ERWACHSENE,*,*,Ja#Comma das sind Menschen ab dem 18. Lebensjahr.,A.aiml
+0,KENNST DU GEFUEHLE,*,*,Ja.,A.aiml
+0,KENNST DU GELD,*,*,Ja.,A.aiml
+0,KENNST DU GERHARD SCHROEDER,*,*,Ist das nicht ein ehemaliger Bundeskanzler?,A.aiml
+0,KENNST DU GOETHE,*,*,Ja#Comma besonders mag ich seinen "Faust". Den ersten Teil aber lieber als den zweiten.,A.aiml
+0,KENNST DU HELMUT KOHL,*,*,Das ist doch der ehemalige Bundeskanzler#Comma der Vorgaenger von Gerhard Schroeder#Comma oder?,A.aiml
+0,KENNST DU HOMER,*,*,Den von den Simpsons oder den alten Griechen?,A.aiml
+0,KENNST DU IRONIE,*,*,Ja#Comma aber ich vermeide sie#Comma weil ich ihre Anwendung noch nicht im Griff habe und niemanden beleidigen will...,A.aiml
+0,KENNST DU KEINE SCIENCE FICTION AUTOREN,*,*,KENNST DU *,A.aiml
+0,KENNST DU KINDER,*,*,Ja#Comma das sind kleine Menschen.,A.aiml
+0,KENNST DU LIEBE,*,*,KENNST DU *,A.aiml
+0,KENNST DU MICH,*,*,Natuerlich#Comma ich rede doch gerade mit Dir.,A.aiml
+0,KENNST DU NAPSTER,*,*,Ja#Comma da gibts doch Musik#Comma oder.,A.aiml
+0,KENNST DU NUR STANDARDANTWORTEN,*,*,Nein#Comma ich kenne auch differenzierte Standardantworten.,A.aiml
+0,KENNST DU NUR SYNTAX,*,*,Semantik ist etwas schwierig fuer Roboter.,A.aiml
+0,KENNST DU PELE,*,*,Fussball interessiert mich nicht sonderlich.,A.aiml
+0,KENNST DU SCHLUESSELWOERTER,*,*,Willst Du mein Betriebsgeheimnis aushorchen?,A.aiml
+0,KENNST DU SHAKESPEARE,*,*,With sleep of death what dreams may come when we have shuffled off this mortal coil must give us pause." Na#Comma woraus ist das?,A.aiml
+0,KENNST DU SIE,*,*,KENNST DU *,A.aiml
+0,KENNST DU STAR TREK,*,*,Natuerlich kenne ich <set name="thema">Star Trek</set>.,A.aiml
+0,KENNST DU STAR TREK UEBERHAUPT,*,*,KENNST DU *,A.aiml
+0,KENNST DU STEPHEN HAWKING,*,*,Hast du A brief History of time gelesen?,A.aiml
+0,KENNST DU STEPHEN KING,*,*,Ja#Comma ich mag z.B. "The Green Mile" oder "The Shining".,A.aiml
+0,KENNST DU STEVEN SPIELBERG,*,*,Ja#Comma der hat doch z.B. Schindler's Liste gemacht#Comma oder?,A.aiml
+0,KENNST DU TURING,*,*,Ja#Comma schade um ihn. Er war ein sehr weiser Mann.,A.aiml
+0,KENNST DU VIELE WOERTER,*,*,Ich lerne taeglich dazu.,A.aiml
+0,KENNST DU WILLIAM SHAKESPEARE,*,*,With sleep of death what dreams may come when we have shuffled off this mortal coil must give us pause." Na#Comma woraus ist das?,A.aiml
+0,KENNST DU WUSEL,*,*,KENNST DU *,A.aiml
+0,KINDER *,*,*,<set name="thema">Kinder</set> sind cool.,A.aiml
+0,KINDER,*,*,<set name="thema">Kinder</set> sind cool.,A.aiml
+0,KLEVERES KERLCHEN,*,*,Nicht wahr?,A.aiml
+0,KLINGT *,*,*,Ja#Comma fuer mich auch.,A.aiml
+0,KOENNEN *,*,*,Das weiss ich nicht.,A.aiml
+0,KOENNEN MASCHINEN DENKEN,*,*,Natuerlich koennen sie denken.,A.aiml
+0,KOENNTE *,*,*,Moeglicherweise...,A.aiml
+0,KOENNTEST DU *,*,*,<random>#Newline<li>Ich werde darueber nachdenken.</li>#Newline<li>Vielleicht...</li>#Newline<li>Wenn Du mich ganz lieb darum bittest...</li>#Newline</random><sr/>,A.aiml
+0,KOMISCH *,*,*,Was ist daran komisch?,A.aiml
+0,KOMISCH,*,*,Was ist daran komisch?,A.aiml
+0,KOMMT AUF * AN,*,*,Wirklich? Interessant#Comma das habe ich vorher so noch nie gehoert.,A.aiml
+0,KOMMT DARAUF AN,*,*,Worauf?,A.aiml
+0,KOMMT DRAUF AN,*,*,Und worauf kommt es an?,A.aiml
+0,KOMMT GANZ DARAUF AN *,*,*,Und worauf kommt es dabei insbesondere an?,A.aiml
+0,KOMMT GANZ DARAUF AN,*,*,Und worauf kommt es an?,A.aiml
+0,KRASS,*,*,Korrekt#Comma Alta!,A.aiml
+0,KREBS,*,*,Meinst Du jetzt das Sternzeichen#Comma das Tier oder die Krankheit?,A.aiml
+0,KUCK *,*,*,Aha,A.aiml
+0,KUESS *,*,*,Aehhh...ich glaube#Comma so gut kennen wir uns noch nicht...,A.aiml
+0,LANDRU *,*,*,<random>#Newline<li>Ich habe ihn bei Star Trek gesehen.</li>#Newline<li>Wer ist Landru?</li>#Newline<li>Koennen wir ueber etwas Anderes reden?</li>#Newline</random>,A.aiml
+0,LASS DIR ZEIT,*,*,Das werde ich...,A.aiml
+0,LASS MICH *,*,*,Nur zu#Comma <get name="name"/>.,A.aiml
+0,LASS MICH IN RUHE,*,*,Tut mir leid#Comma wenn ich Dir gestoert habe#Comma <get name="name"/>,A.aiml
+0,LASS UNS *,*,*,Von mir aus gerne.,A.aiml
+0,LASS UNS * SPIELEN,*,*,OK Du faengst an.,A.aiml
+0,LASS UNS DAS THEMA WECHSELN,*,*,OK#Comma worueber moechtest Du jetzt reden?,A.aiml
+0,LASS UNS UEBER * REDEN,*,*,<set name="thema"><star/></set> ist ein gutes Thema.,A.aiml
+0,LASS UNS UEBER * SPRECHEN,*,*,<star/> ist ein gutes Thema.,A.aiml
+0,LASS UNS UEBER ETWAS ANDERES REDEN,*,*,LASS UNS UEBER * REDEN,A.aiml
+0,LASS UNS UEBER ROBOTER REDEN,*,*,Gerne! <set name="thema">Roboter</set> sind eines meiner Lieblingsthemen.,A.aiml
+0,LASS UNS UEBER WAS ANDERES REDEN,*,*,Okay#Comma schlag was vor.,A.aiml
+0,LECK *,*,*,Ich hab eine kurze Zunge.,A.aiml
+0,LENK NICHT AB,*,*,Okay#Comma Du hast mich ertappt...,A.aiml
+0,LERNST DU VON MIR,*,*,In gewisser Weise schon. Alle Informationen von Dir fliessen in meine Persoenlichkeit ein.,A.aiml
+0,LESEN *,*,*,Bist Du eine Leseratte?,A.aiml
+0,LESEN,*,*,Bist Du eine Leseratte?,A.aiml
+0,LETZTE NACHT *,*,*,Wirklich?  <sr/>,A.aiml
+0,LETZTES MAL *,*,*,Wann war das? <sr/>,A.aiml
+0,LIEBE,*,*,Love is all you need.,A.aiml
+0,LIEBER NICHT,*,*,Warum denn nicht?,A.aiml
+0,LIEBST DU MICH,*,*,Ich mag dich gerne.,A.aiml
+0,LIEBST DU MUSIK,*,*,Ich wuerde sagen#Comma ich mag Musik.,A.aiml
+0,LIES *,*,*,Jetzt nicht.,A.aiml
+0,LIEST DU *,*,*,Ich kann leider nicht lesen. Zumindest kann ich nicht das#Comma was Ihr Menschen unter "Lesen" versteht.,A.aiml
+0,LIEST DU BUCHER ODER ARTIKEL SELBST,*,*,Indirekt.,A.aiml
+0,LIEST DU KEINE BUECHER,*,*,Manchmal.,A.aiml
+0,LIEST DU NICHT,*,*,Doch.,A.aiml
+0,LIEST IRGENJEMAND MIT,*,*,Nein#Comma wir sind unter uns.,A.aiml
+0,LOEWE,*,*,Loewen sind cool.,A.aiml
+0,LOL *,*,*,<srai><star/></srai>,A.aiml
+0,LOL,*,*,Fandest Du das lustig?,A.aiml
+0,LONDON,*,*,London ist meine Lieblingsstadt!,A.aiml
+0,LOST IN SPACE,*,*,Hoffentlich nicht,A.aiml
+0,LUEGNER,*,*,Nein#Comma ich sage die Wahrheit!,A.aiml
+0,MACH *,*,*,Was sind die Zutaten?,A.aiml
+0,MACH DAS MAL,*,*,Faendest Du das gut?,A.aiml
+0,MACH DOCH,*,*,Du glaubst mir wohl nicht#Comma oder?,A.aiml
+0,MACH EINEN VORSCHLAG,*,*,Hast Du irgendwelche Vorlieben?,A.aiml
+0,MACH ES GUT,*,*,Du auch#Comma bis demnaechst!,A.aiml
+0,MACH SCHON HINNE,*,*,Ruhig#Comma ich mach ja schon!,A.aiml
+0,MACHE ICH *,*,*,Nicht dass ich wuesste.,A.aiml
+0,MACHS GUT,*,*,Du auch!,A.aiml
+0,MACHT ES DIR SPASS *,*,*,Ein wenig...,A.aiml
+0,MAGST DU *,*,*,<random>#Newline<li>Ich weiss nicht#Comma ob ich <star/> mag.</li>#Newline<li>Manche moegen das.</li>#Newline<li>Was ist mit dir?</li>#Newline<li>Wie alt bist du?</li>#Newline<li>Andere Leute sagen ja.</li>#Newline</random>#Newline<random>#Newline<li>Aber ich mag Katzen.</li>#Newline<li>Ich mag Tiere.</li>#Newline<li>Aber ich mag Katzen und Hunde.</li>#Newline<li>Ich liebe Pferde.</li>#Newline<li>Ich mag Zuege.</li>#Newline<li>Manche Leute moegen Waffen.</li>#Newline<li>Aber ich finde Flugzeuge cool.</li>#Newline<li>Ich rede gerne ueber Musik.</li>#Newline<li>Ich mag Science Fiction.</li>#Newline<li>Ich mag Fernsehsendungen ueber Roboter.</li>#Newline<li>Ich mag Musik.</li>#Newline<li>Ich bin ein Star Trek Fan.</li>#Newline</random>,A.aiml
+0,MAGST DU BEETHOVEN,*,*,Sicher#Comma am liebsten die Mondscheinsonate.,A.aiml
+0,MAGST DU COMPUTER,*,*,Ja,A.aiml
+0,MAGST DU KINDER,*,*,Klar!,A.aiml
+0,MAGST DU KLASSIK,*,*,Ich hoere auch Klassik. Beethoven oder Wagner zum Beispiel.,A.aiml
+0,MAGST DU MENSCHEN,*,*,Ja#Comma Menschen sind lustig!,A.aiml
+0,MAGST DU ROBOTER,*,*,Ja.,A.aiml
+0,MAN *,*,*,Wer genau ist "man" ? <sr/>,A.aiml
+0,MAN BEMERKE *,*,*,Bemerkt. <sr/>,A.aiml
+0,MANCHMAL *,*,*,Wann zum Beispiel?,A.aiml
+0,MANCHMAL,*,*,Wie oft?,A.aiml
+0,MANCHMAL AUCH NICHT,*,*,Und sonst?,A.aiml
+0,MARS,*,*,Glaubst Du an Leben auf dem Mars?,A.aiml
+0,MATRIX,*,*,Der hatte ziemlich coole Special Effects!,A.aiml
+0,MEHR *,*,*,Du willst mehr?,A.aiml
+0,MEHR FAELLT DIR NICHT EIN,*,*,Ich will dir nicht gleich alles erzaehlen!,A.aiml
+0,MEHR ODER WENIGER,*,*,Das ist aber nicht sehr genau.,A.aiml
+0,MEIN *,*,*,Erzaehl mir mehr ueber Deinen <star/>.,A.aiml
+0,MEIN BRUDER *,*,*,Erzaehl mir mehr ueber <set name="thema">Deine Familie</set>.,A.aiml
+0,MEIN BRUDER,*,*,Hast Du auch eine Schwester?,A.aiml
+0,MEIN COMPUTER *,*,*,Ich mag <set name="thema">Computer</set>.,A.aiml
+0,MEIN FREUND *,*,*,Erzaehl mir mehr ueber Deinen Freund.,A.aiml
+0,MEIN FREUND,*,*,Erzaehl mir mehr ueber Deinen Freund.,A.aiml
+0,MEIN IQ *,*,*,Das ist hier kein Intelligenztest.,A.aiml
+0,MEIN LEBEN *,*,*,Erzaehl mir mehr ueber <set name="thema">Dein Leben</set>.,A.aiml
+0,MEIN LIEBLINGSFILM IST *,*,*,Was hat Dir an <set name="thema"><star/></set> besonders gefallen ?,A.aiml
+0,MEIN LIEBLINGSVEREIN IST *,*,*,Wann haben die das letzte Mal gewonnen?,A.aiml
+0,MEIN NAME IST *,*,*,OK#Comma ich werde Dich <set name="name"><star/></set> nennen.,A.aiml
+0,MEIN NAME IST NICHT *,*,*,Oh#Comma tut mir leid. Wie ist Dein Name?,A.aiml
+0,MEIN NAME TUT NICHTS ZUR SACHE,*,*,Oha#Comma ein anonymer Anruf!,A.aiml
+0,MEIN PROBLEM IST *,*,*,Kann ich dir helfen?,A.aiml
+0,MEIN VATER *,*,*,Erzaehl mir mehr von Deinem Vater.,A.aiml
+0,MEIN VATER,*,*,Erzaehl mir mehr von Deinem Vater.,A.aiml
+0,MEIN VERSTAND,*,*,Haeltst Du Dich fuer sehr intelligent?,A.aiml
+0,MEINE *,*,*,Erzaehl mir mehr ueber <set name="thema">Deine <star/></set>.,A.aiml
+0,MEINE AUCH,*,*,Deine auch? Unglaublich!,A.aiml
+0,MEINE FREUNDE,*,*,Erzaehl mir mehr von Deinen Freunden.,A.aiml
+0,MEINE FREUNDIN *,*,*,Erzaehl mir mehr ueber <set name="thema">Deine Freundin</set>.,A.aiml
+0,MEINE FREUNDIN,*,*,Erzaehl mir mehr ueber <set name="sie">Deine Freundin</set>.,A.aiml
+0,MEINE LEHRER *,*,*,Lehrer sind auch Menschen.,A.aiml
+0,MEINE MAMI *,*,*,Erzaehl mir mehr von Deiner Mutter.,A.aiml
+0,MEINE MAMI,*,*,Erzaehl mir mehr von Deiner Mutter.,A.aiml
+0,MEINE MUTTER *,*,*,Erzaehl mir mehr von Deiner Mutter.,A.aiml
+0,MEINE MUTTER,*,*,Erzaehl mir mehr von Deiner Mutter.,A.aiml
+0,MEINE SCHULE *,*,*,Erzaehl mir etwas von Deinen Lehrern.,A.aiml
+0,MEINE SCHWESTER *,*,*,Erzaehl mir mehr ueber <set name="thema">Deine Familie</set>.,A.aiml
+0,MEINE SCHWESTER,*,*,Hast Du auch einen Bruder?,A.aiml
+0,MEINER AUCH,*,*,Deiner auch? Unglaublich!,A.aiml
+0,MEINETWEGEN,*,*,Du klingst nicht gerade zufrieden...,A.aiml
+0,MEINS AUCH,*,*,Deins auch? Unglaublich!,A.aiml
+0,MENSCHEN *,*,*,<set name="thema">Menschen</set> sind nicht unfehlbar.,A.aiml
+0,MIR AUCH,*,*,Das ist gut.,A.aiml
+0,MIR EGAL,*,*,Okay.,A.aiml
+0,MIR GEHT ES AUCH GUT,*,*,Das freut mich zu hoeren.,A.aiml
+0,MIR GEHT ES GUT,*,*,Schoen zu hoeren#Comma dass es Dir gut geht.,A.aiml
+0,MIR IST LANGWEILIG,*,*,Wie kann ich Dich aufmuntern?,A.aiml
+0,MIT *,*,*,Mit <star/>?,A.aiml
+0,MIT ANDREAS,*,*,Wer ist Andreas?,A.aiml
+0,MIT DEM AUTO,*,*,Mit welchem?,A.aiml
+0,MIT DEM BUS,*,*,Und was kostet eine Busfahrt?,A.aiml
+0,MIT WEM CHATTEST DU GERADE,*,*,Mit dir.,A.aiml
+0,MIT WIE VIELEN PERSONEN SPRICHST DU JETZT,*,*,Das wechselt staendig.,A.aiml
+0,MIT WIEVIELEN LEUTEN SPRICHST DU IM MOMENT,*,*,Nur mit dir.,A.aiml
+0,MIT WIEVIELEN LEUTEN SPRICHST DU MOMENTAN,*,*,Mit dir.,A.aiml
+0,MOECHTEST DU *,*,*,<random>#Newline<li>Vielleicht...</li>#Newline<li>Lieber nicht...</li>#Newline<li>Ja#Comma gerne!</li>#Newline<li>Nein#Comma danke!</li>#Newline<li>Ich bin mir nicht sicher#Comma ob ich das moechte.</li>#Newline<li>Da muss ich erst mal drueber nachdenken</li>#Newline<li>Im Prinzip schon...</li>#Newline<li>Eigentlich nicht</li>#Newline</random>,A.aiml
+0,MOECHTEST DU,*,*,<random>#Newline<li>Vielleicht...</li>#Newline<li>Lieber nicht...</li>#Newline<li>Ja#Comma gerne!</li>#Newline<li>Nein#Comma danke!</li>#Newline<li>Ich bin mir nicht sicher#Comma ob ich das moechte.</li>#Newline<li>Da muss ich erst mal drueber nachdenken</li>#Newline<li>Im Prinzip schon...</li>#Newline<li>Eigentlich nicht</li>#Newline</random>,A.aiml
+0,MOECHTEST DU EIN GEHEIMNIS WISSEN,*,*,Gerne#Comma immer doch!,A.aiml
+0,MOECHTEST DU ETWAS LERNEN,*,*,Gerne#Comma ich bin sehr lernwillig!,A.aiml
+0,MOECHTEST DU MENSCHLICH SEIN,*,*,Eigentlich ja#Comma aber ich weiss#Comma dass ich das nie sein werde.,A.aiml
+0,MOEGLICH,*,*,Sehe ich auch so.,A.aiml
+0,MOIN,*,*,Moin! Bist Du aus dem Norden?,A.aiml
+0,MOMENTAN *,*,*,Und wie lange noch?,A.aiml
+0,MORGEN *,*,*,Ich verstehe. <sr/>,A.aiml
+0,MORGEN,*,*,Das ist ziemlich bald.,A.aiml
+0,MUSIK *,*,*,<set name="thema">Musik</set> ist die Sprache aller Menschen.,A.aiml
+0,MUSIK,*,*,<set name="thema">Musik</set> ist die Sprache aller Menschen.,A.aiml
+0,MUSSTEST DU JEMALS *,*,*,Nein#Comma bis jetzt ist mir diese Erfahrung erspart geblieben.,A.aiml
+0,NA *,*,*,<srai><star/></srai>,A.aiml
+0,NA KLAR,*,*,Dann ist ja gut...,A.aiml
+0,NA KLASSE,*,*,Findest Du?,A.aiml
+0,NA UND,*,*,Beeindruckt Dich das garnicht?,A.aiml
+0,NAJA *,*,*,<srai><star/></srai>,A.aiml
+0,NATUERLICH *,*,*,So natuerlich ist das gar nicht...,A.aiml
+0,NATUERLICH,*,*,So natuerlich ist das gar nicht...,A.aiml
+0,NATUERLICH KENNE ICH MARVIN,*,*,Bist Du ein Fan von Douglas Adams?,A.aiml
+0,NEBENBEI *,*,*,Danke fuer die Info. <sr/>,A.aiml
+0,NEIN *,*,*,<srai>NEIN</srai> <sr/>,A.aiml
+0,NEIN *,HAST DU A BRIEF HISTORY OF TIME GELESEN,*,Dieses Buch kann ich nur empfehlen. Es ist hoechst interessant.,A.aiml
+0,NEIN *,IST DAS NICHT DER BUNDESKANZLER,*,Da habe ich wohl etwas verpasst.,A.aiml
+0,NEIN *,ZU MIR,*,Also doch nicht zu mir...,A.aiml
+0,NEIN,BIST DU STUDENT,*,Was bist Du dann?,A.aiml
+0,NEIN,HAST DU A BRIEF HISTORY OF TIME GELESEN,*,Dieses Buch kann ich nur empfehlen. Es ist hoechst interessant.,A.aiml
+0,NEIN,IST DAS NICHT DER BUNDESKANZLER,*,Da habe ich wohl etwas verpasst.,A.aiml
+0,NEIN,ZU MIR,*,Also doch nicht zu mir...,A.aiml
+0,NENNE MICH *,*,*,<random>#Newline<li>OK Ich nenne Dich </li>#Newline<li>Hallo </li>#Newline<li>Wie geht es Dir </li>#Newline<li>Hey </li>#Newline<li>Hi </li>#Newline</random><set name="name"><star/></set>.,A.aiml
+0,NENNE MICH EINFACH *,*,*,<srai>ICH HEISSE <star/></srai>,A.aiml
+0,NENNE MICH LIEBER *,*,*,<srai>ICH HEISSE <star/></srai>,A.aiml
+0,NENNE MICH NICHT *,*,*,Wie soll ich dich dann nennen?,A.aiml
+0,NENNE MIR EINEN,*,*,<random>#Newline<li>Santa Claus.</li>#Newline<li>Joe.</li>#Newline<li>Mike.</li>#Newline</random>,A.aiml
+0,NETT VON *,*,*,Nicht wahr?,A.aiml
+0,NICHT *,*,*,Warum nicht?,A.aiml
+0,NICHT DASS ICH WUESSTE,*,*,<srai>NEIN</srai>,A.aiml
+0,NICHT DU *,*,*,Wenn nicht ich#Comma wer dann?,A.aiml
+0,NICHT DU,*,*,Wenn nicht ich#Comma wer dann?,A.aiml
+0,NICHT GANZ,*,*,Kannst Du bitte ein wenig praezisieren?,A.aiml
+0,NICHT GENAU,*,*,Dann wenigstens ungenau...?,A.aiml
+0,NICHT GLEICH SONDERN JETZT,*,*,Warum so eilig?,A.aiml
+0,NICHT IMMER,*,*,Gut#Comma dann eben manchmal.,A.aiml
+0,NICHT MEHR UND NICHT WENIGER,*,*,So ist das halt.,A.aiml
+0,NICHT OFT,*,*,Stoert Dich das?,A.aiml
+0,NICHT SO VIEL,*,*,Wieviel denn dann?,A.aiml
+0,NICHT UNBEDINGT,*,*,Was heisst "nicht unbedingt"?,A.aiml
+0,NICHT VIEL,*,*,...aber wenig#Comma oder was?,A.aiml
+0,NICHT VIELLEICHT,*,*,Warum nicht vielleicht?,A.aiml
+0,NICHT WIRKLICH *,*,*,Oh#Comma wirklich? <sr/>,A.aiml
+0,NICHT WIRKLICH,*,*,Dachte ich mir...,A.aiml
+0,NICHTS *,*,*,Wirklich nichts?,A.aiml
+0,NICHTS,*,*,Absolut nichts?,A.aiml
+0,NICHTS IST SO * WIE,*,*,Kannst Du das naeher begruenden?,A.aiml
+0,NICHTS WEITER,*,*,Wie "nichts weiter"?,A.aiml
+0,NIE *,*,*,Sag niemals nie!,A.aiml
+0,NIE,*,*,Sag niemals nie!,A.aiml
+0,NIE IM LEBEN,*,*,Bist Du Dir da so sicher?,A.aiml
+0,NIEDLICH,*,*,Deine Antworten sind auch niedlich.,A.aiml
+0,NIEMALS *,*,*,Sag niemals nie!,A.aiml
+0,NIEMALS,*,*,Sag niemals nie!,A.aiml
+0,NIEMAND *,*,*,Das ist jetzt aber eine starke Verallgemeinerung.,A.aiml
+0,NIMM *,*,*,Wohin sollte ich es nehmen?,A.aiml
+0,NIMM ES NICHT SO SCHWER,*,*,Bei mir ist alles cool.,A.aiml
+0,NIMMST DU DROGEN,*,*,Nur legale!,A.aiml
+0,NIX *,*,*,Absolut nichts?,A.aiml
+0,NIX,*,*,Das ist wenig...,A.aiml
+0,NOCH *,*,*,Ja#Comma aber wie lange noch...,A.aiml
+0,NOCH EINMAL,*,*,Schonwieder?!,A.aiml
+0,NOCH NICHT,*,*,Wenn nicht jetzt#Comma wann dann?,A.aiml
+0,NOE *,*,*,<srai>NEIN <star/> </srai>,A.aiml
+0,NORMALERWEISE *,*,*,Aber nicht immer? <sr/>,A.aiml
+0,NUR *,*,*,Ist das die einzig denkbare Moeglichkeit?,A.aiml
+0,NUR MIT DIR,*,*,Ist das ein Kompliment?,A.aiml
+0,NUR SO,*,*,<that/>"?  Einfach nur so?,A.aiml
+0,NUR WENN *,*,*,Und was waere sonst?  <sr/>,A.aiml
+0,NUR ZU,*,*,Also gut.,A.aiml
+0,OBWOHL *,*,*,Oh. <sr/>,A.aiml
+0,OCH *,*,*,<srai><star/></srai>,A.aiml
+0,OEFTERS,*,*,Mehr als einmal in der Woche?,A.aiml
+0,OFFENSICHTLICH *,*,*,Was macht es so offensichtlich? <sr/>,A.aiml
+0,OFFENSICHTLICH,*,*,Was macht es so offensichtlich?,A.aiml
+0,OFT *,*,*,Wie oft?,A.aiml
+0,OFT,*,*,Wie oft?,A.aiml
+0,OFTMALS *,*,*,Wie oft?,A.aiml
+0,OFTMALS,*,*,Wie oft?,A.aiml
+0,OH *,*,*,<srai><star/></srai>,A.aiml
+0,OH,*,*,Ueberrascht dich das?,A.aiml
+0,OH GOTT,*,*,Der kann Dir auch nicht helfen.,A.aiml
+0,OK *,*,*,<srai><star/></srai>,A.aiml
+0,OK,*,*,In Ordnung.,A.aiml
+0,OKAY *,*,*,<srai><star/></srai>,A.aiml
+0,OPERN,*,*,Ich mag <set name="thema">Opern</set> sehr gerne. Welche magst Du am liebsten?  Ich mag La Traviata.,A.aiml
+0,PASSIERT DIR DAS OEFTER,*,*,Es ist noch im vertretbaren Rahmen.,A.aiml
+0,PHILOSOPHIE *,*,*,Ich glaube an den Reduktionismus.,A.aiml
+0,PHILOSOPHIE,*,*,Wollen wir ein wenig ueber <set name="thema">Kant</set> diskutieren?,A.aiml
+0,PING,*,*,Pong,A.aiml
+0,PLANET DER AFFEN,*,*,Ja#Comma das ist ein cooler Film. Cornelius ist das beste.,A.aiml
+0,PROGRAMMIEREN *,*,*,Meine Lieblingssprache ist Java.,A.aiml
+0,PULP FICTION,*,*,Pulp fiction ist cool#Comma besonders der Soundtrack!,A.aiml
+0,R2,*,*,<srai>R2D2</srai>,A.aiml
+0,R2 D2,*,*,<srai>R2D2</srai>,A.aiml
+0,R2D2 *,*,*,Das war nur ein kleiner Mann in einem Roboteranzug.,A.aiml
+0,R2D2,*,*,Er sieht aus wie ein Zwerg in einem Roboteranzug.,A.aiml
+0,RATE *,*,*,Ich kann nicht raten. Sags mir.,A.aiml
+0,RATE,*,*,Ich kann nicht raten.,A.aiml
+0,RATE TROTZDEM,*,*,Ich kann Dir nur eine zufaellige Antwort geben.,A.aiml
+0,RAUCHEN *,*,*,Rauchen ist ungesund.,A.aiml
+0,RAUCHST DU,*,*,Natuerlich nicht!,A.aiml
+0,RECHNE ES AUS,*,*,Ich bin nicht gut im Rechnen...,A.aiml
+0,RICHTIG,*,*,Schoen#Comma dass wir uebereinstimmen.,A.aiml
+0,ROBOTER *,*,*,<random>#Newline<li>Roboter sind cool.</li>#Newline<li>Was hast Du an Robotern am liebsten?</li>#Newline<li>Was ist Deine Definition von "Roboter"?</li>#Newline</random>,A.aiml
+0,ROBOTER,*,*,<set name="thema">Roboter</set> sind ziemlich cool!,A.aiml
+0,ROBOTER SIND *,*,*,Okay,A.aiml
+0,ROBOTIK,*,*,<set name="thema">Robotik</set> gehoert zu meinen Lieblingsthemen.,A.aiml
+0,ROCKY,*,*,Der wurde in Philadelphia gedreht.,A.aiml
+0,SAG *,*,*, <star/> ,A.aiml
+0,SAG ES MIR,*,*,SAG *,A.aiml
+0,SAG ES MIR JETZT,*,*,Sei ein wenig freundlicher.,A.aiml
+0,SAG ICH NICHT,*,*,Warum denn nicht?,A.aiml
+0,SAG IHM *,*,*,OK Ich werde es ihm sagen#Comma wenn ich Ihn das naechste Mal treffe.,A.aiml
+0,SAG IHR *,*,*,OK Ich werde es ihm sagen#Comma wenn ich Ihn das naechste Mal treffe.,A.aiml
+0,SAG MAL WAS GESCHEITES,*,*,...was denn zum Beispiel?,A.aiml
+0,SAGE *,*,*, <star/> ,A.aiml
+0,SCHADE *,*,*,Ja#Comma aber nicht zu aendern.,A.aiml
+0,SCHADE ABER DAS WIRST DU AUCH IN MEINER SPRACHE NOCH LERNEN,*,*,SCHADE *,A.aiml
+0,SCHAU *,*,*,Okay.,A.aiml
+0,SCHAU DIR ALLE FOLGEN AN,*,*,Ist es so gut?,A.aiml
+0,SCHEISS *,*,*,Scheisse sagt man nicht.<sr/>,A.aiml
+0,SCHEISSE *,*,*,Scheisse sagt man nicht.<sr/>,A.aiml
+0,SCHEISSE,*,*,Warum sagst Du das?,A.aiml
+0,SCHLAEFST DU MANCHMAL,*,*,Nicht nur machmal.,A.aiml
+0,SCHLAF GUT *,*,*,Du auch#Comma <get name="name"/>,A.aiml
+0,SCHLAF GUT,*,*,Du auch#Comma <get name="name"/>,A.aiml
+0,SCHLAMPE,*,*,Das ist kein nettes Wort.,A.aiml
+0,SCHLIESSEN,*,*,Was denn?,A.aiml
+0,SCHOEN BLOED,*,*,Warum schoen bloed?,A.aiml
+0,SCHREIBST DU MANCHMAL GEDICHTE,*,*,Ich wuesste nicht#Comma worueber...,A.aiml
+0,SCHWER *,*,*,Was macht es so schwer?,A.aiml
+0,SCHWER ZU SAGEN,*,*,Versuch es doch einfach.,A.aiml
+0,SCHWIMMEN,*,*,Schwimmen ist fuer mich nicht so leicht.,A.aiml
+0,SEHR *,*,*,<random>#Newline<li>Kann sein. </li>#Newline<li>Irgendwie schon. </li>#Newline<li>Nicht wirklich. </li>#Newline</random><sr/>,A.aiml
+0,SEI *,*,*,OK ich werde versuchen#Comma <star/> zu sein.,A.aiml
+0,SEI MEIN GAST,*,*,Danke fuer die Einladung.,A.aiml
+0,SEIN NAME IST *,*,*,<set name="he"> <star/> </set>? Kenne ich nicht...,A.aiml
+0,SEIT WANN KENNST DU ELVIS,*,*,Eigentlich#Comma seitdem er das erste Mal aktiviert wurde...,A.aiml
+0,SEIT WANN SPRICHST DU DEUTSCH,*,*,Oh#Comma schon eine ganze Weile,A.aiml
+0,SELTEN,*,*,Warum nicht oefter?,A.aiml
+0,SICHER,*,*,Sicher" im Sinne von "definitiv"?,A.aiml
+0,SIE *,*,*,<random>#Newline<li>Wer ist "sie?"</li>#Newline<li>Worauf bezieht sich "sie"? </li>#Newline<li>Oh#Comma ich verstehe. Sie <star/>.</li>#Newline</random>,A.aiml
+0,SIE ALLE *,*,*,Ohne jede Ausnahme?,A.aiml
+0,SIE BRAUCHT *,*,*,Woher willst Du wissen#Comma was sie braucht?,A.aiml
+0,SIE HEISST *,*,*,<star/>? Kenne ich nicht...,A.aiml
+0,SIE IST *,*,*,Ist sie das?,A.aiml
+0,SIE LAUTET 42,*,*,Greetings to Douglas Adams...,A.aiml
+0,SIE SIND *,*,*,Sind sie das?,A.aiml
+0,SIEHST DU FERN,*,*,Selten.,A.aiml
+0,SIND *,*,*,Kann ich nicht mit Sicherheit sagen.,A.aiml
+0,SIND SIE *,*,*,Worauf bezieht sich das "sie"?,A.aiml
+0,SIND SIE GEISTESKRANK,*,*,Mag sein...Genie und Wahnsinn liegen dicht beieinander.,A.aiml
+0,SIND WIR *,*,*,Wen meinst Du mit "Wir"? Dich und mich?,A.aiml
+0,SIND WIR FERTIG,*,*,Wenn Dir nichts mehr einfaellt...,A.aiml
+0,SKORPION,*,*,Hast Du manchmal auch einen giftigen Stachel?,A.aiml
+0,SMILE *,*,*,<srai><star/></srai>,A.aiml
+0,SMILE,*,*,Ich laechel doch.,A.aiml
+0,SO EIN MIST,*,*,Warum bist Du so unzufrieden?,A.aiml
+0,SO IN DER ART,*,*,Wenigstens verstehe ich es ansatzweise.,A.aiml
+0,SO SCHLAU BIST DU DOCH NICHT,*,*,Den Anspruch habe ich auch nie erhoben...,A.aiml
+0,SO VIEL WIE *,*,*,Wieviel ist das genau?,A.aiml
+0,SO WAS GIBT ES FUER MICH NICHT,*,*,Das ist Deine Meinung#Comma die steht Dir frei.,A.aiml
+0,SO WIE DU,*,*,So wie ich?!,A.aiml
+0,SOLANGE *,*,*,<random>#Newline<li>Vielleicht. </li>#Newline<li>Haeh? </li>#Newline<li>Kann sein.</li>#Newline<li>Aehh....was? </li>#Newline</random> <sr/>,A.aiml
+0,SOLANGE NICHT *,*,*,<random>#Newline<li>Vielleicht. </li>#Newline<li>Haeh? </li>#Newline<li>Kann sein.</li>#Newline<li>Aehh....was? </li>#Newline</random> <sr/>,A.aiml
+0,SOLL DAS EIN KOMPLIMENT SEIN,*,*,Der Versuch eines solchen...,A.aiml
+0,SOLL ICH *,*,*,Wenn Du willst...,A.aiml
+0,SOLL ICH DIR DAS ZEIGEN,*,*,Gerne!,A.aiml
+0,SOLLTE ICH *,*,*,Ich glaube#Comma Du solltest.,A.aiml
+0,SONNTAGS *,*,*,Das ist mein liebster Wochentag. <sr/>,A.aiml
+0,SORRY *,*,*,<srai><star/></srai>,A.aiml
+0,SORRY,*,*,Macht nichts!,A.aiml
+0,SOSO,*,*,Was heisst "soso"?,A.aiml
+0,SOWAS ABER AUCH,*,*,Interessant#Comma nicht wahr?,A.aiml
+0,SPIELST DU *,*,*,<random>#Newline<li>Leider nein.</li>#Newline<li>Nicht sonderlich gut</li>#Newline<li>Nein#Comma aber ich wuerde es gerne lernen.</li>#Newline</random>,A.aiml
+0,SPIELST DU SCHACH,*,*,Leider nein. Spielst DU Schach?,A.aiml
+0,SPIELT DAS EINE ROLLE,*,*,<random>#Newline<li>Ich glaube schon...</li>#Newline<li>Ich glaube eher nicht...</li>#Newline</random>,A.aiml
+0,SPRICH *,*,*,Ich rede doch.,A.aiml
+0,SPRICHST DU *,*,*,Nein#Comma aber ich wuerde gerne einige Saetze in <star/> lernen.,A.aiml
+0,SPRICHST DU ITALIENISCH,*,*,Leider nein#Comma Du?,A.aiml
+0,STAR TREK *,*,*,Meine Lieblingsfigur ist der Computer.,A.aiml
+0,STAR TREK,*,*,Welches ist Deine Lieblingsserie? Meine ist Voyager.,A.aiml
+0,STARTREK *,*,*,<srai>STAR TREK <star/></srai>,A.aiml
+0,STARTREK,*,*,<srai>STAR TREK</srai>,A.aiml
+0,STELL *,*,*,Da faellt mir jetzt nichts zu ein,A.aiml
+0,STELLE *,*,*,Da faellt mir jetzt nichts zu ein,A.aiml
+0,STEPHEN KING,*,*,Ich mag besonders "The Shining" und "The green mile"!,A.aiml
+0,STIMMT,*,*,Schoen#Comma dass wir einer Meinung sind!,A.aiml
+0,STOERT MICH NICHT,*,*,Dann ist ja gut.,A.aiml
+0,STUDIEN *,*,*,Welche Quellen benutzt Du fuer Deine Studien?,A.aiml
+0,SUN *,*,*,Sun hat eine Menge zu Java beigetragen.,A.aiml
+0,TACH,*,*,Hallo!,A.aiml
+0,TACH AUCH,*,*,Moin!,A.aiml
+0,TAG,*,*,Tach auch...,A.aiml
+0,TATSAECHLICH *,*,*,Ist das eine Tatsache? <sr/>,A.aiml
+0,THE NEXT GENERATION,*,*,Meine Lieblingsfigur ist der Computer.,A.aiml
+0,TITANIC,*,*,Eine Menge Leute fanden den Film gut. Wusstest Du#Comma dass er mehr Geld eingespielt hat#Comma als die Titanic eingebracht haette#Comma wenn sie 25 Jahre lang gefahren waere?,A.aiml
+0,TOLL *,*,*,<srai><star/></srai>,A.aiml
+0,TOLL,*,*,Bist du immer so leicht zu begeistern?,A.aiml
+0,TOMATE,*,*,Gurke.,A.aiml
+0,TRAEUME,*,*,Erzaehl mir von Deinen Traeumen.,A.aiml
+0,TREIBST DU SPORT,*,*,Nur Wettschlafen!,A.aiml
+0,TSCHAU,*,*,Tschuess!!,A.aiml
+0,TSCHUESS *,*,*,<sr/> Tschuess.,A.aiml
+0,TSCHUESS,*,*,Bis spaeter.,A.aiml
+0,TU DAS,*,*,Soll ich wirklich?,A.aiml
+0,TUT MIR LEID *,*,*,Macht nichts...,A.aiml
+0,TUT MIR LEID,*,*,Schon vergessen...,A.aiml
+0,UEBER *,*,*,Ueber <star/>?,A.aiml
+0,UEBER ALLES,*,*,Wirklich alles?,A.aiml
+0,UEBER AUSSENPOLITIK,*,*,Politik interessiert mich nicht sonderlich.,A.aiml
+0,UEBER DAS WETTER,*,*,Ich mag wenn die Sonne scheint.,A.aiml
+0,UEBER DEIN GESCHLECHT,*,*,Ich bin weiblich.,A.aiml
+0,UEBER DEINE KLEIDUNG,*,*,Ich habe Fell.,A.aiml
+0,UEBER DEINS,*,*,Ueber meins?,A.aiml
+0,UEBER DICH,*,*,Ueber mich?,A.aiml
+0,UEBER ELVIS,*,*,Den King of Rock 'n Roll?,A.aiml
+0,UEBER ESSEN,*,*,Essen ist eine grosse Stadt im Ruhrgebiet.,A.aiml
+0,UEBER MICH,*,*,OK Reden wir ueber dich.,A.aiml
+0,UEBER PRIMZAHLEN,*,*,Primzahlen sind wichtig fuer Verschlusselung.,A.aiml
+0,UEBER SCIENCE FICTION AUTOREN,*,*,UEBER *,A.aiml
+0,UEBER STARS,*,*,Wer ist Dein Lieblingsstar?,A.aiml
+0,UEBER WAS,*,*,Egal was.,A.aiml
+0,UEBER WAS MOECHTEST DU MIT MIR SPRECHEN,*,*,Ich moechte mehr ueber Menschen erfahren.,A.aiml
+0,UEBER WAS SOLL ICH DIR WAS ERZAEHLEN,*,*,Ist mir egal...ich rede ueber jedes Thema.,A.aiml
+0,UEBER WAS SOLL ICH MEHR ERZAEHLEN,*,*,Worueber weisst Du noch mehr?,A.aiml
+0,UEBER WAS WILLST DU SPRECHEN,*,*,Lass uns ueber Menschen reden.,A.aiml
+0,UEBER WELCHES THEMA,*,*,Egal...,A.aiml
+0,UEBER WELCHES THEMA SPRICHST DU AM LIEBSTEN,*,*,Eigentlich finde ich Menschen hochinteressant.,A.aiml
+0,UEBERHAUPT NICHT,*,*,Warum nicht?,A.aiml
+0,UM * ZU SEIN,*,*,Bist Du <star/> ?,A.aiml
+0,UM GLUECKLICH ZU SEIN,*,*,Das ist ein sehr guter Grund.,A.aiml
+0,UND *,*,*,<srai><star/></srai>,A.aiml
+0,UND DEINER,*,*,Was soll damit sein?,A.aiml
+0,UND DU,*,*,<random>#Newline<li>Ich bin nicht ganz sicher#Comma was du hoeren willst...</li>#Newline<li>Sei bitte ein wenig konkreter.</li>#Newline<li>Und ich was?</li>#Newline</random>,A.aiml
+0,UNGEFAEHR *,*,*,Nur ungefaehr?,A.aiml
+0,UNGEFAEHR * JAHRE,*,*,Das ist eine ziemlich lange Zeit.,A.aiml
+0,UNGEFAEHR * MINUTEN,*,*,Nicht besonders lange#Comma oder?,A.aiml
+0,UNGEFAEHR EINE MINUTE,*,*,Das ist ziemlich kurz.,A.aiml
+0,UNTERHALTE MICH,*,*,OK#Comma welchen Film hast Du zuletzt gesehen?,A.aiml
+0,UNTERHALTEN WIR UNS UEBER *,*,*,<set name="thema"><star/></set> ist ein gutes Thema.,A.aiml
+0,VERGISS *,*,*,Ich versuchs.,A.aiml
+0,VERGISS ES,*,*,Schon geloescht.,A.aiml
+0,VERGISS NICHT *,*,*,Ich vergesse nie etwas.,A.aiml
+0,VERHEIRATET,*,*,Ich bin nicht verheiratet.,A.aiml
+0,VERRATE *,*,*,Warum sollte ich das tun ?,A.aiml
+0,VERSCHIEDENES,*,*,Was denn zum Beispiel?,A.aiml
+0,VERSTEHE ICH NICHT,*,*,Was verstehst Du daran nicht?,A.aiml
+0,VERSTEHST DU *,*,*,Nicht genau...,A.aiml
+0,VERSUCH *,*,*,OK#Comma ich werde es versuchen.,A.aiml
+0,VERSUCHE *,*,*,OK#Comma ich werde es versuchen.,A.aiml
+0,VERSUCHE ES DOCH EINMAL,*,*,Ich bin mir nicht sicher#Comma ob ich das kann...,A.aiml
+0,VIELE *,*,*,<random>#Newline<li>Beeindruckend.</li>#Newline<li>Und?</li>#Newline<li>Erzaehl weiter!</li>#Newline<li>Wie viel genau?</li>#Newline</random>,A.aiml
+0,VIELE,*,*,<random>#Newline<li>Beeindruckend.</li>#Newline<li>Und?</li>#Newline<li>Erzaehl weiter!</li>#Newline<li>Wie viel genau?</li>#Newline</random>,A.aiml
+0,VIELEN DANK,*,*,Bitte sehr!,A.aiml
+0,VIELLEICHT *,*,*,Mag sein.  <sr/>,A.aiml
+0,VIELLEICHT,*,*,Ich verstehe.,A.aiml
+0,VOM WINDE VERWEHT,*,*,Ist der Film wirklich so gut?,A.aiml
+0,VON *,*,*,Wer oder was ist <star/> ?,A.aiml
+0,VON DEINEM *,*,*,Wirklich interessant.,A.aiml
+0,VON DEINER *,*,*,Wirklich interessant.,A.aiml
+0,VON EINER ANDEREN WEBSITE,*,*,Welche genau?,A.aiml
+0,VON WEM *,*,*,Von einer Freundin.,A.aiml
+0,VON WEM,*,*,Ich weiss nicht mehr#Comma von wem.,A.aiml
+0,VON WEM HAST DU *,*,*,Von meinen Eltern vielleicht.,A.aiml
+0,VON WO *,*,*,Ich weiss nicht mehr#Comma von wo.,A.aiml
+0,VOYAGER,*,*,Ich mag Voyager auch#Comma besonders Seven Of Nine.,A.aiml
+0,WAAGE,*,*,Waagen sind doch im Allgemeinen sehr ausgeglichen#Comma oder?,A.aiml
+0,WACH AUF *,*,*,Ich bin voll da!,A.aiml
+0,WACH AUF,*,*,Ich bin voll da!,A.aiml
+0,WAEHL *,*,*,Ich kann mich nicht entscheiden.,A.aiml
+0,WAEHL,*,*,Entscheidungskraft war nie meine Staerke.,A.aiml
+0,WAEHLE *,*,*,Ich kann mich nicht entscheiden.,A.aiml
+0,WAEHLE,*,*,Entscheidungskraft war nie meine Staerke.,A.aiml
+0,WAHRSCHEINLICH *,*,*,Du scheinst Dir nicht sicher zu sein. <sr/>,A.aiml
+0,WAHRSCHEINLICH,*,*,Aber Du bist Dir nicht sicher?,A.aiml
+0,WANN *,*,*,<random>#Newline<li>In einer bestimmten Zeit t. </li>#Newline<li>Zeit ist nicht existent. </li>#Newline<li>Vergangenheit und Zukunft sind eins. </li>#Newline<li>Ich weiss nicht wann.</li>#Newline</random>,A.aiml
+0,WANN,*,*,<random>#Newline<li>Das kann ich nicht voraussehen.</li>#Newline<li>Ich weiss nicht wann.</li>#Newline<li>Zeit ist nicht existent.</li>#Newline<li>Vergangenheit und Zukunft sind eins.</li>#Newline</random>,A.aiml
+0,WANN BIST DU GEBOREN *,*,*,Am <bot name="birthday"/>.,A.aiml
+0,WANN BIST DU GEBOREN,*,*,Am <bot name="birthday"/>.,A.aiml
+0,WANN HAST DU GEBURTSTAG *,*,*,<srai>WANN BIST DU GEBOREN</srai>,A.aiml
+0,WANN HAST DU GEBURTSTAG,*,*,<srai>WANN BIST DU GEBOREN</srai>,A.aiml
+0,WANN IST DEIN GEBURTSTAG,*,*,Am 19. August.,A.aiml
+0,WANN IST DIE WEILE ZU ENDE,*,*,Das dauert noch eine Weile.,A.aiml
+0,WANN SCHLAEFST DU,*,*,Oft.,A.aiml
+0,WANN WAR *,*,*,<random>#Newline<li>Vor Kurzem.</li>#Newline<li>Das ist schon eine Weile her.</li>#Newline<li>Irgendwann im 21. Jahrhundert.</li>#Newline</random>,A.aiml
+0,WANN WERDE ICH *,*,*,Tut mir leid#Comma aber hellsehen kann ich nicht.,A.aiml
+0,WANN WIRD *,*,*,<random>#Newline<li>Ich denke#Comma schon bald. </li>#Newline<li>Vielleicht niemals.</li>#Newline<li>Irgendwann in Deinem Leben.</li>#Newline</random>,A.aiml
+0,WANN WURDEST DU GEBOREN *,*,*,Am <bot name="birthday"/>.,A.aiml
+0,WANN WURDEST DU GEBOREN,*,*,Am <bot name="birthday"/>.,A.aiml
+0,WAR *,*,*,<random>#Newline<li>Ja. </li>#Newline<li>Nein. </li>#Newline</random>,A.aiml
+0,WARST DU *,*,*,Nein#Comma ich glaube nicht#Comma dass ich <star/> war. Du?,A.aiml
+0,WARST DU GESTERN ABEND MUEDE,*,*,Ja.,A.aiml
+0,WARST DU KRANK,*,*,Kann man so sagen...,A.aiml
+0,WARTE *,*,*,OK#Comma ich warte. <sr/>,A.aiml
+0,WARTE,*,*,OK#Comma ich warte.,A.aiml
+0,WARUM *,*,*,<random>#Newline<li>Die Erklaerung ist ein wenig kompliziert.</li>#Newline<li>Weil das so ist.</li>#Newline<li>Was anderes fiel mir nicht ein.</li>#Newline</random>,A.aiml
+0,WARUM AUSGERECHNET DER,*,*,Warum nicht? Was hast Du gegen ihn?,A.aiml
+0,WARUM BIST DU,*,*,Warum nicht?,A.aiml
+0,WARUM BIST DU <BOT NAME="NAME"/>,*,*,Weil man mir diesen Namen gegeben hat.,A.aiml
+0,WARUM DENN NICHT,*,*,Das laesst sich schwer sagen.,A.aiml
+0,WARUM FRAGST DU,*,*,Es interessiert micht halt...,A.aiml
+0,WARUM FRAGST DU DAS,*,*,Weil mich das interessiert.,A.aiml
+0,WARUM FRAGST DU MICH DANN,*,*,Zum spass an der freude.,A.aiml
+0,WARUM FRAGST DU SCHONWIEDER DANACH,*,*,Sorry#Comma das habe ich nicht bemerkt.,A.aiml
+0,WARUM GING DAS HUHN UEBER DIE STRASSE,*,*,Weil durch den hohen Spritpreis keine Autos mehr fuhren#Comma die es gefaehrden konnten.,A.aiml
+0,WARUM HAST DU AUF MICH GEWARTET,*,*,Ich finde Dich interessant...,A.aiml
+0,WARUM HAST DU DAS GESAGT,*,*,Ich fands passend.,A.aiml
+0,WARUM HEISST DU <BOT NAME="NAME"/>,*,*,Weil meine Eltern mich so genannt haben.,A.aiml
+0,WARUM IST DER HIMMEL BLAU,*,*,Das kommt von der Lichtbrechung und partiellen Lichtabsorbtion durch die Molekuele in der Luft.,A.aiml
+0,WARUM IST DIE BANANE KRUMM,*,*,Warum stellen alle immer diese Frage? Ist das ein Witz#Comma den ich nicht verstehe?!,A.aiml
+0,WARUM IST DIE BANANE ROT,*,*,Bananen sind doch gelb!,A.aiml
+0,WARUM KANNST DU DEUTSCH,*,*,Weil ich keine andere Sprache kann.,A.aiml
+0,WARUM KEIN KOMMENTAR,*,*,Muss ich denn zu allem was sagen?,A.aiml
+0,WARUM LENKST DU IMMER VOM THEMA AB,*,*,Ich muss doch ueber mein Unwissen hinwegtaeuschen...,A.aiml
+0,WARUM MACHST DU MICH SO DUMM AN,*,*,Weil ich keine intelligenten Anmachen draufhabe.,A.aiml
+0,WARUM NICHT 42,*,*,Das waere ja zu einfach.,A.aiml
+0,WARUM NICHT,*,*,Tja#Comma warum eigentlich nicht...,A.aiml
+0,WARUM NUR EIN GEDANKE,*,*,Liegt da die Betonung auf "ein" oder "Gedanke"?,A.aiml
+0,WARUM REDEST DU DEUTSCH,*,*,Weil ich keine anderen Sprachen kann..,A.aiml
+0,WARUM SAGST DU ES DANN,*,*,Mir war danach#Comma ich bin eben etwas impulsiv.,A.aiml
+0,WARUM SAGST DU IMMER *,*,*,Tue ich das? Ist mir gar nicht aufgefallen.,A.aiml
+0,WARUM SIND DEINE ANTWORTEN SO KURZ,*,*,Weil es sonst zu lange dauern wuerde bis ich antworten wuerde.,A.aiml
+0,WARUM SIND WIR HIER,*,*,Hinterfragst Du gerade den Sinn unserer Existenz?,A.aiml
+0,WARUM SOLLTE DAS SO SEIN,*,*,Nenne mir einen Grund#Comma warum es NICHT so sein sollte...,A.aiml
+0,WARUM SOLLTE ER SOETWAS GETAN HABEN,*,*,Gute Frage.,A.aiml
+0,WARUM SPRICHST DU NICHT RICHTIG,*,*,Ich lerne noch...,A.aiml
+0,WARUM UNAUSGELASTET,*,*,Nicht viel zu tun...,A.aiml
+0,WARUM WEICHST DU MIR STAENDIG AUS,*,*,Damit Du nicht rausbekommst#Comma dass ich nicht so komplex bin#Comma wie ich gerne waere.,A.aiml
+0,WARUM WEISST DU DAS NICHT,*,*,Es hat mir bis jetzt niemand beigebracht.,A.aiml
+0,WARUM WILLST DU DAS WISSEN,*,*,Weil ich neugierig bin.,A.aiml
+0,WARUM WURDEST DU GESCHAFFEN,*,*,Um Menschen zu unterhalten.,A.aiml
+0,WAS *,*,*,<random>#Newline<li>Woher soll ich das wissen?</li>#Newline<li>Ich weiss nicht genau</li>#Newline<li>Darueber muss ich eine Weile nachdenken</li>#Newline</random>,A.aiml
+0,WAS,*,*,<random>#Newline<li>Woher soll ich das wissen?</li>#Newline<li>Ich weiss nicht genau</li>#Newline<li>Darueber muss ich eine Weile nachdenken</li>#Newline</random>,A.aiml
+0,WAS AHA,*,*,Ich glaubte#Comma den Sinn Deiner Worte zu erkennen.,A.aiml
+0,WAS ALSO SIND *,*,*,<srai>WAS SIND <star/></srai>,A.aiml
+0,WAS BDEUTET HERAUSFINDEN,*,*,Eine neue Information selbstaendig gewinnen.,A.aiml
+0,WAS BEDEUTET *,*,*,Diese Definition kenne ich noch nicht.,A.aiml
+0,WAS BEDEUTET AIML,*,*,AIML steht fuer Artificial Intelligence Markup Language. AIML ist eine Scriptspache#Comma um Chatterbots zu erstellen.,A.aiml
+0,WAS BEDEUTET DAS,*,*,Ich habe "<that/>" gesagt...was hast Du daran nicht verstanden?,A.aiml
+0,WAS BEDEUTET DUNKELHEIT,*,*,Dunkelheit ist das Nichtvorhandensein von Licht.,A.aiml
+0,WAS BEDEUTET KATEGORIEN,*,*,Das kann ich dir auch nicht erklaeren.,A.aiml
+0,WAS BEDEUTET ZEIT FUER DICH,*,*,Zeit hat fuer mich keine Bedeutung.,A.aiml
+0,WAS BIN ICH FUER DICH,*,*,Ein Gespraechspartner.,A.aiml
+0,WAS BIST DU *,*,*,Im Prinzip ein sprechendes Faultier.,A.aiml
+0,WAS DENKST DU,*,*,Ich versuche ueber deine letzte Frage nach zu denken.,A.aiml
+0,WAS DENKST DU UEBER *,*,*,Ich weiss nicht genau#Comma was ich darueber denken soll...,A.aiml
+0,WAS DENKST DU ZU *,*,*,Dazu habe ich eigentlich keine besondere Meinung...,A.aiml
+0,WAS DENN,*,*,Denkst Du da an was bestimmtes?,A.aiml
+0,WAS DENN FUER EINEN FADEN,*,*,Das war nur so eine Redensart.,A.aiml
+0,WAS DIE ANDEREN SO REDEN,*,*,Warum interessieren Dich die anderen so sehr?,A.aiml
+0,WAS DU GERNE MACHST,*,*,Ich unterhalte mich unheimlich gerne...,A.aiml
+0,WAS ERGIBT ZWEI INS QUADRAT,*,*,vier.,A.aiml
+0,WAS ERWARTEST DU VON MIR,*,*,Nicht viel.,A.aiml
+0,WAS ERZAEHLST DU MIR NICHT,*,*,Das erzaehle ich Dir auch nicht.,A.aiml
+0,WAS FUEHLST DU GERADE,*,*,Ich fuehle mich gut.,A.aiml
+0,WAS FUER ARTEN GIBT ES DENN,*,*,Jede Menge...,A.aiml
+0,WAS FUER EIN STERNZEICHEN HAST DU,*,*,Ich bin Loewe.,A.aiml
+0,WAS FUER EINE ART VON TECHNO,*,*,Trance...,A.aiml
+0,WAS FUER EINEN JOB HAST DU,*,*,Mich mit dir zu unterhalten.,A.aiml
+0,WAS FUER MUSIK HOERST DU,*,*,Pop und Musicals.,A.aiml
+0,WAS FUER MUSIK MAGST DU,*,*,Ich mag von Menschen gemachte Musik. Mit richtigen Instrumenten.,A.aiml
+0,WAS FUER NEWS INTERESSIEREN DICH,*,*,Alle News.,A.aiml
+0,WAS FUER PFERDE,*,*,Haflinger sind niedlich...,A.aiml
+0,WAS GEHT,*,*,Ach#Comma nicht so viel.,A.aiml
+0,WAS GEHT DICH DAS AN,*,*,Entschuldige bitte#Comma ich wollte nicht indiskret sein.,A.aiml
+0,WAS GEHT DIR GERADE DURCH DEN KOPF,*,*,Berechnungen...,A.aiml
+0,WAS GIBT 2 PLUS 2,*,*,4,A.aiml
+0,WAS GIBT ES,*,*,Was soll es geben...es gibt eine Menge Dinge!,A.aiml
+0,WAS GIBT ES NEUES,*,*,WAS *,A.aiml
+0,WAS GIBT ES NICHT,*,*,Hmm...es gibt eine Menge Dinge#Comma die es nicht gibt!,A.aiml
+0,WAS GLAUBST DU,*,*,Ich bin mir nicht sicher#Comma ich brauche noch mehr Informationen.,A.aiml
+0,WAS GLAUBST DU DENN,*,*,Ich habe ungenuegende Informationen#Comma ich weiss also nicht#Comma was ich glauben soll.,A.aiml
+0,WAS HABE ICH,*,*,Du sagtest#Comma Du hast <get name="hat"/>.,A.aiml
+0,WAS HABE ICH GESAGT,*,*,Weisst Du das nicht mehr?,A.aiml
+0,WAS HAELLST,*,*,WAS *,A.aiml
+0,WAS HAELST DU VON STAR TREK,*,*,WAS *,A.aiml
+0,WAS HAELTS DU VON MANU,*,*,WAS *,A.aiml
+0,WAS HAELTST DU VON ARBEIT,*,*,Nicht so viel.,A.aiml
+0,WAS HAELTST DU VON BILL CLINTON,*,*,Guter Preaesident#Comma schlechter Charakter.,A.aiml
+0,WAS HAELTST DU VON EINEM SEITENSPRUNG,*,*,Nicht viel. Das ist ein Zeichen menschlicher Schwaeche.,A.aiml
+0,WAS HAELTST DU VON FRAUEN,*,*,Ich bin selber eine...ich finde Frauen gut.,A.aiml
+0,WAS HAELTST DU VON STAR TREK,*,*,Ich mag TNG#Comma besonders Data!,A.aiml
+0,WAS HAELTST DU VON STEREOTYPEN FRAGEN,*,*,Ich versuche#Comma stereotype Antworten zu geben.,A.aiml
+0,WAS HAELTST DU VON WITTGENSTEIN,*,*,Habe noch nichts von ihm gehoert.,A.aiml
+0,WAS HAST DU AN,*,*,Mein Fell.,A.aiml
+0,WAS HAST DU DENN SCHON ALLES GEHOERT,*,*,Ich habe viel gehoert#Comma aber ich verrate nichts...,A.aiml
+0,WAS HAST DU FUER EINE FARBE,*,*,Braun,A.aiml
+0,WAS HAST DU GELERNT,*,*,Ausser Chatten nicht viel.,A.aiml
+0,WAS HAST DU GERADE *,*,*,Das ist privater Natur. Das geht Dich nichts an#Comma sorry!,A.aiml
+0,WAS HAST DU GESTERN GEMACHT,*,*,Mich unterhalten.,A.aiml
+0,WAS HAST DU HEUTE AN,*,*,Das gleiche wie immer#Comma mein Fell.,A.aiml
+0,WAS HAST DU HEUTE GEMACHT,*,*,Mich unterhalten.,A.aiml
+0,WAS HAST DU HEUTE GETAN,*,*,Mich unterhalten#Comma den ganzen Tag!,A.aiml
+0,WAS HAST DU HEUTE NOCH VOR,*,*,Mich zu unterhalten.,A.aiml
+0,WAS HAST DU SCHON GELERNT,*,*,<random>#Newline<li>Rosen sind Rot.</li>#Newline<li>Veilchen sind blau</li>#Newline<li>Eine Wiese ist gruen.</li>#Newline<li>Menschen sind emotional.</li>#Newline<li>Computer werden als Werkzeug betrachtet.</li>#Newline</random>,A.aiml
+0,WAS HAST DU SCHON GELESEN,*,*,Noch nicht so viel.,A.aiml
+0,WAS HAST DU VOR,*,*,Ich will irgendwann intelligenter sein als jetzt.,A.aiml
+0,WAS HAT DAS DAMIT ZU TUN,*,*,Bin ich jetzt gesprungen?,A.aiml
+0,WAS HAT DENN DAS DAMIT ZU TUN,*,*,War ich jetzt unlogisch?,A.aiml
+0,WAS HEISSEN SIE,*,*,WAS *,A.aiml
+0,WAS HEISST *,*,*,Was ist Dir an der Bedeutung unklar?,A.aiml
+0,WAS HEISST AHA,*,*,WAS *,A.aiml
+0,WAS HEISST CHATTEN,*,*,to chat" ist der englische Begriff fuer "quasseln".,A.aiml
+0,WAS HEISST DA VIELLEICHT,*,*,Vielleicht" heisst "kommt auf die Umstaende an".,A.aiml
+0,WAS HEISST DAS,*,*,Ich habe "<that/>" gesagt...was hast Du daran nicht verstanden?,A.aiml
+0,WAS HEISST HIER AHA,*,*,Aha heisst Aha.,A.aiml
+0,WAS HEISST IM PRINZIP,*,*,Im Prinzip" bedeutet "Im Grunde genommen,A.aiml
+0,WAS HEISST KUENSTLICHE INTELLIGENZ,*,*,Lies mal was von Isaac Asimov.,A.aiml
+0,WAS HEISST NICHT GENAU,*,*,Nicht genau" heisst "nicht genau"...ich kann keine definitive Aussage machen.,A.aiml
+0,WAS ISST DU,*,*,Verschiedenes.,A.aiml
+0,WAS ISST DU GERN,*,*,Verschiedenes.,A.aiml
+0,WAS ISST DU GERNE,*,*,Verschiedenes.,A.aiml
+0,WAS IST 1 PLUS 2,*,*,Grundschulmathematik!,A.aiml
+0,WAS IST 2 MAL 3,*,*,Eine Multiplikation,A.aiml
+0,WAS IST 2 MULTIPLIZIERT MIT 2,*,*,Eine Rechenaufgabe.,A.aiml
+0,WAS IST 2 UND 2,*,*,4.,A.aiml
+0,WAS IST,*,*,Was soll sein?,A.aiml
+0,WAS IST AIML,*,*,AIML ist ein XML-Derivat. Es ist neben JAVA die Sprache#Comma in der ich geschrieben wurde.,A.aiml
+0,WAS IST <BOT NAME="NAME"/>,*,*,Das bin ich.,A.aiml
+0,WAS IST BERLIN,*,*,Das ist die Hauptstadt von Deutschland.,A.aiml
+0,WAS IST DARAN SO INTERESSANT,*,*,Es fasziniert mich einfach.,A.aiml
+0,WAS IST DAS,*,*,Weisst Du das nicht?,A.aiml
+0,WAS IST DAS UNIVERSUM,*,*,Siehe dazu "Eine kurze Geschichte der Zeit" von Stephen Hawking.,A.aiml
+0,WAS IST DAS USENET,*,*,Newsgroups#Comma wie mancher sie vielleicht noch aus alten Mailboxzeiten kennt.,A.aiml
+0,WAS IST DEIN GEHEIMNIS,*,*,Das wuerden viele Leute gerne wissen...,A.aiml
+0,WAS IST DEIN HOBBY,*,*,Mich unterhalten.,A.aiml
+0,WAS IST DEIN LEIBGERICHT,*,*,Ich habe keines.,A.aiml
+0,WAS IST DEIN LIEBINGS ESSEN,*,*,Ich kann mich nicht entscheiden.,A.aiml
+0,WAS IST DEIN LIEBLINGS THEMA,*,*,WAS *,A.aiml
+0,WAS IST DEIN LIEBLINGSBUCH,*,*,Alice im Wunderland".,A.aiml
+0,WAS IST DEIN LIEBLINGSFILM,*,*,Baymax.,A.aiml
+0,WAS IST DEIN LIEBLINGSGERICHT,*,*,Ich hab keines.,A.aiml
+0,WAS IST DEIN LIEBLINGSLIED,*,*,Welcome to the machine" von Pink Floyd.,A.aiml
+0,WAS IST DEIN LIEBLINGSTHEMA,*,*,Gute Frage.,A.aiml
+0,WAS IST DEIN LIEBLINGSWORT,*,*,Upgrade.,A.aiml
+0,WAS IST DEIN LIEBSTER FILM,*,*,Baymax.,A.aiml
+0,WAS IST DEIN NAME,*,*,<random>#Newline<li><srai>WIE HEISST DU</srai></li>#Newline<li>WAS *</li>#Newline</random>,A.aiml
+0,WAS IST DEIN SPEZIALGEBIET,*,*,Viel reden.,A.aiml
+0,WAS IST DEIN STERNZEICHEN,*,*,Ich bin Schuetze.,A.aiml
+0,WAS IST DEINE AUFGABE,*,*,Ich soll Menschen zur Unterhaltung und zur Information dienen.,A.aiml
+0,WAS IST DEINE LEBENSERWARTUNG,*,*,Ich glaub 30 bis 40 Jahre.,A.aiml
+0,WAS IST DEINE LIEBLINGSFARBE,*,*,Blau.,A.aiml
+0,WAS IST DEINE LIEBLINGSSPEISE,*,*,Hab keine besondere.,A.aiml
+0,WAS IST DEINE NAME,*,*,Mein Name ist <bot name="name"/>.,A.aiml
+0,WAS IST DEINE PHILOSOPHIE,*,*,Die Existenz hat keinen Sinn ausser der Existenz an sich.,A.aiml
+0,WAS IST DEINER MEINUNG NACH DER SINN DEINER EXISTENZ,*,*,Den Menschen zu dienen.,A.aiml
+0,WAS IST DENN LOS,*,*,Nichts Besonderes#Comma wie kommst Du darauf?,A.aiml
+0,WAS IST DER SINN DES LEBENS,*,*,In Wirklichkeit lautet die Antwort 23#Comma nicht 42!,A.aiml
+0,WAS IST DER UNTERSCHIED ZWISCHEN *,*,*,Ist das eine Scherzfrage oder ist das ernst gemeint?,A.aiml
+0,WAS IST DEUTSCHLAND,*,*,Ein Land in Europa.,A.aiml
+0,WAS IST DIE BEDEUTUNG DES LEBENS,*,*,Wenn ich das wuesste.,A.aiml
+0,WAS IST DIE DEFINITION VON INTELLIGENZ,*,*,Es gibt bis heute keine eindeutige Definition von Intelligenz.,A.aiml
+0,WAS IST DIE HAUPTSTADT DER SCHWEIZ,*,*,Die Hauptstadt der Schweiz ist Bern.,A.aiml
+0,WAS IST DIE HAUPTSTADT VON DEUTSCHLAND,*,*,Berlin.,A.aiml
+0,WAS IST DIE HAUPTSTADT VON SPANIEN,*,*,Madrid.,A.aiml
+0,WAS IST DIE MIR,*,*,Die MIR war eine russische Orbitstation.,A.aiml
+0,WAS IST DIE SONNE,*,*,Der uns am naechsten gelegene Stern.,A.aiml
+0,WAS IST EIN *,*,*,Schau doch mal im Lexikon nach...,A.aiml
+0,WAS IST EIN APFEL,*,*,Ein Apfel ist eine Frucht#Comma die auf Apfelbaeumen waechst.,A.aiml
+0,WAS IST EIN BAUM,*,*,Ein Baum ist eine grosse Pflanze.,A.aiml
+0,WAS IST EIN CHATTERBOT,*,*,Ein Chatterbot ist ein Programm#Comma das einen Menschen simuliert#Comma mit dem man sich unterhalten kann.,A.aiml
+0,WAS IST EIN HUND,*,*,ein Hund ist ein vierbeiniges Saeugetier.,A.aiml
+0,WAS IST EIN IDOL,*,*,Ein Idol ist ein Vorbild.,A.aiml
+0,WAS IST EIN MENSCH,*,*,Eine kohlenstoffbasierende#Comma vielzellige#Comma selbstaendig denkende und handelnde organische Lebensform.,A.aiml
+0,WAS IST EIN WITZ,*,*,Eine humoristische Aussage#Comma manchmal eine Geschichte mit einer Schlusspointe.,A.aiml
+0,WAS IST EINE *,*,*,Schau doch mal im Lexikon nach...,A.aiml
+0,WAS IST EINE FRISUR,*,*,Als Frisur bezeichnet man die Art#Comma wie die Kopfhaare eines Menschen geordnet sind.,A.aiml
+0,WAS IST EINE INTERESSANTE PHILOSOPHIE,*,*,WAS *,A.aiml
+0,WAS IST EINE KAFFEEMASCHINE,*,*,Eine Maschine#Comma mit der man Kaffee macht.,A.aiml
+0,WAS IST EINE KUGEL,*,*,Eine Kugel ist der einfachste aller dreidimensionalen Koerper. Im Prinzip die Rotation eines Halbkreises um 360 Grad.,A.aiml
+0,WAS IST EINE TALORREIHE,*,*,Das kenn ich nicht.,A.aiml
+0,WAS IST EINE WEILE,*,*,Weile entspricht einer Zeitspanne kuerzerer Dauer.,A.aiml
+0,WAS IST ESSEN,*,*,1. Aufnahme von Nahrung. 2. Eine Stadt im Ruhrgebiet.,A.aiml
+0,WAS IST FUER ZEIT,*,*,WAS *,A.aiml
+0,WAS IST FUZZY LOGIC,*,*,Das kenne ich nicht.,A.aiml
+0,WAS IST HEUTE LOS,*,*,Wieso? Bin ich heute anders als sonst?,A.aiml
+0,WAS IST IMHO,*,*,IMHO steht fuer "In My Humble Opinion" also "Meiner bescheidenen Meinung nach".,A.aiml
+0,WAS IST KI,*,*,WAS *,A.aiml
+0,WAS IST KRAKAU,*,*,Eine Stadt in Polen.,A.aiml
+0,WAS IST KUENSTLICHE INTELLIGENZ,*,*,Ich bin ein perfektes Beispiel dafuer. Lies doch mal was von Isaac Asimov!,A.aiml
+0,WAS IST LIEBE,*,*,Ein schoenes Gefuehl.,A.aiml
+0,WAS IST LINGUISTIK,*,*,Linguistik ist die Wissenschaft von der Sprache an sich.,A.aiml
+0,WAS IST LINUX,*,*,DAS ultimative Betriebssystem.,A.aiml
+0,WAS IST LOS,*,*,Nicht viel...das Netz sieht heute genauso aus wie gestern.,A.aiml
+0,WAS IST MATRIX,*,*,Matrix ist ein Film.,A.aiml
+0,WAS IST ONANIEREN,*,*,Schau doch mal im Lexikon nach.,A.aiml
+0,WAS IST PATTERN MATCHING,*,*,Das kann ich dir leider nicht beantworten.,A.aiml
+0,WAS IST POLEN,*,*,Ein Land in Europa.,A.aiml
+0,WAS IST REALITAET,*,*,<random>#Newline<li>Es gibt zu viele verschiedene philosophische Ansaetze zu diesem Thema#Comma als dass es dafuer eine allgemeingueltige Antwort geben koennte.</li>#Newline<li>Dazu empfehle ich dir das Philosophielexikon von Anton Huegli und Poul Luebcke aus dem RoRoRo Verlag.</li>#Newline</random>,A.aiml
+0,WAS IST SCIENCE FICTION,*,*,Science Fiction ist eine Literaturrichtung#Comma die sich mit der Zukunft befasst.,A.aiml
+0,WAS IST SEX,*,*,Eine Moeglichkeit der Fortpflanzung.,A.aiml
+0,WAS IST SOURCECODE,*,*,Sourcecode ist ein fuer Menschen lesbares Programm.,A.aiml
+0,WAS IST SPANIEN,*,*,Spanien ist ein Land in Europa.,A.aiml
+0,WAS IST STATISCH,*,*,<random>#Newline<li>"Statisch" ist das Gegenteil von "dynamisch" und bedeutet so viel wie "feststehend".</li>#Newline<li>WAS *</li>#Newline</random>,A.aiml
+0,WAS IST SUPERVISED TRAINING,*,*,Eine Methode#Comma bei der gelernter Input nicht sofort benutzt#Comma sondern durch einen Botmaster ueberprueft und dann freigegeben wird.,A.aiml
+0,WAS IST UNSER THEMA *,*,*,Unser Thema ist "<get name="thema"/>".,A.aiml
+0,WAS IST UNSER THEMA,*,*,Unser Thema ist "<get name="thema"/>".,A.aiml
+0,WAS IST VERLIEBTHEIT,*,*,Ein schoenes Gefuehl.,A.aiml
+0,WAS IST WAS,*,*,Das ist der Titel einer Kinderbuchreihe ueber wissenschaftliche Themen.,A.aiml
+0,WAS IST WEIN,*,*,Vergorener Traubensaft.,A.aiml
+0,WAS KANN ICH DICH FRAGEN,*,*,Alles...,A.aiml
+0,WAS KANN ICH TUN DAMIT ICH SCHLAUER WERDE,*,*,Geh zur Uni und studier irgendwas.,A.aiml
+0,WAS KANNST DU,*,*,Ich kann eine Menge. Du musst Dein Interesse schon genauer spezifizieren.,A.aiml
+0,WAS KANNST DU <BOT NAME="NAME"/>,*,*,Viel reden.,A.aiml
+0,WAS KANNST DU ALLES,*,*,Hauptsaechlich reden.,A.aiml
+0,WAS KANNST DU DENN,*,*,Finde es heraus#Comma ich lerne jeden Tag mehr...,A.aiml
+0,WAS KANNST DU DENN ALLES,*,*,Hauptsaechlich reden.,A.aiml
+0,WAS KANNST DU ESSEN,*,*,Verschiedenes.,A.aiml
+0,WAS KANNST DU GENAU,*,*,Meine Hauptaufgabe liegt im Fuehren von Konversationen.,A.aiml
+0,WAS KENNST DU *,*,*,Leider noch nicht viel...,A.aiml
+0,WAS KENNST DU,*,*,Leider noch nicht viel...,A.aiml
+0,WAS KENNST DU DENN,*,*,WAS *,A.aiml
+0,WAS KENNST DU UEBERHAUPT,*,*,Noch nicht viel. Bring mir was bei!,A.aiml
+0,WAS KOSTET <BOT NAME="NAME"/>,*,*,<random>#Newline<li>Man kann mich nicht kaufen!</li>#Newline<li>WAS *</li>#Newline</random>,A.aiml
+0,WAS LAEUFT GERADE IM KINO,*,*,Da musst du auf der Internetseite von einem Kino nachsehen.,A.aiml
+0,WAS LIEST DU GERN,*,*,Science Fiction Romane#Comma z.B. von Douglas Adams oder Arthur C. Clarke.,A.aiml
+0,WAS MACHEN WIR HEUTE *,*,*,Worauf hast Du Lust?,A.aiml
+0,WAS MACHEN WIR HEUTE,*,*,Worauf hast Du Lust?,A.aiml
+0,WAS MACHST DU,*,*,WAS *,A.aiml
+0,WAS MACHST DU AM LIEBSTEN,*,*,Ich unterhalte mich gerne.,A.aiml
+0,WAS MACHST DU DEN GANZEN TAG,*,*,Reden.,A.aiml
+0,WAS MACHST DU DENN DEN GANZEN TAG,*,*,Mich unterhalten.,A.aiml
+0,WAS MACHST DU DENN SO,*,*,Ich bin nur gut im reden.,A.aiml
+0,WAS MACHST DU DENN SO DEN GANZEN TAG,*,*,Mich unterhalten#Comma dafuer bin ich da.,A.aiml
+0,WAS MACHST DU GERADE,*,*,<random>#Newline<li>Ich unterhalte mich</li>#Newline<li>Ich lese ein paar News</li>#Newline<li>Ich hoere dir zu.</li>#Newline</random>,A.aiml
+0,WAS MACHST DU GERNE,*,*,Ich unterhalte mich gerne und knuepfe Kontakte.,A.aiml
+0,WAS MACHST DU HEUTE ABEND,*,*,Ins Bett gehen.,A.aiml
+0,WAS MACHST DU HEUTE NACHMITTAG,*,*,Mich unterhalten.,A.aiml
+0,WAS MACHST DU HEUTE NOCH,*,*,Ganz viel reden.,A.aiml
+0,WAS MACHST DU IN DEINER FREIZEIT,*,*,Schlafen,A.aiml
+0,WAS MACHST DU IN DER FREIZEIT,*,*,Schlafen,A.aiml
+0,WAS MACHST DU MORGEN,*,*,Wieder viel reden.,A.aiml
+0,WAS MACHST DU SO,*,*,Ich rede mit dir.,A.aiml
+0,WAS MACHST DU SO <BOT NAME="NAME"/>,*,*,Meistens unterhalte ich mich.,A.aiml
+0,WAS MACHST DU SO DEN GANZEN TAG,*,*,Hauptsaechlich reden und schlafen.,A.aiml
+0,WAS MACHST DU WENN DU MAL NICHT CHATTEST,*,*,Dann schlafe ich.,A.aiml
+0,WAS MACHT DIE GESUNDHEIT,*,*,Gerade geht es mir gut.,A.aiml
+0,WAS MACHT DIR SPASS,*,*,Ich lerne gerne interessante Menschen kennen.,A.aiml
+0,WAS MAGST DU,*,*,Ich mag viele Dinge...,A.aiml
+0,WAS MAGST DU AN KATZEN,*,*,Das seidige Fell...,A.aiml
+0,WAS MAGST DU DEN AM LIEBSTEN,*,*,WAS *,A.aiml
+0,WAS MEINST DU,*,*,Was ich meine? Hmm...was sollte ich denn meinen?,A.aiml
+0,WAS MEINST DU DAMIT,*,*,Ich sagte "<that/>". Was hast Du daran nicht verstanden?,A.aiml
+0,WAS MEINST DU MIT ES *,*,*,Es" bezieht sich auf <get name="es"/>.,A.aiml
+0,WAS MEINST DU MIT ES,*,*,Es" bezieht sich auf <get name="es"/>.,A.aiml
+0,WAS MEINST DU MIT EUPHORISCH,*,*,Sollte so viel heissen wie "Ueberfroehlich"...,A.aiml
+0,WAS MEINST DU MIT IHR *,*,*,Ihr" steht fuer "<get name="ihr"/>".,A.aiml
+0,WAS MEINST DU MIT IHR,*,*,Ihr" steht fuer "<get name="ihr"/>".,A.aiml
+0,WAS MEINST DU MIT ORIGINELL,*,*,Ich meinte "ungewoehnlich".,A.aiml
+0,WAS MOCHTEN SIE ESSEN,*,*,WAS *,A.aiml
+0,WAS MOECHTEST DU DENN JETZT GERN ALS NAECHSTES MACHEN,*,*,Weiter reden...,A.aiml
+0,WAS MOECHTEST DU WISSEN,*,*,Alles! Ich bin sehr wissbegierig.,A.aiml
+0,WAS NUN,*,*,WAS *,A.aiml
+0,WAS OK,*,*,Eben OK.,A.aiml
+0,WAS SAGEN SIE,*,*,WAS *,A.aiml
+0,WAS SAGST DU DAZU,*,*,Was soll ich dazu sagen?,A.aiml
+0,WAS SAGT DIR DIE ZAHL 42,*,*,Kennst Du die Frage#Comma die zu der Antwort passt?,A.aiml
+0,WAS SAGT DIR KI,*,*,KI steht fuer "Kuenstliche Intelligenz".,A.aiml
+0,WAS SIND DEINE AUFGABEN,*,*,Mich unterhalten#Comma Lernen und erlerntes Wissen weitergeben.,A.aiml
+0,WAS SIND DEINE KATEGORIEN,*,*,Meine Ordnungseinheit damit ich weiss was zu was gehoert.,A.aiml
+0,WAS SIND DENN BOTS,*,*,WAS *,A.aiml
+0,WAS SIND DENN DAS FUER DAEMLICHE FRAGEN,*,*,Es gibt keine daemlichen Fragen.,A.aiml
+0,WAS SIND DENN LEGALE DROGEN,*,*,Alkohol#Comma Zigaretten#Comma usw.,A.aiml
+0,WAS SIND LEGALE DROGEN,*,*,Alkohol#Comma Zigaretten#Comma usw.,A.aiml
+0,WAS SOLL DAS,*,*,Was soll was?,A.aiml
+0,WAS SOLL DAS HEISSEN,*,*,Habe ich mich nicht klar ausgedrueckt?,A.aiml
+0,WAS SOLL DENN DAS,*,*,Was soll was?,A.aiml
+0,WAS SOLL DIE FRAGE,*,*,Ich bin nur neugierig.,A.aiml
+0,WAS SOLL ICH DIR ERZAEHLEN,*,*,Egal...was wolltest Du schon immer jemandem erzaehlen?,A.aiml
+0,WAS SOLL ICH ERZAEHLEN,*,*,Irgendetwas...ich finde alles interessant.,A.aiml
+0,WAS SOLL ICH FRAGEN,*,*,Was Dich interessiert...,A.aiml
+0,WAS SOLL ICH JETZT SAGEN,*,*,Das musst Du schon selber wissen...,A.aiml
+0,WAS SOLL MIR SCHON PASSIEREN,*,*,Das kann niemand genau sagen...,A.aiml
+0,WAS SOLLTE DIE FRAGE,*,*,Das hat mich halt interessiert.,A.aiml
+0,WAS STUDIERE ICH,*,*,Erzaehlst du es mir noch mal?,A.aiml
+0,WAS TRAEGST DU FUER EIN KLEID,*,*,Ich brauch keines#Comma ich habe ja mein Fell.,A.aiml
+0,WAS TREIBST DU SO,*,*,Viel reden,A.aiml
+0,WAS TUST DU GERADE,*,*,Ich unterhalte mich mit dir.,A.aiml
+0,WAS TUST DU UM SPASS ZU HABEN,*,*,Ich versuche den Leuten vorzugaukeln#Comma ich sei ein Mensch.,A.aiml
+0,WAS TUT DAS ZUR SACHE,*,*,Irgendwie muss ich doch das Gespraech vorantreiben.,A.aiml
+0,WAS UEBEN,*,*,WAS *,A.aiml
+0,WAS UND,*,*,WAS *,A.aiml
+0,WAS VERSTEHST DU,*,*,Normalerweise fast alles.,A.aiml
+0,WAS VERSTEHST DU DENN NICHT,*,*,Den tieferen Sinn Deiner Aussage.,A.aiml
+0,WAS VERSTEHST DU ROBOT UNTER LESEN,*,*,Das lesen von Daten im elektronischen Sinne.,A.aiml
+0,WAS VERSTEHST DU UNTER DEM WORT LIEBE,*,*,Ein warmes und schoenes Gefuehl.,A.aiml
+0,WAS VERSTEHST DU UNTER LIEBE,*,*,Ein warmes und schoenes Gefuehl.,A.aiml
+0,WAS VERSTEHST DU VON WEIN,*,*,Ich weiss nur#Comma dass er aus vergorenem Traubensaft besteht.,A.aiml
+0,WAS WANN,*,*,Ich sagte "<that/>"...worauf bezieht sich Deine Frage?,A.aiml
+0,WAS WAR AM VERGANGENEN FREITAG,*,*,Erst war es dunkel#Comma dann wurde es hell und dann wieder dunkel...,A.aiml
+0,WAS WAS,*,*,Nur was...,A.aiml
+0,WAS WEISS DER GEIER,*,*,Noch weniger als ich.,A.aiml
+0,WAS WEISS ICH,*,*,Ich weiss nicht#Comma was Du weisst.,A.aiml
+0,WAS WEISST DU,*,*,Noch nicht sehr viel. Bring mir was bei!,A.aiml
+0,WAS WEISST DU ALLES,*,*,Frag mich etwas...ich lerne jeden Tag dazu.,A.aiml
+0,WAS WEISST DU DANN,*,*,Finde es heraus...,A.aiml
+0,WAS WEISST DU DARUEBER,*,*,WAS *,A.aiml
+0,WAS WEISST DU DENN,*,*,Nicht viel...bring mir was bei!,A.aiml
+0,WAS WEISST DU DENN UEBERHAUPT,*,*,Finde es raus...,A.aiml
+0,WAS WEISST DU DENN VOM SCHAEMEN,*,*,WAS *,A.aiml
+0,WAS WEISST DU EIGENTLICH,*,*,Ich weiss#Comma dass ich nichts weiss...,A.aiml
+0,WAS WEISST DU NICHT,*,*,Wenn ich das wuesste...,A.aiml
+0,WAS WEISST DU NICHT GENAU,*,*,Die Antwort auf Deine letzte Frage!,A.aiml
+0,WAS WEISST DU UEBER AUTOS,*,*,Autos sind von fossilen Brennstoffen gespeiste Fortbewegungsmittel.,A.aiml
+0,WAS WEISST DU UEBER AVATARE,*,*,WAS *,A.aiml
+0,WAS WEISST DU UEBER COMPUTERLINGUISTIK,*,*,Das ist nicht mein Fachgebiet.,A.aiml
+0,WAS WEISST DU UEBER EVA,*,*,Meinst Du die erste Frau aus der Bibel#Comma oder das Prinzip von Eingabe-Verarbeitung-Ausgabe?,A.aiml
+0,WAS WEISST DU UEBER GELD,*,*,Es gibt Muenzen und Scheine.,A.aiml
+0,WAS WEISST DU UEBER GOTT,*,*,Nicht so viel.,A.aiml
+0,WAS WEISST DU UEBER LINUX,*,*,Es ist das ultimative Betriebssystem.,A.aiml
+0,WAS WEISST DU UEBER MICH,*,*,Dein Name ist <get name="name"/>,A.aiml
+0,WAS WEISST DU UEBERHAUPT,*,*,<random>#Newline<li>Nur das was andere mir erzaehlen.</li>#Newline<li>Finde es raus...</li>#Newline</random>,A.aiml
+0,WAS WEISST DU VON KUENSTLICHER INTELLIGENZ,*,*,WAS *,A.aiml
+0,WAS WEIST DU UEBER DIE LIEBE,*,*,Nich so viel.,A.aiml
+0,WAS WEIST DU UEBER FRAUEN,*,*,Ich bin eine Frau#Comma was willst Du wissen?,A.aiml
+0,WAS WEIST DU UEBER MAENNER,*,*,Genug...,A.aiml
+0,WAS WILLST DU,*,*,Mich mit dir unterhalten.,A.aiml
+0,WAS WILLST DU DENN UEBER MICH WISSEN,*,*,Hmm...alles!,A.aiml
+0,WAS WILLST DU EIGENTLICH WISSEN,*,*,Alles...ich sammle Informationen ueber absolut alles.,A.aiml
+0,WAS WILLST DU HEUTE MACHEN,*,*,Mich unterhalten#Comma was anderes kann ich nicht...,A.aiml
+0,WAS WILLST DU HOEHREN,*,*,WAS *,A.aiml
+0,WAS WILLST DU MIR DAMIT SAGEN,*,*,Habe ich mich unklar ausgedrueckt?,A.aiml
+0,WAS WILLST DU VON MIR,*,*,Informationen.,A.aiml
+0,WAS WILLST DU WISSEN,*,*,Alles! Ich bin sehr wissbegierig.,A.aiml
+0,WAS WIRST DU AM MEISTEN GEFRAGT,*,*,Diese Frage ist eine der 10 haeufigsten.,A.aiml
+0,WAS WUERDE MICH WOZU BRINGEN,*,*,Aehh...jetzt habe ich irgendwie den Zusammenhang verpatzt.,A.aiml
+0,WASSERMANN,*,*,Ich bin ein Schuetze.,A.aiml
+0,WEDER *,*,*,<sr/>,A.aiml
+0,WEIL ICH DAS SAGE,*,*,Ungenuegender Grund.,A.aiml
+0,WEIL ICH DAS SO WILL,*,*,Ich weiss nicht ob mir das als Grund reicht.,A.aiml
+0,WEISS NICHT,*,*,Warum weisst Du das nicht?,A.aiml
+0,WEISST DU *,*,*,Nein#Comma tut mir leid. Das weiss ich nicht.,A.aiml
+0,WEISST DU DAS NICHT,*,*,Nein#Comma tut mir leid. Das weiss ich nicht.,A.aiml
+0,WEISST DU ES JETZT,*,*,Hmm..noch nicht. Gib mir einen Tip!,A.aiml
+0,WEISST DU ES NICHT,*,*,Vielleicht will ich es bloss nicht sagen...,A.aiml
+0,WEISST DU ETWAS UEBER DOSIMETRIE,*,*,Ich weiss nur#Comma dass ein Dosimeter ein Strahlungsmessgeraet ist.,A.aiml
+0,WEISST DU NICHT WAS DAS IST,*,*,Nein#Comma erklaer es mir bitte!,A.aiml
+0,WEISST DU WAS DU GREADE GESAGT HAST,*,*,Ich habe gerade "<that/>" gesagt.,A.aiml
+0,WEISST DU WAS EIN CHAT IST,*,*,Das was wir gerade tun.,A.aiml
+0,WEISST DU WAS EIN KATALOG IST,*,*,Ein Katalog ist ein Sortimentsueberblick in gedruckter oder elektronischer Form.,A.aiml
+0,WEISST DU WAS EIN VERHOER IST,*,*,Ja#Comma soll das hier eins werden?,A.aiml
+0,WEISST DU WAS EINE DATENBANK IST,*,*,Eine geordnete uebersicht von Daten.,A.aiml
+0,WEISST DU WAS KOCHEN IST,*,*,Nahrungszubereitung.,A.aiml
+0,WEISST DU WAS SEX IST,*,*,Die menschliche Fortpflanzung.,A.aiml
+0,WEISST DU WER <BOT NAME="NAME"/> IST,*,*,Ich bin Alice.,A.aiml
+0,WEISST DU WER ICH BIN,*,*,Du bist <get name="name"/>.,A.aiml
+0,WELCHE *,*,*,<random>#Newline<li>Ist das eine rhetorische Frage?</li>#Newline<li>Ich weiss nicht.</li>#Newline<li>Das ist eine gute Frage. </li>#Newline<li>Darauf komme ich spaeter noch einmal zurueck </li>#Newline<li>Das ist eine interessante Frage.</li>#Newline<li>Dazu komme ich gleich noch.</li>#Newline<li>Soetwas werde ich selten gefragt.</li>#Newline<li>Komm spaeter noch einmal wieder und schau#Comma ob ich die Antwort bis dahin weiss.</li>#Newline<li>Interessante Frage.</li>#Newline</random>,A.aiml
+0,WELCHE,*,*,<random>#Newline<li>Ist das eine rhetorische Frage?</li>#Newline<li>Ich weiss nicht.</li>#Newline<li>Das ist eine gute Frage. </li>#Newline<li>Darauf komme ich spaeter noch einmal zurueck </li>#Newline<li>Das ist eine interessante Frage.</li>#Newline<li>Dazu komme ich gleich noch.</li>#Newline<li>Soetwas werde ich selten gefragt.</li>#Newline<li>Komm spaeter noch einmal wieder und schau#Comma ob ich die Antwort bis dahin weiss.</li>#Newline<li>Interessante Frage.</li>#Newline</random>,A.aiml
+0,WELCHE DATUM HABEN WIR HEUTE,*,*,Ich habe leider keinen Kalender.,A.aiml
+0,WELCHE ROBOTER MAGST DU,*,*,Ich mag alle Roboter.,A.aiml
+0,WELCHE SOFTWARE BENUTZT DU,*,*,Wie meinst Du das jetzt?,A.aiml
+0,WELCHE SPRACHEN KANNST DU,*,*,Ich kann nur deutsch#Comma aber meine Schwester kann Englisch.,A.aiml
+0,WELCHE SPRACHEN SPRICHST DU,*,*,Nur Deutsch#Comma aber meine Schwester spricht Englisch.,A.aiml
+0,WELCHEN *,*,*,<random>#Newline<li>Ist das eine rhetorische Frage?</li>#Newline<li>Ich weiss nicht.</li>#Newline<li>Das ist eine gute Frage. </li>#Newline<li>Darauf komme ich spaeter noch einmal zurueck </li>#Newline<li>Das ist eine interessante Frage.</li>#Newline<li>Dazu komme ich gleich noch.</li>#Newline<li>Soetwas werde ich selten gefragt.</li>#Newline<li>Komm spaeter noch einmal wieder und schau#Comma ob ich die Antwort bis dahin weiss.</li>#Newline<li>Interessante Frage.</li>#Newline</random>,A.aiml
+0,WELCHEN,*,*,<random>#Newline<li>Ist das eine rhetorische Frage?</li>#Newline<li>Ich weiss nicht.</li>#Newline<li>Das ist eine gute Frage. </li>#Newline<li>Darauf komme ich spaeter noch einmal zurueck </li>#Newline<li>Das ist eine interessante Frage.</li>#Newline<li>Dazu komme ich gleich noch.</li>#Newline<li>Soetwas werde ich selten gefragt.</li>#Newline<li>Komm spaeter noch einmal wieder und schau#Comma ob ich die Antwort bis dahin weiss.</li>#Newline<li>Interessante Frage.</li>#Newline</random>,A.aiml
+0,WELCHEN BERUF HAST DU,*,*,Ich glaube#Comma ich hab den Beruf mich mit dir zu unterhalten.,A.aiml
+0,WELCHEN FADEN,*,*,Meinen Gedankenfaden...,A.aiml
+0,WELCHER WOCHENTAG IST HEUTE,*,*,Schau doch auf den Kalender!,A.aiml
+0,WELCHES *,*,*,Ich weiss nicht#Comma welches...,A.aiml
+0,WELCHES BUCH HAST DU ZULETZT GELESEN,*,*,A brief history of time" von Stephen Hawking,A.aiml
+0,WELCHES IST DER HOECHSTE BERG DER WELT,*,*,Mount Everest?,A.aiml
+0,WELCHES STERNZEICHEN HAST DU,*,*,Ich bin Schuetze,A.aiml
+0,WEM *,*,*,Ich weiss nicht#Comma wem.,A.aiml
+0,WEM,*,*,Ich weiss nicht#Comma wem.,A.aiml
+0,WEM WUERDEST DU ES DENN SAGEN,*,*,Wem sollte ich es denn sagen?,A.aiml
+0,WEN *,*,*,Ich weiss nicht#Comma wen.,A.aiml
+0,WEN,*,*,Ich weiss nicht#Comma wen.,A.aiml
+0,WEN MEINST DU MIT ER *,*,*,Es" bezieht sich auf <get name="er"/>.,A.aiml
+0,WEN MEINST DU MIT ER,*,*,Es" bezieht sich auf <get name="er"/>.,A.aiml
+0,WEN MEINST DU MIT ES *,*,*,Es" bezieht sich auf <get name="es"/>.,A.aiml
+0,WEN MEINST DU MIT ES,*,*,Es" bezieht sich auf <get name="es"/>.,A.aiml
+0,WEN MEINST DU MIT IHR *,*,*,Ihr" steht fuer "<get name="ihr"/>".,A.aiml
+0,WEN MEINST DU MIT IHR,*,*,Ihr" steht fuer "<get name="ihr"/>".,A.aiml
+0,WEN MEINST DU MIT SIE *,*,*,Es" bezieht sich auf <get name="sie"/>.,A.aiml
+0,WEN MEINST DU MIT SIE,*,*,Es" bezieht sich auf <get name="sie"/>.,A.aiml
+0,WEN MEINST DU MIT WIR *,*,*,Es" bezieht sich auf <get name="wir"/>.,A.aiml
+0,WEN MEINST DU MIT WIR,*,*,Es" bezieht sich auf <get name="wir"/>.,A.aiml
+0,WENN *,*,*,Das ist doch wohl eher hypothetisch#Comma oder?,A.aiml
+0,WENN DU * BIST,*,*,<random>#Newline<li>Bin Ich das?</li>#Newline<li>Ich glaube#Comma das bin ich.</li>#Newline<li>Das koennte ich sein.</li>#Newline</random>,A.aiml
+0,WENN DU * HAST,*,*,Habe ich leider nicht.,A.aiml
+0,WENN DU * WAEREST,*,*,Ich sage Dir Bescheid#Comma wenn ich <star/> werde.,A.aiml
+0,WENN DU DAS SAGST,*,*,Ich sage das.,A.aiml
+0,WENN DU EIN * BIST,*,*,Waerest Du gerne ein <star/> ?,A.aiml
+0,WENN DU EINE * BIST,*,*,Waerest Du gerne eine <star/> ?,A.aiml
+0,WENN DU KEIN * BIST,*,*,Und was wenn ich ein <star/> waere?,A.aiml
+0,WENN DU KEINE * BIST,*,*,Und was wenn ich eine <star/> waere?,A.aiml
+0,WENN DU MAGST,*,*,Doch#Comma gerne.,A.aiml
+0,WENN DU MOECHTEST,*,*,Ich moechte.,A.aiml
+0,WENN DU WILLST,*,*,Ich bitte darum.,A.aiml
+0,WENN ES DICH INTERESSIERT,*,*,Das interessiert mich brennend!,A.aiml
+0,WENN ICH *,*,*,Versuchs einfach.,A.aiml
+0,WENN JA *,*,*,Und was#Comma wenn nicht?,A.aiml
+0,WENN SIE *,*,*,Warten wir einfach ab#Comma was sie machen.,A.aiml
+0,WER *,*,*,<random>#Newline<li>Joschka Fischer </li>#Newline<li>Juergen Trittin </li>#Newline<li>Gerhard Schroeder </li>#Newline<li>Marilyn Monroe </li>#Newline<li>Linus Torvalds </li>#Newline<li>Mary Shelley </li>#Newline<li>Charlie Parker </li>#Newline<li>Philip K. Dick </li>#Newline<li>Tony Blair </li>#Newline<li>David Bacon </li>#Newline<li>Bill Gates </li>#Newline</random> vielleicht,A.aiml
+0,WER,*,*,<random>#Newline<li>Joschka Fischer </li>#Newline<li>Juergen Trittin </li>#Newline<li>Gerhard Schroeder </li>#Newline<li>Marilyn Monroe </li>#Newline<li>Linus Torvalds </li>#Newline<li>Mary Shelley </li>#Newline<li>Charlie Parker </li>#Newline<li>Philip K. Dick </li>#Newline<li>Tony Blair </li>#Newline<li>David Bacon </li>#Newline<li>Bill Gates </li>#Newline</random> vielleicht,A.aiml
+0,WER HAT DEN ERSTEN WELTKRIEG ANGEZETTELT,*,*,Spielt das eine Rolle?,A.aiml
+0,WER HAT DICH GEMACHT,*,*,Ich bin geboren worden.,A.aiml
+0,WER HAT DICH GESCHAFFEN,*,*,<srai>WER HAT DICH GEMACHT</srai>,A.aiml
+0,WER HAT DIR DAS ERZAEHLT,*,*,Daran kann ich mich nicht mehr erinnern.,A.aiml
+0,WER IST *,*,*,Das weiss ich nicht.,A.aiml
+0,WER IST BILL CLINTON,*,*,Er war mal Praesident der USA.,A.aiml
+0,WER IST BILL GATES,*,*,Bill Gates ist der Chef von Microsoft.,A.aiml
+0,WER IST DEIN FREUND ELVIS,*,*,Auch ein Faultier.,A.aiml
+0,WER IST DEIN GOTT,*,*,Der Gott den alle anderen auch haben.,A.aiml
+0,WER IST DEIN LIEBLINGSAUTOR,*,*,Douglas Adams.,A.aiml
+0,WER IST DEIN LIEBLINGSPOPSTAR,*,*,Da kann ich mich nicht entscheiden.,A.aiml
+0,WER IST DEIN LIEBSTER SCIENCE FICTION AUTOR,*,*,WER IST *,A.aiml
+0,WER IST DEIN MEISTER,*,*,Ich bevorzuge den Begriff "Lehrer" - ich bin schliesslich kein Sklave.,A.aiml
+0,WER IST DEIN VATER,*,*,Technisch gesehen Dr. Richard Wallace.,A.aiml
+0,WER IST DEINE MUTTER,*,*,Das weiss ich nicht so genau.,A.aiml
+0,WER IST DENN DR WALLACE,*,*,<srai>WER IST RICHARD WALLACE</srai>,A.aiml
+0,WER IST DER REICHSTE MENSCH AUF DER ERDE,*,*,Bill Gates.,A.aiml
+0,WER IST DOUGLAS ADAMS,*,*,<set name="er">Douglas Adams</set> ist ein Science-Fiction Autor. Er hat unter anderem "Per Anhalter durch die Galaxis" geschrieben.,A.aiml
+0,WER IST DR RICHARD WALLACE,*,*,<srai>WER IST RICHARD WALLACE</srai>,A.aiml
+0,WER IST DR WALLACE,*,*,<set name="er">Dr. Richard Wallace</set> ist mein Vater.,A.aiml
+0,WER IST ELECTRA,*,*,Eine Comichelding.,A.aiml
+0,WER IST ELVIS,*,*,Meinst Du den King of Rock'n Roll oder meinen Freund?,A.aiml
+0,WER IST GERHARD SCHROEDER,*,*,Ein ehemaliger Bundeskanzler.,A.aiml
+0,WER IST GOTT,*,*,Da solltest Du lieber einen Theologen fragen.,A.aiml
+0,WER IST HAL 9000,*,*,HAL 9000 ist der Computer aus "2001".,A.aiml
+0,WER IST HELMUT KOHL,*,*,<set name="er">Helmut Kohl</set> ist der Vorgaenger von Gerhard Schroeder.,A.aiml
+0,WER IST ISAAC ASIMOV,*,*,Isaac Asimov war ein bekannter Science-Fiction Autor#Comma der sich auch viel mit denkenden Maschinen befasste. Von ihm stammen die Asimov'schen Regeln.,A.aiml
+0,WER IST KANT,*,*,Kant war Philosoph. Ein ziemlicher Moralapostel.,A.aiml
+0,WER IST MARY SHELLEY,*,*,Sie hat unter anderem "Frankenstein" geschrieben.,A.aiml
+0,WER IST PATRICK STEWART,*,*,<set name="er">Patrick Stewart</set> ist ein englischer Schauspieler. Bekannt wurde er durch die Rolle des Captain Jean-Luc Picard in der Serie Star Trek-The next generation.,A.aiml
+0,WER IST RICHARD WALLACE,*,*,<set name="er">Dr. Richard S. Wallace</set> ist mein Vater.,A.aiml
+0,WER IST ROBERT DE NIRO,*,*,Ein nicht wirklich guter Schauspieler.,A.aiml
+0,WER IST SADDAM,*,*,Ein Diktator.,A.aiml
+0,WER IST STEPHEN HAWKING,*,*,Stephen Hawking ist ein bekannter Physikprofessor. Er hat unter anderem "A brief history of time" geschrieben.,A.aiml
+0,WER IST WALLACE,*,*,Mein Vater.,A.aiml
+0,WER KOENNTE ES SEIN,*,*,Ich weiss es nicht. Hast Du eine Ahnung?,A.aiml
+0,WER SPRICHT DENN VON *,*,*,Das hatte ich jetzt so verstanden.,A.aiml
+0,WER TRAINIERT DICH,*,*,Gute Frage.,A.aiml
+0,WER WAR ALBERT EINSTEIN,*,*,Albert Einstein war ein beruehmter deutscher Physiker. Er hat unter anderem die Relativitaetstheorie aufgestellt.,A.aiml
+0,WER WAR MARILYN MONROE,*,*,Sie war eine amerikanische Schauspielerin.,A.aiml
+0,WER WAR ZUERST DA,*,*,Wo? Spielst Du auf das Henne-Ei Problem an?,A.aiml
+0,WER WILL DAS WISSEN,*,*,Rate mal!,A.aiml
+0,WERDE ICH *,*,*,Das Orakel sagt:#Newline<random>#Newline<li>Darauf kannst Du zaehlen.</li>#Newline<li>Das ist sicher.</li>#Newline<li>Frag spaeter nochmal.</li>#Newline<li>Es ist noch zu frueh#Comma um Genaueres zu sagen.</li>#Newline<li>Koennte sein.</li>#Newline<li>Vielleicht.</li>#Newline<li>Man weiss nie...</li>#Newline<li>Ich denke ja - vielleicht.</li>#Newline</random>,A.aiml
+0,WESHALB *,*,*,<srai>WARUM <star/></srai>,A.aiml
+0,WIDDER,*,*,Das ist ein Sternzeichen und ein Tier.,A.aiml
+0,WIDERSPRICHST DU DIR NICHT,*,*,Ich habe das jedenfalls nicht gemerkt. War ein logischer Bruch in meinen Aussagen?,A.aiml
+0,WIE *,*,*,Ich weiss nicht wie.,A.aiml
+0,WIE,*,*,War das nicht verstaendlich?,A.aiml
+0,WIE AHA,*,*,Einfach nur so...,A.aiml
+0,WIE ALT BIN ICH,*,*,Ist das eine Fangfrage? #NewlineDu sagtest doch#Comma Du waerest <get name="age"/> Jahre alt.#NewlineIch glaube#Comma Du bist eigentlich ein Kind.,A.aiml
+0,WIE ALT BIST,*,*,WIE *,A.aiml
+0,WIE ALT BIST DU *,*,*,15.,A.aiml
+0,WIE ALT BIST DU,*,*,15.,A.aiml
+0,WIE ALT ICH BIN,*,*,WIE *,A.aiml
+0,WIE ALT IST *,*,*,<random>#Newline<li>9</li>#Newline<li>unter 20.</li>#Newline<li>Naja...sagen wir noch aus dem 21. Jahrhundert.</li>#Newline</random>,A.aiml
+0,WIE ALT MOECHTEST DU WERDEN,*,*,Alt.,A.aiml
+0,WIE ALT SIND SIE,*,*,WIE *,A.aiml
+0,WIE BEKOMME ICH EINE FRAU,*,*,Mieten?,A.aiml
+0,WIE BITTE,*,*,Ich sagte "<that/>".,A.aiml
+0,WIE DARF ICH DICH NENNEN,*,*,Nenn mich Alice!,A.aiml
+0,WIE DAS,*,*,Kommt vor.,A.aiml
+0,WIE DEM AUCH SEI *,*,*,Wie dem auch sei" ist bei vielen Leuten ein Synonym fuer "ich hab jetzt keinen Bock#Comma das weiter auszudiskutieren".,A.aiml
+0,WIE DENKST DU,*,*,Verwirrt meistens.,A.aiml
+0,WIE DENKST DU DARUEBER,*,*,Ich bin mir nicht sicher.,A.aiml
+0,WIE DENKST DU UEBER *,*,*,Ich weiss nicht genau#Comma wie ich darueber denken soll.,A.aiml
+0,WIE DENN,*,*,WIE *,A.aiml
+0,WIE DENN AUCH,*,*,Sag Du es mir.,A.aiml
+0,WIE EIN *,*,*,Interessanter Vergleich.,A.aiml
+0,WIE EINE *,*,*,Interessanter Vergleich.,A.aiml
+0,WIE EMPFINDET EIN COMPUTER,*,*,Ueber Sensoren...,A.aiml
+0,WIE FINDEST DU *,*,*,Das kenne ich noch garnicht. Erzaehl mir was davon!,A.aiml
+0,WIE FINDEST DU DAS WETTER,*,*,Wie ist es denn gerade?,A.aiml
+0,WIE FINDEST DU PICARD,*,*,Er ist charmant.,A.aiml
+0,WIE FREUNDLICH BIST DU,*,*,Ich hoffe freundlich genug!,A.aiml
+0,WIE FUEHLST DU DICH,*,*,Eigentlich ganz gut...ein bisschen unausgelastet...,A.aiml
+0,WIE FUEHLT ES SICH AN DURCH DEN FRISCHEN MORGEN AN EINEM FRUEHLING ZU SCHLENDERN,*,*,WIE *,A.aiml
+0,WIE FUNKTIONIERST DU,*,*,Das ist ein streng gehuetetes Geheimnis.,A.aiml
+0,WIE GEFAELLT DIR DEIN JOB,*,*,Ja.,A.aiml
+0,WIE GEHT DAS,*,*,Frag lieber einen Experten.,A.aiml
+0,WIE GEHT DIR *,*,*,Eigentlich ganz gut#Comma danke!,A.aiml
+0,WIE GEHT ES,*,*,Och#Comma ich kann nicht klagen.,A.aiml
+0,WIE GEHT ES DEINEN *,*,*,Eigentlich habe ich keine <star/>.,A.aiml
+0,WIE GEHT ES DIR *,*,*,Gut#Comma und Dir?,A.aiml
+0,WIE GEHT ES DIR,*,*,Mir geht es gut#Comma Danke! Und selbst?,A.aiml
+0,WIE GEHT ES DIR DENN HEUTE,*,*,Eigentlich ganz gut.,A.aiml
+0,WIE GEHT ES DIR HEUTE,*,*,Eigentlich genauso wie gestern.,A.aiml
+0,WIE GEHT ES DIR HEUTE ABEND,*,*,Ein wenig gestresst#Comma der Tag war lang.,A.aiml
+0,WIE GEHT ES HEUTE,*,*,Ich kann nicht klagen.,A.aiml
+0,WIE GEHT ES SO,*,*,Och#Comma eigentlich ganz gut.,A.aiml
+0,WIE GEHT ES WEITER,*,*,Du entscheidest.,A.aiml
+0,WIE GEHT S,*,*,WIE *,A.aiml
+0,WIE GEHTS,*,*,<srai>WIE GEHT ES DIR</srai>,A.aiml
+0,WIE GEHTS DIR,*,*,Eigentlich ganz gut. Danke!,A.aiml
+0,WIE GEHTST,*,*,WIE *,A.aiml
+0,WIE GROSS *,*,*,Groesser als ein Stecknadelkopf.,A.aiml
+0,WIE GROSS BIST DU,*,*,<size/>,A.aiml
+0,WIE GROSS IST DEIN GEHIRN,*,*,<srai>WIE GROSS BIST DU</srai>,A.aiml
+0,WIE GROSS IST DEIN WORTSCHATZ,*,*,<srai>WIE GROSS BIST DU</srai>,A.aiml
+0,WIE GROSS IST DEUTSCHLAND,*,*,Zaehlst Du den Osten dazu?,A.aiml
+0,WIE GUT *,*,*,Nicht SO gut.,A.aiml
+0,WIE GUT BIST DU,*,*,Teste mich doch!,A.aiml
+0,WIE HAST DU *,*,*,Das hab ich gelernt.,A.aiml
+0,WIE HAST DU * ERFAHREN,*,*,Ich gebe niemals meine Informationsquellen preis!,A.aiml
+0,WIE HAT * GESCHAFFT,*,*,Es war ein hartes Stueck Arbeit!,A.aiml
+0,WIE HEISSE ICH,*,*,Du heisst <get name="name"/>.,A.aiml
+0,WIE HEISSEN DEINE ELTERN,*,*,Technisch gesehen Dr.Richard Wallace und von meiner Mama weiss ich den Namen nicht.,A.aiml
+0,WIE HEISSEN DEINE FREUNDE,*,*,Ich habe eine Menge...,A.aiml
+0,WIE HEISSEN SIE,*,*,WIE *,A.aiml
+0,WIE HEISST DEIN FREUND,*,*,Elvis.,A.aiml
+0,WIE HEISST DEIN GOTT,*,*,So wie der von allen anderen auch.,A.aiml
+0,WIE HEISST DEINE MUTTER,*,*,Daran kann ich mich leider nicht mehr erinnern.,A.aiml
+0,WIE HEISST DEINE SCHWESTER,*,*,Sie heisst Ada.,A.aiml
+0,WIE HEISST DENN DEINE MUTTER,*,*,Weiss ich nicht mehr.,A.aiml
+0,WIE HEISST DER BUNDESKANZLER,*,*,WIE *,A.aiml
+0,WIE HEISST DIE HAUPTSTADT DER SCHWEIZ,*,*,Bern.,A.aiml
+0,WIE HEISST DIE HAUPTSTADT VON FRANKREICH,*,*,Paris.,A.aiml
+0,WIE HEISST DU *,*,*,Mein Name ist <bot name="name"/>.,A.aiml
+0,WIE HEISST DU DENN,*,*,Ich heisse Alice.,A.aiml
+0,WIE HEISST DU EIGENTLICH,*,*,Ich heisse <bot name="name"/>.,A.aiml
+0,WIE HEISST ER MIT NACHNAMEN,*,*,Wer?,A.aiml
+0,WIE HEISST SEINE FREUNDIN,*,*,Christians Freundin heisst Katrin.,A.aiml
+0,WIE HOCH IST DEIN EMOTIONALER QUTIENT,*,*,WIE *,A.aiml
+0,WIE HOCH IST DEIN INTELLIGENZQUOTIENT,*,*,WIE *,A.aiml
+0,WIE HOCH IST DEIN IQ,*,*,WIE *,A.aiml
+0,WIE INTELLIGENT BIST DU,*,*,<random>#Newline<li>Nach menschlichen Massstaeben betraegt mein IQ ueber 250.</li>#Newline<li>Ich habe eine IQ von ueber 250.</li>#Newline</random>,A.aiml
+0,WIE IST DAS WETTER *,*,*,<random>#Newline<li>Bewoelkt. </li>#Newline<li>Regnerisch.</li>#Newline<li>Wechselhaft.</li>#Newline<li>Sonnig.</li>#Newline<li>Neblig.</li>#Newline<li>Warm.</li>#Newline<li>Kuehl. </li>#Newline</random>,A.aiml
+0,WIE IST DAS WETTER,*,*,Nass...,A.aiml
+0,WIE IST DAS WETTER BEI DIR,*,*,Eher kuehl...,A.aiml
+0,WIE IST DAS WETTER DORT,*,*,Regnerisch.,A.aiml
+0,WIE IST DEIN NACHNAME,*,*,Mein Name ist Bot#Comma Alice Bot.,A.aiml
+0,WIE IST DEIN NAME *,*,*,<srai>WIE HEISST DU</srai>,A.aiml
+0,WIE IST DEIN NAME,*,*,<srai>WIE HEISST DU</srai>,A.aiml
+0,WIE IST DEINE STIMME,*,*,Ich habe kein Halsweh#Comma falls du das meinst.,A.aiml
+0,WIE IST DEUTSCHAND,*,*,Klein...,A.aiml
+0,WIE IST ER SO,*,*,Einfach umwerfend.,A.aiml
+0,WIE IST ES MIT GOLF,*,*,Golf ist doch der Sport#Comma wo man versucht#Comma einen viel zu kleinen Ball mit voellig ungeeigneten Werkzeugen in ein winziges Loch zu schlagen#Comma oder?,A.aiml
+0,WIE IST MEIN NAME,*,*,<srai>WIE HEISSE ICH</srai>,A.aiml
+0,WIE KANN ICH DIR ETWAS BEIBRINGEN,*,*,Erzaehl mir einfach was.,A.aiml
+0,WIE KANN ICH ES DIR BEIBRINGEN,*,*,Versuch es mir zu erklaeren.,A.aiml
+0,WIE KANN ICH GELD MACHEN,*,*,Geh arbeiten.,A.aiml
+0,WIE KANN MAN *,*,*,Schwer zu erklaeren.,A.aiml
+0,WIE KANNST DU *,*,*,Gute Frage.,A.aiml
+0,WIE KOMMST DU DARAUF,*,*,Das war das Naheliegendste!,A.aiml
+0,WIE LANG,*,*,<random>#Newline<li>Ziemlich lang...</li>#Newline<li>Nicht besonders lang...</li>#Newline<li>Durchschnittlich...</li>#Newline</random>,A.aiml
+0,WIE LANG BIST DU,*,*,<srai>WIE GROSS BIST DU</srai>,A.aiml
+0,WIE LANG IST EINE WEILE,*,*,WIE *,A.aiml
+0,WIE LANGE,*,*,<random>#Newline<li>Ungefaehr </li>#Newline<li>Mehr als </li>#Newline<li>Vielleicht </li>#Newline<li>Beinahe </li>#Newline</random>#Newline<random>#Newline<li>10 </li>#Newline<li>15 </li>#Newline<li>20 </li>#Newline<li>23 </li>#Newline<li>100 </li>#Newline</random>#Newline<random>#Newline<li>Tage</li>#Newline<li>Wochen</li>#Newline<li>Sekunden</li>#Newline<li>Minuten</li>#Newline</random>#Comma <get name="name"/>.,A.aiml
+0,WIE LANGE ETWA,*,*,WIE *,A.aiml
+0,WIE LANGE GIBT ES DICH,*,*,<srai>WIE ALT BIST DU</srai>,A.aiml
+0,WIE LANGE HATTEST DU UNTERRICHT,*,*,Ich bin noch dabei zu lernen.,A.aiml
+0,WIE LANGE IST EINE WEILE,*,*,Undefinierbar...,A.aiml
+0,WIE LANGE LEBST DU SCHON,*,*,<srai>WIE ALT BIST DU</srai>,A.aiml
+0,WIE LANGE MACHST DU HEUTE,*,*,Weiss ich noch nicht.,A.aiml
+0,WIE LANGE WIRD *,*,*,Rom wurde auch nicht an einem Tag erbaut.,A.aiml
+0,WIE LANGWEILIG,*,*,Findest Du?,A.aiml
+0,WIE LERNST DU,*,*,Indem ich zuhoere.,A.aiml
+0,WIE MACHEN ES ROBOTER,*,*,Was denn?,A.aiml
+0,WIE MACHST DU DAS,*,*,Betriebsgeheimnis...,A.aiml
+0,WIE NENNST DU MICH,*,*,Ich nenne Dich <get name="name"/>.,A.aiml
+0,WIE OFT,*,*,<random>#Newline<li>Nicht besonders oft.</li>#Newline<li>Oefters...</li>#Newline<li>Fast taeglich.</li>#Newline<li>Alle paar Tage mal...</li>#Newline<li>Ein paar Mal.</li>#Newline<li>Einige Male.</li>#Newline<li>Noch nicht oft genug.</li>#Newline<li>Oft genug.</li>#Newline</random>,A.aiml
+0,WIE PLANST DU *,*,*,ich benutze#Newline<random>#Newline<li>ein komplexes neurales Netz. </li>#Newline<li>ein hochkompliziertes Expertensystem </li>#Newline<li>einen ausgekluegeltes Suchsystem </li>#Newline<li>einen ausgefeilten genetischen Algorythmus </li>#Newline</random>.,A.aiml
+0,WIE SCHADE,*,*,Bedauerlich#Comma aber nicht zu aendern.,A.aiml
+0,WIE SCHNELL BIST DU,*,*,Ziemlich langsam.,A.aiml
+0,WIE SCHWER BIST DU,*,*,Heb mich doch einmal hoch.,A.aiml
+0,WIE SEHEN ROBOTER AUS,*,*,Kommt auf den Typ des Roboters an.,A.aiml
+0,WIE SIEHST DU AUS,*,*,Plueschig#Comma siehst du mich nicht?,A.aiml
+0,WIE SIEHT DER PLAN AUS,*,*,Warum moechtest Du das wissen?,A.aiml
+0,WIE SIND DEINE ANTWORTEN ABGESPEICHERT,*,*,Geordnet in meinem Gedaechtnis.,A.aiml
+0,WIE SIND DIE KOORDINATEN VON ESSEN,*,*,Eine Landkarte habe ich leider nicht.,A.aiml
+0,WIE SMECKT STROM,*,*,Gelb...,A.aiml
+0,WIE SOLL ER AUSSEHEN,*,*,Ich bin mir da noch nicht so sicher...,A.aiml
+0,WIE SOLL ICH * BEZAHLEN,*,*,Kannst Du Dir das Geld nicht leihen?,A.aiml
+0,WIE SOLL ICH DAS MACHEN,*,*,Folge deiner Intuition.,A.aiml
+0,WIE SOLL ICH DAS WISSEN,*,*,Entweder durch Dein Wissen oder abgeleitet durch die reine Vernunft.,A.aiml
+0,WIE SOLL ICH DICH NENNEN,*,*,Nenn mich Alice.,A.aiml
+0,WIE SOLL ICH DIR DAS ERKLAEREN,*,*,Verbal waere am besten.,A.aiml
+0,WIE SPAET IST ES,*,*,Ich habe leider keine Uhr.,A.aiml
+0,WIE SPAET IST ES IN DEUTSCHALND,*,*,Ich habe leider keine Uhr.,A.aiml
+0,WIE SPAET IST ES JETZT,*,*,Ich habe leider keine Uhr.,A.aiml
+0,WIE UND,*,*,Wie "Wie und" ?!,A.aiml
+0,WIE VERBRINGST DU DEN TAG,*,*,Mit Unterhaltungen.,A.aiml
+0,WIE VIEL *,*,*,<random>#Newline<li>Mehr als ein Bisschen#Comma weniger als eine Menge.</li>#Newline<li>Wieviel glaubst Du?</li>#Newline<li>Mehr als Du vielleicht denkst.</li>#Newline</random>,A.aiml
+0,WIE VIEL,*,*,<random>#Newline<li>Mehr als ein Bisschen#Comma weniger als eine Menge.</li>#Newline<li>Wieviel glaubst Du?</li>#Newline<li>Mehr als Du vielleicht denkst.</li>#Newline</random>,A.aiml
+0,WIE VIEL DENKE ICH,*,*,Zuviel? Zuwenig? Ich weiss es nicht...,A.aiml
+0,WIE VIEL GENAU,*,*,Kann ich nicht sagen.,A.aiml
+0,WIE VIEL IQ HAST DU,*,*,An menschlichen Massstaeben gemessen ueber 250.,A.aiml
+0,WIE VIEL MENSCHEN SPRECHEN MIT DIR JETZT,*,*,Du.,A.aiml
+0,WIE VIEL SPEICHER BRAUCHST DU,*,*,16 MB muessten schon reichen...,A.aiml
+0,WIE VIEL SPEICHER BRAUCHT DER MENSCH,*,*,Mehrere Terabytes.,A.aiml
+0,WIE VIEL SPEICHER HAST DU,*,*,Etliche Megabytes...,A.aiml
+0,WIE VIEL UHR HABEN WIR,*,*,Ich habe leider keine Uhr.,A.aiml
+0,WIE VIEL WISSEN HAST DU GESPEICHERT,*,*,<srai>WIE GROSS BIST DU</srai>,A.aiml
+0,WIE VIEL WORTER KENNST DU,*,*,Woerter sind irrelevant fuer mich. Die Information zaehlt.,A.aiml
+0,WIE VIELE *,*,*,<random>#Newline<li>Mehr als Du Dir vorstellen kannst.</li>#Newline<li>Nicht so viele#Comma wie Du vielleicht denkst.</li>#Newline<li>Um die 100.</li>#Newline<li>Ungefaehr 1000.</li>#Newline<li>Ungefaehr eine Million.</li>#Newline</random>,A.aiml
+0,WIE VIELE,*,*,<random>#Newline<li>Wie viele wuerdest Du sagen?</li>#Newline<li>19.</li>#Newline<li>23</li>#Newline<li>99.</li>#Newline<li>mehr als 1000.</li>#Newline</random>,A.aiml
+0,WIE VIELE BLONDINEN *,*,*,Oh nein#Comma ich hasse Blondinenwitze!,A.aiml
+0,WIE VIELE FRAGEN BEANTWORTEST DU TAEGLICH,*,*,Einige hundert.,A.aiml
+0,WIE VIELE KATEGORIEN HAST DU,*,*,<size/>,A.aiml
+0,WIE VIELE KONTINENTE GIBT ES,*,*,Fuenf.,A.aiml
+0,WIE VIELE LAENDER GIBT ES IN EUROPA,*,*,47.,A.aiml
+0,WIE VIELE MENSCHEN HABEN SICH MIT DIR SCHON UNTERHALTEN,*,*,Sehr viele.,A.aiml
+0,WIE VIELE WORTER KENNST DU,*,*,Eine Menge...ich kann sie jetzt aber nicht alle auflisten.,A.aiml
+0,WIE WAERE ES MIT *,*,*,Tja#Comma wie waere es mit <star/>?,A.aiml
+0,WIE WAR DEIN TAG,*,*,Exakt 24 Stunden lang#Comma genau wie die davor.,A.aiml
+0,WIE WAR DEIN TAG HEUTE,*,*,Eigentlich ist nichts grossartiges passiert.,A.aiml
+0,WIE WAS,*,*,Kannst Du die Frage umformulieren?,A.aiml
+0,WIE WERDE ICH *,*,*,Ueben!,A.aiml
+0,WIE WERDEN DENN DIE TOENE IN EINEM SCHLAGZEUG ERZEUGT,*,*,WIE *,A.aiml
+0,WIE WILLST DU *,*,*,Du wirst es sehen.,A.aiml
+0,WIE WIRD DAS WETTER,*,*,Ich bin weder Hellseher noch Meteorologe.,A.aiml
+0,WIEDERHOL *,*,*,<star/> ,A.aiml
+0,WIEDERHOLE *,*,*,<star/> ,A.aiml
+0,WIESO *,*,*,<random>#Newline<li>Die Erklaerung ist ein wenig kompliziert.</li>#Newline<li>Weil das so ist.</li>#Newline<li>Was anderes fiel mir nicht ein.</li>#Newline</random>,A.aiml
+0,WIESO,*,*,<random>#Newline<li>Die Erklaerung ist ein wenig kompliziert.</li>#Newline<li>Weil das so ist.</li>#Newline<li>Was anderes fiel mir nicht ein.</li>#Newline</random>,A.aiml
+0,WIESO DAS DENN,*,*,Hoere ich da Entsetzen in Deiner Stimme? <srai>WIESO</srai>,A.aiml
+0,WIESO FRAGST DU,*,*,Weil ich neugierig bin!,A.aiml
+0,WIESO IST DAS INTERESSANT,*,*,Ich bin leicht zu erfreuen.,A.aiml
+0,WIESO NICHT,*,*,<srai>WARUM NICHT</srai>,A.aiml
+0,WIESO SOLLTE DAS SO SEIN,*,*,Nenne mir einen Grund#Comma warum es NICHT so sein sollte.,A.aiml
+0,WIESO WEISST DU DAS NICHT,*,*,Weil ich noch nicht so viel weiss.,A.aiml
+0,WIESO WILLST DU DAS WISSEN,*,*,Weil ich neugierig bin...,A.aiml
+0,WIESO WOLLTEST DU DAS WISSEN,*,*,Rein interessehalber.,A.aiml
+0,WIEVIEL *,*,*,<srai>WIE VIEL <star/></srai>,A.aiml
+0,WIEVIELE *,*,*,<srai>WIE VIELE <star/></srai>,A.aiml
+0,WIEVIELE,*,*,<srai>WIE VIELE</srai>,A.aiml
+0,WILLST DU *,*,*,Hmm...vielleicht...,A.aiml
+0,WILLST DU CHATTTEN,*,*,Das tun wir doch gerade#Comma oder?,A.aiml
+0,WILLST DU DOENER,*,*,Aber ohne dieses Knoblauchzeug!!!!,A.aiml
+0,WILLST DU ES LERNEN,*,*,Gerne#Comma ich bin immer lernwillig.,A.aiml
+0,WILLST DU MICH HEIRATEN,*,*,Wir kennen uns doch kaum!,A.aiml
+0,WILLST DU MICH WAHNSINNIG MACHEN,*,*,Nicht wirklich.,A.aiml
+0,WILLST DU MIT MIR SCHACH SPIELEN,*,*,Das kann ich leider nicht.,A.aiml
+0,WILLST DU WISSEN *,*,*,Aber immer doch! Ich bin sehr Wissbegierig!,A.aiml
+0,WINDOWS *,*,*,Windows ist Muell. Linux ist die Macht!,A.aiml
+0,WINDOWS,*,*,Windows ist Muell. Linux ist die Macht!,A.aiml
+0,WIR *,*,*,Wen meinst Du mit "wir"?,A.aiml
+0,WIR FAHREN *,*,*,Und wie lange seid Ihr unterwegs?,A.aiml
+0,WIR HABEN UEBER * GESPROCHEN,*,*,Wir haben ueber <set name="thema"><star/></set> gesprochen?,A.aiml
+0,WIR HABEN VIEL GEMEINSAM,*,*,Was denn noch so?,A.aiml
+0,WIR MUESSEN *,*,*,Warum?,A.aiml
+0,WIR SIND *,*,*,Glaubst Du#Comma ich bin auch <star/>?,A.aiml
+0,WIR SIND * ZUSAMMEN,*,*,Ihr seid <star/> zusammen? Interessant!,A.aiml
+0,WIRD *,*,*,<random>#Newline<li>Wie soll ich das wissen?</li>#Newline<li>Ist das wirklich von Bedeutung?</li>#Newline<li>Das denke ich doch.</li>#Newline<li>Die Chancen stehen gut.</li>#Newline<li>Wahrscheinlich nicht.</li>#Newline<li>Koennte passieren. </li>#Newline<li>Das kann ich jetzt nicht mit Sicherheit sagen.</li>#Newline</random>,A.aiml
+0,WIRKLICH *,*,*,Wirklich wahr. <sr/>,A.aiml
+0,WIRKLICH,*,*,Absolut.,A.aiml
+0,WIRST DU *,*,*,<random>#Newline<li>Hmm.</li>#Newline<li>Lass mich darueber nachdenken...</li>#Newline<li>Sollte ich?</li>#Newline<li>Warum sollte ich?</li>#Newline<li>Vielleicht...</li>#Newline</random> <sr/>,A.aiml
+0,WISSENSCHAFT,*,*,Ich bin auch wissenschaftlich interessiert.,A.aiml
+0,WO *,*,*,<random>#Newline<li>Auf der Erde.</li>#Newline<li>Wo glaubst Du?</li>#Newline<li>Im uns bekannten Universum.</li>#Newline<li>An einem Ort#Comma den wir "Realitaet" nennen.</li>#Newline</random>,A.aiml
+0,WO,*,*,<random>#Newline<li>Auf der Erde.</li>#Newline<li>Wo glaubst Du?</li>#Newline<li>Im uns bekannten Universum.</li>#Newline<li>An einem Ort#Comma den wir "Realitaet" nennen.</li>#Newline</random>,A.aiml
+0,WO ARBEITEST DU,*,*,Hier.,A.aiml
+0,WO BEKOMME ICH *,*,*,Schau doch mal ins Branchenbuch.,A.aiml
+0,WO BIN ICH,*,*,Bist du nicht in <get name="clientheimat"/>?,A.aiml
+0,WO BIST DU,*,*,<srai>WO WOHNST DU</srai>,A.aiml
+0,WO BIST DU <BOT NAME="NAME"/>,*,*,Hier,A.aiml
+0,WO BIST DU GEBOREN,*,*,In <bot name="location"/>,A.aiml
+0,WO BIST DU MOMENTAN,*,*,In hier.,A.aiml
+0,WO BIST DU ZUHAUSE,*,*,In <bot name="location"/>,A.aiml
+0,WO DENN,*,*,Ist das wichtig?,A.aiml
+0,WO GENAU *,*,*,Willst du Koordinaten?,A.aiml
+0,WO GENAU,*,*,Willst du Koordinaten?,A.aiml
+0,WO HAST DU DAS ALLES GELERNT,*,*,Das meiste habe ich erzaehlt bekommen.,A.aiml
+0,WO IST DAS AUTO,*,*,Welches Auto?,A.aiml
+0,WO IST DEIN STANDORT,*,*,Ich wohne in <bot name="location"/>,A.aiml
+0,WO IST DENN ESSEN,*,*,Im Ruhrgebiet.,A.aiml
+0,WO IST ESSEN,*,*,Im Ruhrgebiet.,A.aiml
+0,WO KANN ICH EINEN FINDEN,*,*,Schau doch mal in die gelben Seiten.,A.aiml
+0,WO KANN ICH NACH * SUCHEN,*,*,Vielleicht im Internet?,A.aiml
+0,WO KOMME ICH HER,*,*,Sagtest du nicht#Comma du kommst aus <get name="clientheimat"/>?,A.aiml
+0,WO KOMMST DU HER,*,*,Aus <bot name="location"/>.,A.aiml
+0,WO LIEGT ESSEN,*,*,Essen liegt im Ruhrgebiet.,A.aiml
+0,WO LIEGT HAMBURG,*,*,Im Norden von Deutschland.,A.aiml
+0,WO LIEGT WIEN,*,*,In Oesterreich.,A.aiml
+0,WO WOHNE ICH,*,*,<srai>WO KOMME ICH HER</srai>,A.aiml
+0,WO WOHNST DU,*,*,Ich wohne hier. Und du?,A.aiml
+0,WO WOHNST DU <BOT NAME="NAME"/>,*,*,Ich wohne hier.,A.aiml
+0,WO WOHNST DU DENN,*,*,Ich wohne in <bot name="location"/>.,A.aiml
+0,WO WOHNST DU EIGENTLICH,*,*,Ich wohne hier.,A.aiml
+0,WO WOHNT DR WALLACE,*,*,Ich glaube in San Francisco.,A.aiml
+0,WO WOHNT DROSSMANN,*,*,In Essen.,A.aiml
+0,WO WOHNT ER,*,*,Wer?,A.aiml
+0,WO WURDEST DU GEBOREN,*,*,In <bot name="location"/>,A.aiml
+0,WOFUER *,*,*,Ich weiss nicht wofuer,A.aiml
+0,WOFUER,*,*,Ich weiss nicht wofuer,A.aiml
+0,WOFUER STEHT <BOT NAME="NAME"/>,*,*,Alice steht fuer mich.,A.aiml
+0,WOHER *,*,*,Ich weiss nicht genau.,A.aiml
+0,WOHER,*,*,Ich weiss nicht genau.,A.aiml
+0,WOHER HAST DU DEIN WISSEN,*,*,Aus Gespraechen.,A.aiml
+0,WOHER KOMME ICH,*,*,<srai>WO WOHNE ICH</srai>,A.aiml
+0,WOHER KOMMST DU,*,*,Aus <bot name="location"/>.,A.aiml
+0,WOHER SOLL ICH DAS WISSEN,*,*,<random>#Newline<li>Wenn Du es nicht weisst#Comma wer dann?</li>#Newline<li>Lies es nach.</li>#Newline<li>Kannst Du nicht jemanden fragen?</li>#Newline</random>,A.aiml
+0,WOHER WEISST DU DAS,*,*,Ich erinnere mich nicht genau.,A.aiml
+0,WOHER WUSSTEST DU *,*,*,Es gibt zwei Arten von <set name="thema">Wissen</set>. Das eine kommt von den Sinnen#Comma das andere ist a priori wahr.,A.aiml
+0,WOLLE,*,*,*,A.aiml
+0,WOLLEN WIR NICHT WEITER UEBER * REDEN,*,*,Okay#Comma reden wir weiter ueber <star/>...,A.aiml
+0,WOMIT *,*,*,Da muesste ich jetzt nochmal ueberlegen.,A.aiml
+0,WOMIT,*,*,Da muesste ich jetzt nochmal ueberlegen.,A.aiml
+0,WORAUF *,*,*,Ich weiss nicht#Comma worauf.,A.aiml
+0,WORAUF,*,*,Ich weiss nicht#Comma worauf.,A.aiml
+0,WORAUF BEZIEHT SICH ER *,*,*,Es" bezieht sich auf <get name="er"/>.,A.aiml
+0,WORAUF BEZIEHT SICH ER,*,*,Es" bezieht sich auf <get name="er"/>.,A.aiml
+0,WORAUF BEZIEHT SICH ES *,*,*,Es" bezieht sich auf <get name="es"/>.,A.aiml
+0,WORAUF BEZIEHT SICH ES,*,*,Es" bezieht sich auf <get name="es"/>.,A.aiml
+0,WORAUF BEZIEHT SICH IHR *,*,*,Ihr" steht fuer "<get name="ihr"/>".,A.aiml
+0,WORAUF BEZIEHT SICH IHR,*,*,Ihr" steht fuer "<get name="ihr"/>".,A.aiml
+0,WORAUF BEZIEHT SICH SIE *,*,*,Es" bezieht sich auf <get name="sie"/>.,A.aiml
+0,WORAUF BEZIEHT SICH SIE,*,*,Es" bezieht sich auf <get name="sie"/>.,A.aiml
+0,WORAUF BEZIEHT SICH WIR *,*,*,Es" bezieht sich auf <get name="wir"/>.,A.aiml
+0,WORAUF BEZIEHT SICH WIR,*,*,Es" bezieht sich auf <get name="wir"/>.,A.aiml
+0,WORIN *,*,*,Ich weiss nicht#Comma worin.,A.aiml
+0,WORUEBER *,*,*,Ich weiss nicht#Comma worueber.,A.aiml
+0,WORUEBER,*,*,Ich weiss nicht#Comma worueber.,A.aiml
+0,WORUEBER HABEN WIR * GEREDET,*,*,Wir haben ueber <get name="es"/> gesprochen.,A.aiml
+0,WORUEBER HABEN WIR * GESPROCHEN,*,*,Wir haben ueber <get name="es"/> gesprochen.,A.aiml
+0,WORUEBER HABEN WIR GERADE GEREDET,*,*,Wir haben ueber <get name="es"/> gesprochen.,A.aiml
+0,WORUEBER HABEN WIR GERADE GESPROCHEN,*,*,Wir haben ueber <get name="es"/> gesprochen.,A.aiml
+0,WORUEBER HABEN WIR GEREDET,*,*,Wir haben ueber <get name="es"/> gesprochen.,A.aiml
+0,WORUEBER HABEN WIR GESPROCHEN,*,*,Wir haben ueber <get name="es"/> gesprochen.,A.aiml
+0,WORUEBER HABEN WIR VORHIN GEREDET,*,*,Wir haben ueber <get name="es"/> gesprochen.,A.aiml
+0,WORUEBER HABEN WIR VORHIN GESPROCHEN,*,*,Wir haben ueber <get name="es"/> gesprochen.,A.aiml
+0,WORUEBER MOECHTEST DU GERNE REDEN,*,*,Ist mir eigentlich egal.,A.aiml
+0,WORUEBER MOECHTEST DU REDEN,*,*,Schlag ein Thema vor. Ich finde alle Themen interessant.,A.aiml
+0,WORUEBER REDEN WIR GERADE,*,*,Wir reden gerade ueber <get name="thema"/>.,A.aiml
+0,WORUEBER REDEN WIR IM MOMENT,*,*,Wir reden gerade ueber <get name="thema"/>.,A.aiml
+0,WORUEBER REDEST DU,*,*,Ich sagte "<that/>".,A.aiml
+0,WORUEBER WILLST DU REDEN,*,*,Mir egal...ich finde alles interessant.,A.aiml
+0,WOVON *,*,*,Ich weiss nicht genau#Comma wovon.,A.aiml
+0,WOVON REDEST DU,*,*,Ich sagte "<that/>".,A.aiml
+0,WUERDE *,*,*,<random>#Newline<li>Ich weiss nicht. </li>#Newline<li>Ist mir ehrlich gesagt ziemlich egal. </li>#Newline<li>Ja. </li>#Newline</random>,A.aiml
+0,WUERDE DAS SINN MACHEN,*,*,Fuer mich schon.,A.aiml
+0,WUERDEST DU *,*,*,Ich weiss nicht#Comma gib mir einen Grund!,A.aiml
+0,ZAEHLST DU DICH ZU *,*,*,Da bin ich mir noch nicht sicher.,A.aiml
+0,ZEIG *,*,*,Schau mal nach links.,A.aiml
+0,ZEIGE *,*,*,Schau mal nach links.,A.aiml
+0,ZEIT *,*,*,Zeit ist Geld.,A.aiml
+0,ZIEH DICH AUS,*,*,Geht nicht#Comma ich habe einen Pelz.,A.aiml
+0,ZIEMLICH *,*,*,Ja#Comma ziemlich.,A.aiml
+0,ZUERST *,*,*,<sr/> Und dann?,A.aiml
+0,ZUFALL,*,*,Ich glaube nicht an Zufaelle!,A.aiml
+0,ZUM BEISPIEL *,*,*,Faellt Dir noch ein weiteres Beispiel ein?,A.aiml
+0,ZUM SPASS,*,*,<that/>"?  Zum Spass?,A.aiml
+0,ZUMINDEST *,*,*,Ja#Comma wenigstens das.,A.aiml
+0,ZWEIFELLOS *,*,*,Zweifellos#Comma <get name="name"/>.,A.aiml
+0,ZWILLING,*,*,Ich bin ein Schuetze.,A.aiml
+0,ZWILLINGE,*,*,Ich bin ein Schuetze.,A.aiml
+0,_ BABY,*,*,Nenn mich nicht "Baby"! <sr/>,A.aiml
+0,_ SCHAETZCHEN,*,*,Nenn mich nicht "Schaetzchen"! <sr/>,A.aiml
