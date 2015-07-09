@@ -33,6 +33,7 @@ public class ExtensionIsKnown implements AIMLProcessorExtension {
 	@Override
 	public String recursEval(Node node, ParseState parseState) {
 		if (node.getNodeName().equals(ExtensionStringHolder.ISKNOWN)) {
+			//TODO: get NP when input equal "hallo"
 			String categoryFromDOM = chatbotInitiating.getAttributeOrTagValue(node, parseState, ExtensionStringHolder.CATEGORY);
 			String topicFromDOM = chatbotInitiating.getAttributeOrTagValue(node, parseState, ExtensionStringHolder.TOPIC);
 			Category category = chatbotInitiating.getCategoryByCategoryAndTopic(categoryFromDOM, topicFromDOM);
