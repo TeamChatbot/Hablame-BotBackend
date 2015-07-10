@@ -80,10 +80,12 @@ public class ChatbotService {
 	
 	/**
 	 * Method to start the initialization.
-	 * This method just calls {@link #loadExtensions(List)}.
+	 * This method calls the {@link #loadExtensions(List)} to instantiate the {@link #bot}
+	 * and afterwards to instantiate the {@link #chatSession} for a {@link Chat#multisentenceRespond(String)}.
 	 */
 	public String init(String input) {
 		Bot bot = loadExtensions(default_aiml_extensions);
+		//TODO: add action relevant e.g.: bot.writeAIMLIFFiles();
 		chatSession = new Chat(bot);
 		return chatSession.multisentenceRespond(input);
 	}
