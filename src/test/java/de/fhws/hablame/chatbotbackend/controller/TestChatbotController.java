@@ -29,7 +29,7 @@ public class TestChatbotController extends BaseController {
 	
 	@Test
 	public void testController() {
-		MockHttpServletRequestBuilder requestBuilder = MockMvcRequestBuilders.post(ChatbotController.MAPPING)
+		MockHttpServletRequestBuilder requestBuilder = MockMvcRequestBuilders.post(ChatbotController.CONVERSATION)
 				.accept(MediaType.TEXT_PLAIN)
 				.content("hallo alice")
 				.contentType(MediaType.TEXT_PLAIN)

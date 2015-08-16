@@ -10,6 +10,7 @@ import org.w3c.dom.Node;
 
 import de.fhws.hablame.chatbotbackend.model.Category;
 import de.fhws.hablame.chatbotbackend.service.chatbot.ChatbotService;
+import de.fhws.hablame.chatbotbackend.utility.ApplicationContextProvider;
 import de.fhws.hablame.chatbotbackend.utility.ExtensionStringHolder;
 
 /**
@@ -21,7 +22,7 @@ import de.fhws.hablame.chatbotbackend.utility.ExtensionStringHolder;
 public class ExtensionIsKnown implements AIMLProcessorExtension {
 	
 	@Autowired
-	private ChatbotService chatbotInitiating;
+	private ChatbotService chatbotService;
 	
 	private Set<String> tagSet = Utilities.stringSet(ExtensionStringHolder.ISKNOWN);
 
@@ -33,10 +34,14 @@ public class ExtensionIsKnown implements AIMLProcessorExtension {
 	@Override
 	public String recursEval(Node node, ParseState parseState) {
 		if (node.getNodeName().equals(ExtensionStringHolder.ISKNOWN)) {
-			//TODO: get NP when input equal "hallo"
-			String categoryFromDOM = chatbotInitiating.getAttributeOrTagValue(node, parseState, ExtensionStringHolder.CATEGORY);
-			String topicFromDOM = chatbotInitiating.getAttributeOrTagValue(node, parseState, ExtensionStringHolder.TOPIC);
-			Category category = chatbotInitiating.getCategoryByCategoryAndTopic(categoryFromDOM, topicFromDOM);
+			if (chatbotService == null) {
+				//in the context of the bot (e.g. the extensions), 
+				// we need to manually get the bean to help spring find its context
+				chatbotService = ApplicationContextProvider.getApplicationContext().getBean("chatbotService", ChatbotService.class);
+			}
+			String categoryFromDOM = chatbotService.getAttributeOrTagValue(node, parseState, ExtensionStringHolder.CATEGORY);
+			String topicFromDOM = chatbotService.getAttributeOrTagValue(node, parseState, ExtensionStringHolder.TOPIC);
+			Category category = chatbotService.getCategoryByCategoryAndTopic(categoryFromDOM, topicFromDOM);
 			if (category != null) {
 				parseState.chatSession.predicates.put(ExtensionStringHolder.PREDICATE, category.getName());
 			} else {

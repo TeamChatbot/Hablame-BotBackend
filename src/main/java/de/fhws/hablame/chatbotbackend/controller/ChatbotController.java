@@ -17,14 +17,21 @@ import de.fhws.hablame.chatbotbackend.service.chatbot.ChatbotService;
 @RestController
 public class ChatbotController {
 	
-	public static final String MAPPING = "/conversation";
+	public static final String CONVERSATION = "/conversation";
+	public static final String STOPCONVERSATION = "/stopconversation";
 	
 	@Autowired
 	private ChatbotService chatbotService;
 	
-	@RequestMapping(value=MAPPING, method=RequestMethod.POST)
+	@RequestMapping(value=CONVERSATION, method=RequestMethod.POST)
 	@ResponseBody
-	public String startConversationByRequestBody(@RequestBody String message) {
-		return chatbotService.init(message);
+	public String conversation(@RequestBody String message) {
+		return chatbotService.conversation(message).trim();
+	}
+	
+	@RequestMapping(value=STOPCONVERSATION, method=RequestMethod.GET)
+	@ResponseBody
+	public String stopConversation() {
+		return chatbotService.stopConversation() == true ? "chatbot stopped" : "chatbot could not be stopped";
 	}
 }

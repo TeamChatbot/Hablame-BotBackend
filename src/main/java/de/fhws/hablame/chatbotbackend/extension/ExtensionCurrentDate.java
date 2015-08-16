@@ -10,6 +10,7 @@ import org.alicebot.ab.ParseState;
 import org.alicebot.ab.Utilities;
 import org.w3c.dom.Node;
 
+//TODO: this class is unnecessary, because the chatbot is able to this stuff by its own with "<date/>"
 public class ExtensionCurrentDate implements AIMLProcessorExtension {
 	
 	private static final String CURRENTDATE = "currentDate";
@@ -25,7 +26,7 @@ public class ExtensionCurrentDate implements AIMLProcessorExtension {
 	@Override
 	public String recursEval(Node node, ParseState parseState) {
 		if (node.getNodeName().equals(CURRENTDATE)) {
-			return new SimpleDateFormat( "dd.mm.yyyy hh:mm:ss" ).format(new Date());
+			return new SimpleDateFormat("dd.mm.yyyy hh:mm:ss").format(new Date());
 		} else if (node.getNodeName().equals(EXPRESSION)) {
 			return null;
 		} else {

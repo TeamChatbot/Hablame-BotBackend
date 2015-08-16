@@ -1,6 +1,5 @@
 package de.fhws.hablame.chatbotbackend.service.chatbot;
 
-import java.net.URL;
 import java.util.Arrays;
 import java.util.List;
 
@@ -69,7 +68,9 @@ public class ChatbotService {
 	@Value("${chatbot.name}")
 	private String botName;
 	/**
-	 * Root path of Program AB
+	 * Root path of Program AB.<br>
+	 * We add the value of the chatbot.properties file respective his value "chatbot.path"
+	 * to {@link #botPath} with the help of {@link Value} 
 	 */
 	@Value("${chatbot.path}")
 	private String botPath;
@@ -79,15 +80,39 @@ public class ChatbotService {
 	private Chat chatSession;
 	
 	/**
-	 * Method to start the initialization.
-	 * This method calls the {@link #loadExtensions(List)} to instantiate the {@link #bot}
+	 * Method to handle the conversation with the chatbot.
+	 * If necessary, this method calls the {@link #loadExtensions(List)} to instantiate the {@link #bot}
 	 * and afterwards to instantiate the {@link #chatSession} for a {@link Chat#multisentenceRespond(String)}.
 	 */
-	public String init(String input) {
-		Bot bot = loadExtensions(default_aiml_extensions);
-		//TODO: add action relevant e.g.: bot.writeAIMLIFFiles();
-		chatSession = new Chat(bot);
-		return chatSession.multisentenceRespond(input);
+	public String conversation(String input) {
+		if(bot == null) {
+			Bot bot = loadExtensions(default_aiml_extensions);
+			chatSession = new Chat(bot);
+		}
+		//workaround for the English default answer of the bot, when sth. is unknown
+		String answer = chatSession.multisentenceRespond(input);
+		if (answer.equals("I have no answer for that.")) {
+			answer = "Das weis ich leider nicht.";
+		}
+		return answer;
+	}
+	
+	/**
+	 * Method to stop a bot conversation and save aiml and aimlif from the chatbot brain
+	 * @return <code>true</code> if bot was instantiated before and <code>false</code> otherwise
+	 */
+	public boolean stopConversation() {
+		if (bot != null) {
+			//write learned categories to AIMLIF file
+			bot.writeLearnfIFCategories();
+			//writeAIMLFiles() and writeAIMLIFFiles() gets executed with this method:
+			bot.writeQuit();
+			bot = null;
+			return true;
+		} else {
+			LOG.warn("Could not stop the conversation, because the bot was already null");
+			return false;
+		}
 	}
 	
 	/**
@@ -98,9 +123,16 @@ public class ChatbotService {
 	 */
 	private Bot loadExtensions(List<AIMLProcessorExtension> extensions) {
 		AIMLProcessor.extension = AIMLExtensionHub.createFromExtensions(extensions);
-		URL url = getClass().getClassLoader().getResource(botPath);
-		String absolutePath = url.getPath();
-		bot = new Bot(botName, absolutePath, ExtensionStringHolder.CHAT);
+		/*
+		 * because of problems with new chatbot files (maps, sets, aiml-files, etc.) we need 
+		 * to set the chatbot path to an absolute.
+		 * Before this, we tested it by setting the path to an relative one, as in the following
+		 * commented section
+		 */
+//		URL url = getClass().getClassLoader().getResource(botPath);
+//		String absolutePath = url.getPath();
+//		bot = new Bot(botName, absolutePath, ExtensionStringHolder.CHAT);
+		bot = new Bot(botName, botPath, ExtensionStringHolder.CHAT);
 		bot.writeUnfinishedIFCategories();
 		return bot;
 	}
@@ -175,7 +207,7 @@ public class ChatbotService {
 	public String getAttributeOrTagValue(Node node, ParseState ps, String attributeName) {
 		String result = null;
 		//Retrieves a node (of any type) specified by name, 
-		//or null if no node with the given name is found in the map
+		// or null if no node with the given name is found in the map
 	    Node namedItem = node.getAttributes().getNamedItem(attributeName);
 	    if(namedItem == null) {
 	    	NodeList childList = node.getChildNodes();

@@ -102,6 +102,12 @@
     	class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
     </bean>
     
+    <!-- Context Provider for manually get the context of any bean which is referenced in the xml files -->
+    <bean id="applicationContextProvider" class="de.fhws.hablame.chatbotbackend.utility.ApplicationContextProvider" />
+    
+    <!-- To get the context of this class in the chatbot extensions we reference it here -->
+    <bean id="chatbotService" class="de.fhws.hablame.chatbotbackend.service.chatbot.ChatbotService" />
+    
     <!-- Enable scheduling annotations -->
     <task:annotation-driven executor="taskExecutor" />
 	<task:executor id="myExecutor" pool-size="5"/>
