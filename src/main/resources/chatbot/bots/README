@@ -8,4 +8,5 @@ und anschließend Änderungen nicht mehr übernommen werden, wenn der Pfad folgende
 </code>
 
 Deshalb werden Botfiles (AIML, Sets, Maps, etc.) unter c:// bzw. dem entsprechenden Filesystem root des Server gehalten...
+Also auf dem Windows Server unter dem Standard Pfad: "C:\bots"
 (David Artmann)
