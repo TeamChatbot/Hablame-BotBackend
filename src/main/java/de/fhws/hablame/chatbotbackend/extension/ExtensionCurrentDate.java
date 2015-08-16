@@ -10,13 +10,12 @@ import org.alicebot.ab.ParseState;
 import org.alicebot.ab.Utilities;
 import org.w3c.dom.Node;
 
+import de.fhws.hablame.chatbotbackend.utility.ExtensionStringHolder;
+
 //TODO: this class is unnecessary, because the chatbot is able to this stuff by its own with "<date/>"
 public class ExtensionCurrentDate implements AIMLProcessorExtension {
 	
-	private static final String CURRENTDATE = "currentDate";
-	private static final String EXPRESSION = "expression";
-	
-	private Set<String> extensionTagNames = Utilities.stringSet(CURRENTDATE, EXPRESSION);
+	private Set<String> extensionTagNames = Utilities.stringSet(ExtensionStringHolder.CURRENTDATE, ExtensionStringHolder.EXPRESSION);
 
 	@Override
 	public Set<String> extensionTagSet() {
@@ -25,9 +24,9 @@ public class ExtensionCurrentDate implements AIMLProcessorExtension {
 
 	@Override
 	public String recursEval(Node node, ParseState parseState) {
-		if (node.getNodeName().equals(CURRENTDATE)) {
+		if (node.getNodeName().equals(ExtensionStringHolder.CURRENTDATE)) {
 			return new SimpleDateFormat("dd.mm.yyyy hh:mm:ss").format(new Date());
-		} else if (node.getNodeName().equals(EXPRESSION)) {
+		} else if (node.getNodeName().equals(ExtensionStringHolder.EXPRESSION)) {
 			return null;
 		} else {
 			return AIMLProcessor.genericXML(node, parseState);

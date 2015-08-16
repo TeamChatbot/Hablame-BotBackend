@@ -25,6 +25,7 @@ import de.fhws.hablame.chatbotbackend.extension.ExtensionCurrentDate;
 import de.fhws.hablame.chatbotbackend.extension.ExtensionIsKnown;
 import de.fhws.hablame.chatbotbackend.extension.ExtensionRandomTopic;
 import de.fhws.hablame.chatbotbackend.extension.ExtensionRandomValueOfTopic;
+import de.fhws.hablame.chatbotbackend.extension.ExtensionWeather;
 import de.fhws.hablame.chatbotbackend.model.Category;
 import de.fhws.hablame.chatbotbackend.model.Content;
 import de.fhws.hablame.chatbotbackend.model.Topic;
@@ -54,12 +55,14 @@ public class ChatbotService {
 					new ExtensionCurrentDate(), 
 					new ExtensionRandomValueOfTopic(),
 					new ExtensionBrainSetAndGet(),
-					new ExtensionRandomTopic());
+					new ExtensionRandomTopic(),
+					new ExtensionWeather());
 	
 	/**
 	 * Class representing the AIML bot
 	 */
 	private Bot bot;
+	
 	/**
 	 * Name of the {@link Bot}.<br>
 	 * We add the value of the chatbot.properties file respective his value "chatbot.name"
@@ -67,6 +70,7 @@ public class ChatbotService {
 	 */
 	@Value("${chatbot.name}")
 	private String botName;
+	
 	/**
 	 * Root path of Program AB.<br>
 	 * We add the value of the chatbot.properties file respective his value "chatbot.path"
@@ -74,6 +78,7 @@ public class ChatbotService {
 	 */
 	@Value("${chatbot.path}")
 	private String botPath;
+	
 	/**
 	 * Class encapsulating a chat session between a bot and a client
 	 */

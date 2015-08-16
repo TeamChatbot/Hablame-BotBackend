@@ -14,4 +14,10 @@ public class ExtensionStringHolder {
 	public static final String PREDICATE = "lastEvaluatedIsKnownValue";
 	public static final String UNDEFINED = "undefined";
 	public static final String CHAT = "chat";
+	public static final String CURRENTDATE = "currentDate";
+	public static final String EXPRESSION = "expression";
+	public static final String WEATHERTAG = "weather";
+	public static final String TEMPERATURTAG = "temperature";
+	public static final String USERAGENTKEY = "User-Agent";
+	public static final String USERAGENTVALUE = "Mozilla/5.0";
 }

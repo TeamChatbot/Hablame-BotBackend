@@ -23,6 +23,7 @@ public class ChatbotController {
 	@Autowired
 	private ChatbotService chatbotService;
 	
+	//TODO: maybe change the bot response to a jsonobject for better parsing options on the client side?
 	@RequestMapping(value=CONVERSATION, method=RequestMethod.POST)
 	@ResponseBody
 	public String conversation(@RequestBody String message) {
