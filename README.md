@@ -32,14 +32,16 @@ All used dependencies can be found within the pom.xml
           Und die Ausgabe wäre:<br>
           "Es hat 18 Grad und maessiger Regen wird gemeldet"
         </td>
-        <td>
-          http://194.95.221.229:8080/Hablame-BotBackend/stopconversation
-          (GET-Request)
-        </td>
-        <td>
-          Und die Ausgabe wäre:<br>
-          "chatbot stopped" (Falls die Intanz lief)
-          "chatbot could not be stopped" (Falls die Instanz bereits null war)
-        </td>
+    </tr>
+    <tr>
+     <td>
+       http://194.95.221.229:8080/Hablame-BotBackend/stopconversation
+       (GET-Request)
+     </td>
+     <td>
+       Und die Ausgabe wäre:<br>
+       "chatbot stopped" (Falls die Intanz lief)
+       "chatbot could not be stopped" (Falls die Instanz bereits null war)
+     </td>
     </tr>
 </table>
