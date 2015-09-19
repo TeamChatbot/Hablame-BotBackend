@@ -133,6 +133,13 @@
 		<artifactId>slf4j-log4j12</artifactId>
 		<version>${org.slf4j}</version>
 	</dependency>
+	<dependency>
+	    <groupId>org.alicebot</groupId>
+	    <artifactId>ab</artifactId>
+	    <version>0.0.4.3</version>
+	    <scope>system</scope>
+	    <systemPath>${project.basedir}/src/main/resources/chatbot/lib/Ab.jar</systemPath>
+	</dependency>
   </dependencies>
   
   <build>
