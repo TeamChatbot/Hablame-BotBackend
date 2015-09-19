@@ -133,6 +133,7 @@
 		<artifactId>slf4j-log4j12</artifactId>
 		<version>${org.slf4j}</version>
 	</dependency>
+	<!-- local Ab.jar for AliceBot -->
 	<dependency>
 	    <groupId>org.alicebot</groupId>
 	    <artifactId>ab</artifactId>
