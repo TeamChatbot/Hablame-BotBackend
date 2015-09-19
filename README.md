@@ -45,3 +45,9 @@ All used dependencies can be found within the pom.xml
      </td>
     </tr>
 </table>
+
+### Import in Eclipse
+1. Import from git (clone url)
+2. Choose import as general project
+3. Input your project name (default one "Hablame-BotBackend" prefered)
+4. Under Eclipse right-click your project folder, choose Configure / Convert to Maven Project
