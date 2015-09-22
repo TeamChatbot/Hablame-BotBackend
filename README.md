@@ -51,3 +51,9 @@ All used dependencies can be found within the pom.xml
 2. Choose import as general project
 3. Input your project name (default one "Hablame-BotBackend" prefered)
 4. Under Eclipse right-click your project folder, choose Configure / Convert to Maven Project
+
+
+### Version History
+name, date(dd/mm/yyyyy)
+
+- [Release Hablame-BotBackend v1.0.0-stable](https://github.com/TeamChatbot/Hablame-BotBackend/releases/tag/1.0.0) (19/09/2015)
