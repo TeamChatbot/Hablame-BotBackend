@@ -1,0 +1,9 @@
+de.fhws.hablame.chatbotbackend.controller
+de.fhws.hablame.chatbotbackend.dto
+de.fhws.hablame.chatbotbackend.extension
+de.fhws.hablame.chatbotbackend.model
+de.fhws.hablame.chatbotbackend.repository
+de.fhws.hablame.chatbotbackend.service
+de.fhws.hablame.chatbotbackend.service.chatbot
+de.fhws.hablame.chatbotbackend.thread
+de.fhws.hablame.chatbotbackend.utility
