@@ -7,7 +7,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
-import javax.persistence.UniqueConstraint;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -17,10 +16,11 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
  * A content has one topic as parent.
  */
 @Entity
-@Table(name="content", uniqueConstraints={
-		@UniqueConstraint(columnNames={"value", "topic_id"}, name="value_and_topic_id")})
+@Table(name="content")
 @JsonIgnoreProperties(ignoreUnknown=true)
-public class Content extends MappedSuperClass{
+public class Content extends MappedSuperClass {
+	
+	//TODO: rethink the association to topic, maybe a n:m relation?
 
 	@Transient
 	private static final long serialVersionUID = 3731352147353279522L;
@@ -32,7 +32,7 @@ public class Content extends MappedSuperClass{
 	private boolean multiple;
 	
 	@ManyToOne(fetch=FetchType.EAGER)
-    @JoinColumn(name="topic_id", nullable=false)
+    @JoinColumn(name="topic_id")
 	@JsonBackReference
 	private Topic topic;
 

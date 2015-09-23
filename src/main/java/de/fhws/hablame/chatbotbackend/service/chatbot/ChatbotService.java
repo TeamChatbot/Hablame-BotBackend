@@ -158,7 +158,7 @@ public class ChatbotService {
 			CategoryDTO categoryDTO = new CategoryDTO();
 			categoryDTO.setActive(true);
 			categoryDTO.setName(categoryName);
-			category = categoryService.createCategory(categoryDTO);
+			category = categoryService.create(categoryDTO);
 			TopicDTO topicDTO = new TopicDTO();
 			topicDTO.setActive(true);
 			topicDTO.setName(topicName);
@@ -185,7 +185,7 @@ public class ChatbotService {
 	public Category getCategoryByCategoryAndTopic(String categoryName, String topicName) {
 		Category category = null;
 		if (categoryName != null && topicName != null) {
-			category = categoryService.getCategoryByName(categoryName);
+			category = categoryService.getByName(categoryName);
 			if (category != null) {
 				Topic topic = topicService.getTopicByName(topicName);
 				if (topic == null) {

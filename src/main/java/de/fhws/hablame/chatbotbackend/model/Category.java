@@ -8,7 +8,6 @@ import javax.persistence.FetchType;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Transient;
-import javax.persistence.UniqueConstraint;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
@@ -18,10 +17,11 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
  * A category has one or more topics as childs.
  */
 @Entity
-@Table(name="category", uniqueConstraints={
-		@UniqueConstraint(columnNames={"create_time"}, name="create_time")})
+@Table(name="category")
 @JsonIgnoreProperties(ignoreUnknown=true)
-public class Category extends MappedSuperClass{
+public class Category extends MappedSuperClass {
+	
+	//TODO: rethink the association to topic, maybe a n:m relation?
 	
 	@Transient
 	private static final long serialVersionUID = 167235400647608771L;

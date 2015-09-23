@@ -10,7 +10,6 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Transient;
-import javax.persistence.UniqueConstraint;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -21,10 +20,11 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
  * A topic has one category as parent and one or more contents as childs.
  */
 @Entity
-@Table(name="topic", uniqueConstraints={
-		@UniqueConstraint(columnNames={"name", "category_id"}, name="name_and_category_id")})
+@Table(name="topic")
 @JsonIgnoreProperties(ignoreUnknown=true)
-public class Topic extends MappedSuperClass{
+public class Topic extends MappedSuperClass {
+	
+	//TODO: rethink the association to category and content, maybe n:m relations?
 
 	@Transient
 	private static final long serialVersionUID = -4860147072470751L;
@@ -33,7 +33,7 @@ public class Topic extends MappedSuperClass{
 	private String name;
 	
 	@ManyToOne(fetch=FetchType.EAGER)
-    @JoinColumn(name="category_id", nullable=false)
+    @JoinColumn(name="category_id")
 	@JsonBackReference
 	private Category category;
 

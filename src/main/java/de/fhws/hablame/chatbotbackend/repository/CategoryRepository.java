@@ -18,8 +18,6 @@ public interface CategoryRepository extends PagingAndSortingRepository<Category,
 
 	public List<Category> findAll();
 	
-	public Category findById(Long id);
-	
 	public Category findByName(String name);
 	
 	public List<Category> findByTopic(Topic topic);

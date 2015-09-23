@@ -40,10 +40,10 @@ public class ExtensionRandomTopic implements AIMLProcessorExtension {
 	}
 
 	private String selectRandomTopic(Node node, ParseState parseState) {
-		long numberOfCategories = categoryService.countCategories();
+		long numberOfCategories = categoryService.count();
 		if (numberOfCategories > 0) {
 			//we assume, numberOfCategories would not reach 2147483647 (int max value), so the cast is acceptable
-			Category category = categoryService.getCategoryById(Long.valueOf(new Random().nextInt((int)numberOfCategories)));
+			Category category = categoryService.getById(Long.valueOf(new Random().nextInt((int)numberOfCategories)));
 			if (category != null) {
 				Topic topic = topicService.getTopicById(Long.valueOf(new Random().nextInt(category.getTopic().size())));
 				if (topic != null) {

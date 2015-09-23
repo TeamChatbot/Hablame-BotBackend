@@ -1,0 +1,7 @@
+heute
+morgen
+übermorgen
+gestern
+vorgestern
+überübermorgen
+vorvorgestern

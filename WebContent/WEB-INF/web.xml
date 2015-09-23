@@ -22,7 +22,7 @@
   </servlet-mapping>
   
   <welcome-file-list>
-    <welcome-file>WEB-INF/page/index.jsp</welcome-file>
+    <welcome-file>/WEB-INF/page/index.jsp</welcome-file>
   </welcome-file-list>
   
   <filter>

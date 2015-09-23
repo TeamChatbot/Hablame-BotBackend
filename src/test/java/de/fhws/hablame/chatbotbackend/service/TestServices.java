@@ -6,16 +6,15 @@ import static org.junit.Assert.assertNull;
 
 import java.util.List;
 
-import javax.sql.DataSource;
-
-import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
+import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.transaction.annotation.Transactional;
 
 import de.fhws.hablame.chatbotbackend.dto.CategoryDTO;
 import de.fhws.hablame.chatbotbackend.dto.ContentDTO;
@@ -27,6 +26,9 @@ import de.fhws.hablame.chatbotbackend.model.Topic;
 /**
  * This is the Testclass for the {@link Service} annotated classes from the project.
  */
+//TODO: update spring so we can annotate this here
+//@Rollback(value=true)
+@Transactional
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations="classpath:spring/spring-context.xml")
 public class TestServices {
@@ -37,52 +39,62 @@ public class TestServices {
 	private TopicService topicService;
 	@Autowired
 	private ContentService contentService;
-	@Autowired
-	private DataSource dataSource;
 	
-	/**
-	 * This method runs after each JUnit test and calls the {@link DataSource},
-	 * which is gets the datasource from the spring-context.xml and the 
-	 * {@link JdbcTemplate} uses it, to execute sql statements.
-	 * So when an test failes, we make sure, that all data is deleted from the db.
-	 */
-	//TODO: do the testing in an extra database ("chatbot_test")!!!
-	@After
-	public void cleanUp() {
-		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
-		jdbcTemplate.execute("DELETE FROM CONTENT");
-		jdbcTemplate.execute("DELETE FROM TOPIC");
-		jdbcTemplate.execute("DELETE FROM CATEGORY");
+	private CategoryDTO categoryDTO;
+	private TopicDTO topicDTO;
+	private ContentDTO contentDTO;
+	private Category category;
+	private Topic topic;
+	private Content content;
+	private String categoryName = "testCategory";
+	private String topicName = "testTopic";
+	private String contentValue = "testValue";
+	
+	@Before
+	public void setup() {
+		contentDTO = new ContentDTO();
+		contentDTO.setActive(true);
+		contentDTO.setMultiple(false);
+		contentDTO.setValue(contentValue);
+		topicDTO = new TopicDTO();
+		topicDTO.setActive(true);
+		topicDTO.setName(topicName);
+		categoryDTO = new CategoryDTO();
+		categoryDTO.setActive(true);
+		categoryDTO.setName(categoryName);
+		//TODO
 	}
 	
+	@Rollback(value=true)
 	@Test
 	public void testCategoryService() {
 		CategoryDTO categoryDTO = new CategoryDTO();
 		categoryDTO.setActive(true);
-		categoryDTO.setName("testCategory");
-		Category category = categoryService.createCategory(categoryDTO);
+		categoryDTO.setName(categoryName);
+		Category category = categoryService.create(categoryDTO);
 		assertNotNull(category);
-		Category category2 = categoryService.getCategoryById(category.getId());
+		Category category2 = categoryService.getById(category.getId());
 		assertNotNull(category2);
 		assertEquals(category.getName(), category2.getName());
-		category2 = categoryService.getCategoryByName(category.getName());
+		category2 = categoryService.getByName(category.getName());
 		assertNotNull(category2);
 		assertEquals(category.getName(), category2.getName());
-		List<Category> categories = categoryService.getAllCategories();
-		assertEquals(categories.size(), categoryService.countCategories());
+		List<Category> categories = categoryService.getAll();
+		assertEquals(categories.size(), categoryService.count());
 		categoryService.deleteCategoryByName(category.getName());
-		assertNull(categoryService.getCategoryById(category.getId()));
+		assertNull(categoryService.getById(category.getId()));
 	}
 	
+	@Rollback(value=true)
 	@Test
 	public void testTopicService() {
 		TopicDTO topicDTO = new TopicDTO();
 		topicDTO.setActive(true);
-		topicDTO.setName("testTopic");
+		topicDTO.setName(topicName);
 		CategoryDTO categoryDTO = new CategoryDTO();
 		categoryDTO.setActive(true);
-		categoryDTO.setName("testCategory");
-		Category category = categoryService.createCategory(categoryDTO);
+		categoryDTO.setName(categoryName);
+		Category category = categoryService.create(categoryDTO);
 		Topic topic = topicService.createTopic(category.getId(), topicDTO);
 		assertNotNull(topic);
 		Topic topic2 = topicService.getTopicById(topic.getId());
@@ -96,22 +108,23 @@ public class TestServices {
 		topicService.deleteTopicByName(topic.getName());
 		assertNull(topicService.getTopicById(topic.getId()));
 		categoryService.deleteCategoryByName(category.getName());
-		assertNull(categoryService.getCategoryById(category.getId()));
+		assertNull(categoryService.getById(category.getId()));
 	}
 
+	@Rollback(value=true)
 	@Test
 	public void testContentService() {
 		ContentDTO contentDTO = new ContentDTO();
 		contentDTO.setActive(true);
 		contentDTO.setMultiple(false);
-		contentDTO.setValue("testValue");
+		contentDTO.setValue(contentValue);
 		TopicDTO topicDTO = new TopicDTO();
 		topicDTO.setActive(true);
-		topicDTO.setName("testTopic");
+		topicDTO.setName(topicName);
 		CategoryDTO categoryDTO = new CategoryDTO();
 		categoryDTO.setActive(true);
-		categoryDTO.setName("testCategory");
-		Category category = categoryService.createCategory(categoryDTO);
+		categoryDTO.setName(categoryName);
+		Category category = categoryService.create(categoryDTO);
 		Topic topic = topicService.createTopic(category.getId(), topicDTO);
 		Content content = contentService.createContent(topic.getId(), contentDTO);
 		assertNotNull(content);
@@ -128,6 +141,6 @@ public class TestServices {
 		topicService.deleteTopicByName(topic.getName());
 		assertNull(topicService.getTopicById(topic.getId()));
 		categoryService.deleteCategoryByName(category.getName());
-		assertNull(categoryService.getCategoryById(category.getId()));
+		assertNull(categoryService.getById(category.getId()));
 	}
 }

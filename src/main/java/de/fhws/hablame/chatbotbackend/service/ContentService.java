@@ -50,7 +50,7 @@ public class ContentService {
 	 * @return
 	 */
 	public Content getContentById(Long id) {
-		return contentRepository.findById(id);
+		return contentRepository.findOne(id);
 	}
 	
 	/**
@@ -80,7 +80,7 @@ public class ContentService {
 	public Content createContent(Long topicId, ContentDTO contentDTO) {
 		Content content = null;
 		if (contentDTO != null && topicId != null) {
-			Topic parentTopic = topicRepository.findById(topicId);
+			Topic parentTopic = topicRepository.findOne(topicId);
 			if (parentTopic != null) {
 				if (contentRepository.findByValue(contentDTO.getValue()) == null) {
 					content = new Content();

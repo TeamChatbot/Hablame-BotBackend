@@ -17,7 +17,7 @@ import de.fhws.hablame.chatbotbackend.repository.CategoryRepository;
  * Here we handle all logic which is used to get the {@link Category} data from the database.
  */
 @Service
-public class CategoryService {
+public class CategoryService implements IService<CategoryDTO, Category> {
 	
 	private static final Logger LOG = LoggerFactory.getLogger(CategoryService.class);
 
@@ -28,7 +28,7 @@ public class CategoryService {
 	 * Method to get all {@link Category}.
 	 * @return {@link List} with all existent {@link Category}
 	 */
-	public List<Category> getAllCategories() {
+	public List<Category> getAll() {
 		return categoryRepository.findAll();
 	}
 	
@@ -37,8 +37,8 @@ public class CategoryService {
 	 * @param id
 	 * @return found {@link Category} or null
 	 */
-	public Category getCategoryById(Long id) {
-		return categoryRepository.findById(id);
+	public Category getById(Long id) {
+		return categoryRepository.findOne(id);
 	}
 	
 	/**
@@ -46,7 +46,7 @@ public class CategoryService {
 	 * @param categoryName
 	 * @return found {@link Category} or null
 	 */
-	public Category getCategoryByName(String categoryName) {
+	public Category getByName(String categoryName) {
 		return categoryRepository.findByName(categoryName);
 	}
 	
@@ -54,7 +54,7 @@ public class CategoryService {
 	 * Method to get the number of {@link Category}.
 	 * @return
 	 */
-	public long countCategories() {
+	public long count() {
 		return categoryRepository.count();
 	}
 	
@@ -63,7 +63,7 @@ public class CategoryService {
 	 * @param categoryDTO
 	 * @return the created {@link Category} or null
 	 */
-	public Category createCategory(CategoryDTO categoryDTO) {
+	public Category create(CategoryDTO categoryDTO) {
 		Category category = null;
 		if (categoryDTO != null) {
 			if (categoryRepository.findByName(categoryDTO.getName()) == null) {
@@ -93,5 +93,24 @@ public class CategoryService {
 		} else {
 			LOG.warn("Could not delete category without name");
 		}
+	}
+	
+	/**
+	 * Method to delete a {@link Category} by its id.
+	 * @param id
+	 * @return true if Category could be deleted and false otherwise
+	 */
+	public Boolean deleteById(Long id) {
+		if (id != null) {
+			if (categoryRepository.findOne(id) != null) {
+				LOG.info("Deleted Category with id {}", id);
+				return true;
+			} else {
+				LOG.warn("Could not delete Category with invalid id {}", id);
+			}
+		} else {
+			LOG.warn("Could not delete Category without id");
+		}
+		return false;
 	}
 }

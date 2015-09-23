@@ -51,7 +51,7 @@ public class TopicService {
 	 * @return the found {@link Topic} or null
 	 */
 	public Topic getTopicById(Long id) {
-		return topicRepository.findById(id);
+		return topicRepository.findOne(id);
 	}
 	
 	/**
@@ -71,7 +71,7 @@ public class TopicService {
 	public Topic createTopic(Long categoryId, TopicDTO topicDTO) {
 		Topic topic = null;
 		if (categoryId != null && topicDTO != null) {
-			Category category = categoryRepository.findById(categoryId);
+			Category category = categoryRepository.findOne(categoryId);
 			if (category != null) {
 				if (topicRepository.findByName(topicDTO.getName()) == null) {
 					topic = new Topic();

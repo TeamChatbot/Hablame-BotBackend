@@ -1,0 +1,12 @@
+14.08.2015:
+=====================
+Urspünglich war angedacht, die Bot Dateien in dem Projekt zu halten, da diese aber in temporäre Ordner verschoben werden
+und anschließend Änderungen nicht mehr übernommen werden, wenn der Pfad folgendermaßen bestimmt wird:
+<code>
+	URL url = getClass().getClassLoader().getResource(botPath);
+	String absolutePath = url.getPath();
+</code>
+
+Deshalb werden Botfiles (AIML, Sets, Maps, etc.) unter c:// bzw. dem entsprechenden Filesystem root des Server gehalten...
+Also auf dem Windows Server unter dem Standard Pfad: "C:\bots"
+(David Artmann)

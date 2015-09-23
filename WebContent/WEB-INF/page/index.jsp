@@ -7,6 +7,6 @@
 <title>ChatbotBackend</title>
 </head>
 <body>
-<h1>ChatbotBackend</h1>
+<center><h1>Welcome to the ChatbotBackend</h1></center>
 </body>
 </html>
