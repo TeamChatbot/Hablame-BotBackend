@@ -3,7 +3,9 @@ package de.fhws.hablame.chatbotbackend.service;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertFalse;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Before;
@@ -62,16 +64,13 @@ public class TestServices {
 		categoryDTO = new CategoryDTO();
 		categoryDTO.setActive(true);
 		categoryDTO.setName(categoryName);
-		//TODO
+		
 	}
 	
 	@Rollback(value=true)
 	@Test
 	public void testCategoryService() {
-		CategoryDTO categoryDTO = new CategoryDTO();
-		categoryDTO.setActive(true);
-		categoryDTO.setName(categoryName);
-		Category category = categoryService.create(categoryDTO);
+		category = categoryService.create(categoryDTO);
 		assertNotNull(category);
 		Category category2 = categoryService.getById(category.getId());
 		assertNotNull(category2);
@@ -81,51 +80,41 @@ public class TestServices {
 		assertEquals(category.getName(), category2.getName());
 		List<Category> categories = categoryService.getAll();
 		assertEquals(categories.size(), categoryService.count());
-		categoryService.deleteCategoryByName(category.getName());
+		categoryService.deleteByName(category.getName());
 		assertNull(categoryService.getById(category.getId()));
+		assertFalse(categoryService.deleteById(category.getId()));
 	}
 	
 	@Rollback(value=true)
 	@Test
 	public void testTopicService() {
-		TopicDTO topicDTO = new TopicDTO();
-		topicDTO.setActive(true);
-		topicDTO.setName(topicName);
-		CategoryDTO categoryDTO = new CategoryDTO();
-		categoryDTO.setActive(true);
-		categoryDTO.setName(categoryName);
-		Category category = categoryService.create(categoryDTO);
-		Topic topic = topicService.createTopic(category.getId(), topicDTO);
+		category = categoryService.create(categoryDTO);
+		topicDTO.setCategoryId(category.getId());
+		topic = topicService.create(topicDTO);
 		assertNotNull(topic);
-		Topic topic2 = topicService.getTopicById(topic.getId());
-		assertNotNull(topic2);
+		Topic topic2 = topicService.getById(topic.getId());
 		assertEquals(topic.getName(), topic2.getName());
-		topic2 = topicService.getTopicByName(topic.getName());
-		assertNotNull(topic2);
+		topic2 = topicService.getByName(topic.getName());
 		assertEquals(topic.getName(), topic2.getName());
-		List<Topic> topics = topicService.getAllTopics();
-		assertEquals(topics.size(), topicService.countTopics());
-		topicService.deleteTopicByName(topic.getName());
-		assertNull(topicService.getTopicById(topic.getId()));
-		categoryService.deleteCategoryByName(category.getName());
+		List<Topic> topics = topicService.getAll();
+		assertEquals(topics.size(), topicService.count());
+		List<Long> ids = new ArrayList<>();
+		ids.add(topic.getId());
+		ids.add(topic2.getId());
+		assertEquals(topicService.getByIds(ids).size(), topicService.count());
+		topicService.deleteByName(topic.getName());
+		assertNull(topicService.getById(topic.getId()));
+		assertFalse(topicService.deleteById(topic.getId()));
+		categoryService.deleteByName(category.getName());
 		assertNull(categoryService.getById(category.getId()));
 	}
 
 	@Rollback(value=true)
 	@Test
 	public void testContentService() {
-		ContentDTO contentDTO = new ContentDTO();
-		contentDTO.setActive(true);
-		contentDTO.setMultiple(false);
-		contentDTO.setValue(contentValue);
-		TopicDTO topicDTO = new TopicDTO();
-		topicDTO.setActive(true);
-		topicDTO.setName(topicName);
-		CategoryDTO categoryDTO = new CategoryDTO();
-		categoryDTO.setActive(true);
-		categoryDTO.setName(categoryName);
 		Category category = categoryService.create(categoryDTO);
-		Topic topic = topicService.createTopic(category.getId(), topicDTO);
+		topicDTO.setCategoryId(category.getId());
+		Topic topic = topicService.create(topicDTO);
 		Content content = contentService.createContent(topic.getId(), contentDTO);
 		assertNotNull(content);
 		Content content2 = contentService.getContentById(content.getId());
@@ -138,9 +127,9 @@ public class TestServices {
 		assertEquals(contents.size(), contentService.countContent());
 		contentService.deleteContentByValue(content.getValue());
 		assertNull(contentService.getContentById(content.getId()));
-		topicService.deleteTopicByName(topic.getName());
-		assertNull(topicService.getTopicById(topic.getId()));
-		categoryService.deleteCategoryByName(category.getName());
+		topicService.deleteByName(topic.getName());
+		assertNull(topicService.getById(topic.getId()));
+		categoryService.deleteByName(category.getName());
 		assertNull(categoryService.getById(category.getId()));
 	}
 }

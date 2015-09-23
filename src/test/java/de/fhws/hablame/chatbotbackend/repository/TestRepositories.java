@@ -65,7 +65,7 @@ public class TestRepositories {
 		category.setName(categoryName);
 		List<Topic> topics = new ArrayList<Topic>();
 		topics.add(topic);
-		category.setTopic(topics);
+		category.setTopics(topics);
 		category = categoryRepository.save(category);
 		topic.setCategory(category);
 		List<Content> contents = new ArrayList<Content>();
@@ -80,7 +80,7 @@ public class TestRepositories {
 	public void testCategoryRepository() {
 		assertNotNull(categoryRepository.findOne(category.getId()));
 		assertNotNull(categoryRepository.findByName(categoryName));
-		assertEquals(categoryRepository.findByTopic(topic).iterator().next().getId(), 
+		assertEquals(categoryRepository.findByTopics(topic).iterator().next().getId(), 
 				category.getId());
 		List<Category> categories = categoryRepository.findAll();
 		assertEquals(categoryRepository.count(), categories.size());

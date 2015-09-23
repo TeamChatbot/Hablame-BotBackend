@@ -63,7 +63,7 @@ public class ExtensionRandomValueOfTopic implements AIMLProcessorExtension {
 				//
 				//by now we do the random choosing of a topic by finding all and take a random of those topics.
 				Category foundCategory = categoryService.getByName(category);
-				List<Topic> topics = foundCategory.getTopic();
+				List<Topic> topics = foundCategory.getTopics();
 				return topics.get(new Random().nextInt(topics.size())).getName();
 			}
 		} else {

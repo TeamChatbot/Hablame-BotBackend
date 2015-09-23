@@ -31,14 +31,14 @@ public class Category extends MappedSuperClass {
 	
 	@OneToMany(mappedBy="category", fetch=FetchType.EAGER)
     @JsonManagedReference
-	private List<Topic> topic;
+	private List<Topic> topics;
 
-	public List<Topic> getTopic() {
-		return topic;
+	public List<Topic> getTopics() {
+		return topics;
 	}
 
-	public void setTopic(List<Topic> topic) {
-		this.topic = topic;
+	public void setTopics(List<Topic> topics) {
+		this.topics = topics;
 	}
 
 	public String getName() {

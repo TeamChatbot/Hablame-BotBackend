@@ -45,7 +45,7 @@ public class ExtensionRandomTopic implements AIMLProcessorExtension {
 			//we assume, numberOfCategories would not reach 2147483647 (int max value), so the cast is acceptable
 			Category category = categoryService.getById(Long.valueOf(new Random().nextInt((int)numberOfCategories)));
 			if (category != null) {
-				Topic topic = topicService.getTopicById(Long.valueOf(new Random().nextInt(category.getTopic().size())));
+				Topic topic = topicService.getById(Long.valueOf(new Random().nextInt(category.getTopics().size())));
 				if (topic != null) {
 					parseState.topic = String.format(ExtensionStringHolder.SMALLTALK_TOPIC_PATTERN, 
 							category.getName(), topic.getName());

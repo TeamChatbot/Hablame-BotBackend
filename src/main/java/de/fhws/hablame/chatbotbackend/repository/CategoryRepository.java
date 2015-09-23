@@ -20,5 +20,5 @@ public interface CategoryRepository extends PagingAndSortingRepository<Category,
 	
 	public Category findByName(String name);
 	
-	public List<Category> findByTopic(Topic topic);
+	public List<Category> findByTopics(Topic topic);
 }

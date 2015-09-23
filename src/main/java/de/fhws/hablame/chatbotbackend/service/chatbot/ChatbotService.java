@@ -162,7 +162,8 @@ public class ChatbotService {
 			TopicDTO topicDTO = new TopicDTO();
 			topicDTO.setActive(true);
 			topicDTO.setName(topicName);
-			Topic topic = topicService.createTopic(category.getId(), topicDTO);
+			topicDTO.setCategoryId(category.getId());
+			Topic topic = topicService.create(topicDTO);
 			ContentDTO contentDTO = new ContentDTO();
 			contentDTO.setActive(true);
 			contentDTO.setMultiple(multiple);
@@ -187,7 +188,7 @@ public class ChatbotService {
 		if (categoryName != null && topicName != null) {
 			category = categoryService.getByName(categoryName);
 			if (category != null) {
-				Topic topic = topicService.getTopicByName(topicName);
+				Topic topic = topicService.getByName(topicName);
 				if (topic == null) {
 					LOG.warn("Could not get category with invalid topicName {]", topicName);
 				}

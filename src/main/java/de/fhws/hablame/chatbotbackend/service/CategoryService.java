@@ -23,6 +23,8 @@ public class CategoryService implements IService<CategoryDTO, Category> {
 
 	@Autowired
 	private CategoryRepository categoryRepository;
+	@Autowired
+	private TopicService topicService;
 	
 	/**
 	 * Method to get all {@link Category}.
@@ -71,6 +73,13 @@ public class CategoryService implements IService<CategoryDTO, Category> {
 				category.setActive(categoryDTO.isActive());
 				category.setCreateTime(new Date());
 				category.setName(categoryDTO.getName());
+				if (categoryDTO.getTopicIds() != null 
+						&& !categoryDTO.getTopicIds().isEmpty()) {
+					category.setTopics(
+							topicService.getByIds(categoryDTO.getTopicIds()));
+				} else {
+					LOG.debug("CategoryDTO without topicIds");
+				}
 				category = categoryRepository.save(category);
 				LOG.info("Created category with name {}", category.getName());
 			} else {
@@ -86,7 +95,7 @@ public class CategoryService implements IService<CategoryDTO, Category> {
 	 * Method to delete a {@link Category} by its name.
 	 * @param categoryName
 	 */
-	public void deleteCategoryByName(String categoryName) {
+	public void deleteByName(String categoryName) {
 		if (categoryName != null) {
 			categoryRepository.delete(categoryRepository.findByName(categoryName));
 			LOG.info("Deleted category with name {}", categoryName);
