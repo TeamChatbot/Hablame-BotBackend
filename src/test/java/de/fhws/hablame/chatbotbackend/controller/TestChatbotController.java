@@ -60,18 +60,19 @@ public class TestChatbotController {
 					.accept(MediaType.TEXT_PLAIN_VALUE)
 					//if you want to send objects in the body just use the objectmapper
 					//e.g.: mapper.writeValueAsBytes(object)
-					.content("hallo")
+					.content("zeit")
 					.contentType(MediaType.TEXT_PLAIN_VALUE)
 					.locale(Locale.GERMAN))
 			.andExpect(status().isOk())
 			.andExpect(content().contentType(MediaType.TEXT_PLAIN_VALUE))
 			.andDo(print());
-			//TODO: expect exact content
 		} catch (Exception e1) {
 			e1.printStackTrace();
 			AssertionErrors.fail(PERFORM_REQUEST_ERROR);
 		}
 	}
+	
+	//TODO: add more controller tests?
 	
 	@Test
 	public void testStop() {
