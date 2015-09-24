@@ -112,21 +112,23 @@ public class TestServices {
 	@Rollback(value=true)
 	@Test
 	public void testContentService() {
-		Category category = categoryService.create(categoryDTO);
+		category = categoryService.create(categoryDTO);
 		topicDTO.setCategoryId(category.getId());
-		Topic topic = topicService.create(topicDTO);
-		Content content = contentService.createContent(topic.getId(), contentDTO);
+		topic = topicService.create(topicDTO);
+		contentDTO.setTopicId(topic.getId());
+		content = contentService.create(contentDTO);
+		topic.setContents(contentService.getAll());
 		assertNotNull(content);
-		Content content2 = contentService.getContentById(content.getId());
+		Content content2 = contentService.getById(content.getId());
 		assertNotNull(content2);
 		assertEquals(content.getValue(), content2.getValue());
-		content2 = contentService.getContentByValue(content.getValue());
+		content2 = contentService.getByValue(content.getValue());
 		assertNotNull(content2);
 		assertEquals(content.getValue(), content2.getValue());
-		List<Content> contents = contentService.getAllContent();
-		assertEquals(contents.size(), contentService.countContent());
-		contentService.deleteContentByValue(content.getValue());
-		assertNull(contentService.getContentById(content.getId()));
+		List<Content> contents = contentService.getAll();
+		assertEquals(contents.size(), contentService.count());
+		contentService.deleteByValue(content.getValue());
+		assertNull(contentService.getById(content.getId()));
 		topicService.deleteByName(topic.getName());
 		assertNull(topicService.getById(topic.getId()));
 		categoryService.deleteByName(category.getName());

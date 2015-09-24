@@ -70,7 +70,7 @@ public class TestRepositories {
 		topic.setCategory(category);
 		List<Content> contents = new ArrayList<Content>();
 		contents.add(content);
-		topic.setContent(contents);
+		topic.setContents(contents);
 		content.setTopic(topic);
 		
 	}
@@ -94,7 +94,7 @@ public class TestRepositories {
 		assertEquals(topic.getId(), 
 				topicRepository.findByCategory(category).getId());
 		assertEquals(topic.getId(), 
-				topicRepository.findByContent(content).iterator().next().getId());
+				topicRepository.findByContents(content).iterator().next().getId());
 		List<Topic> topics = topicRepository.findAll();
 		assertEquals(topics.size(), topicRepository.count());
 	}
