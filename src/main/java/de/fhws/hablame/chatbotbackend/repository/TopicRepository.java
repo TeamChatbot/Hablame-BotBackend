@@ -21,7 +21,7 @@ public interface TopicRepository extends PagingAndSortingRepository<Topic, Long>
 	
 	public Topic findByName(String name);
 	
-	public List<Topic> findByContent(Content content);
+	public List<Topic> findByContents(Content content);
 	
 	public Topic findByCategory(Category category);
 }

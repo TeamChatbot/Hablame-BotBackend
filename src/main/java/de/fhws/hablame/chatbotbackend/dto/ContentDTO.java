@@ -7,9 +7,11 @@ public class ContentDTO {
 	
 	private String value;
 	
-	private boolean multiple;
+	private Boolean multiple;
 	
-	private boolean active;
+	private Boolean active;
+	
+	private Long topicId;
 
 	public String getValue() {
 		return value;
@@ -19,20 +21,27 @@ public class ContentDTO {
 		this.value = value;
 	}
 
-	public boolean isMultiple() {
+	public Boolean getMultiple() {
 		return multiple;
 	}
 
-	public void setMultiple(boolean multiple) {
+	public void setMultiple(Boolean multiple) {
 		this.multiple = multiple;
 	}
 
-	public boolean isActive() {
+	public Boolean getActive() {
 		return active;
 	}
 
-	public void setActive(boolean active) {
+	public void setActive(Boolean active) {
 		this.active = active;
 	}
 
+	public Long getTopicId() {
+		return topicId;
+	}
+
+	public void setTopicId(Long topicId) {
+		this.topicId = topicId;
+	}
 }

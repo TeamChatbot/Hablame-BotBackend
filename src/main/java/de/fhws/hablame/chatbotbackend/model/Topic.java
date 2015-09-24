@@ -39,7 +39,7 @@ public class Topic extends MappedSuperClass {
 
 	@OneToMany(mappedBy="topic", fetch=FetchType.EAGER)
     @JsonManagedReference
-	private List<Content> content;
+	private List<Content> contents;
 
 	public Category getCategory() {
 		return category;
@@ -49,12 +49,12 @@ public class Topic extends MappedSuperClass {
 		this.category = category;
 	}
 
-	public List<Content> getContent() {
-		return content;
+	public List<Content> getContents() {
+		return contents;
 	}
 
-	public void setContent(List<Content> content) {
-		this.content = content;
+	public void setContents(List<Content> contents) {
+		this.contents = contents;
 	}
 
 	public String getName() {

@@ -1,5 +1,6 @@
 package de.fhws.hablame.chatbotbackend.service.chatbot;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -164,11 +165,20 @@ public class ChatbotService {
 			topicDTO.setName(topicName);
 			topicDTO.setCategoryId(category.getId());
 			Topic topic = topicService.create(topicDTO);
+			List<Topic> topics = new ArrayList<>();
+			topics.add(topic);
+			category.setTopics(topics);
+			//TODO: update category?
 			ContentDTO contentDTO = new ContentDTO();
 			contentDTO.setActive(true);
 			contentDTO.setMultiple(multiple);
 			contentDTO.setValue(contentValue);
-			Content content = contentService.createContent(topic.getId(), contentDTO);
+			contentDTO.setTopicId(topic.getId());
+			Content content = contentService.create(contentDTO);
+			List<Content> contents = new ArrayList<>();
+			contents.add(content);
+			topic.setContents(contents);
+			//TODO: update topic?
 			LOG.info("Created category with id {}, topic with id {} and content with id {}", 
 					category.getId(), topic.getId(), content.getId());
 		} else {

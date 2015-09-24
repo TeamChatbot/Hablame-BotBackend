@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 import de.fhws.hablame.chatbotbackend.dto.TopicDTO;
 import de.fhws.hablame.chatbotbackend.model.Category;
 import de.fhws.hablame.chatbotbackend.model.Topic;
-import de.fhws.hablame.chatbotbackend.repository.CategoryRepository;
 import de.fhws.hablame.chatbotbackend.repository.TopicRepository;
 
 /**
@@ -28,7 +27,9 @@ public class TopicService implements IService<TopicDTO, Topic> {
 	@Autowired
 	private TopicRepository topicRepository;
 	@Autowired
-	private CategoryRepository categoryRepository;
+	private CategoryService categoryService;
+	@Autowired
+	private ContentService contentService;
 	
 	/**
 	 * Method to get all {@link Topic}.
@@ -95,7 +96,7 @@ public class TopicService implements IService<TopicDTO, Topic> {
 				topic.setActive(topicDTO.isActive());
 				if (topicDTO.getCategoryId() != null) {
 					Category category = 
-							categoryRepository.findOne(topicDTO.getCategoryId());
+							categoryService.getById(topicDTO.getCategoryId());
 					if (category != null) {
 						topic.setCategory(category);
 					} else {
@@ -104,6 +105,12 @@ public class TopicService implements IService<TopicDTO, Topic> {
 					}
 				} else {
 					LOG.debug("Topic without categoryId");
+				}
+				if (topicDTO.getContentIds() != null 
+						&& !topicDTO.getContentIds().isEmpty()) {
+					topic.setContents(contentService.getByIds(topicDTO.getContentIds()));
+				} else {
+					LOG.debug("Topic without contentIds");
 				}
 				topic.setCreateTime(new Date());
 				topic.setName(topicDTO.getName());

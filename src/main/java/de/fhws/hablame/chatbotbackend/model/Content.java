@@ -29,7 +29,7 @@ public class Content extends MappedSuperClass {
 	private String value;
 	
 	@Column(nullable=false)
-	private boolean multiple;
+	private Boolean multiple;
 	
 	@ManyToOne(fetch=FetchType.EAGER)
     @JoinColumn(name="topic_id")
@@ -44,11 +44,11 @@ public class Content extends MappedSuperClass {
 		this.topic = topic;
 	}
 
-	public boolean isMultiple() {
+	public Boolean getMultiple() {
 		return multiple;
 	}
 
-	public void setMultiple(boolean multiple) {
+	public void setMultiple(Boolean multiple) {
 		this.multiple = multiple;
 	}
 
