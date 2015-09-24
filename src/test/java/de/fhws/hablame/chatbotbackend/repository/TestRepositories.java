@@ -24,8 +24,7 @@ import de.fhws.hablame.chatbotbackend.model.Topic;
 /**
  * This is the Testclass for the {@link Repository} annotated classes from the project.
  */
-//TODO: update spring so we can annotate this here
-//@Rollback(value=true)
+@Rollback(value=true)
 @Transactional
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations="classpath:spring/spring-context-test.xml")
@@ -75,7 +74,6 @@ public class TestRepositories {
 		
 	}
 	
-	@Rollback(value=true)
 	@Test
 	public void testCategoryRepository() {
 		assertNotNull(categoryRepository.findOne(category.getId()));
@@ -86,7 +84,6 @@ public class TestRepositories {
 		assertEquals(categoryRepository.count(), categories.size());
 	}
 	
-	@Rollback(value=true)
 	@Test
 	public void testTopicRepository() {
 		assertEquals(topic.getId(), topicRepository.findOne(topic.getId()).getId());
@@ -99,7 +96,6 @@ public class TestRepositories {
 		assertEquals(topics.size(), topicRepository.count());
 	}
 	
-	@Rollback(value=true)
 	@Test
 	public void TestContentRepository() {
 		assertEquals(content.getId(), contentRepository.findOne(content.getId()).getId());

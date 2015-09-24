@@ -28,8 +28,7 @@ import de.fhws.hablame.chatbotbackend.model.Topic;
 /**
  * This is the Testclass for the {@link Service} annotated classes from the project.
  */
-//TODO: update spring so we can annotate this here
-//@Rollback(value=true)
+@Rollback(value=true)
 @Transactional
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations="classpath:spring/spring-context.xml")
@@ -67,7 +66,6 @@ public class TestServices {
 		
 	}
 	
-	@Rollback(value=true)
 	@Test
 	public void testCategoryService() {
 		category = categoryService.create(categoryDTO);
@@ -85,7 +83,6 @@ public class TestServices {
 		assertFalse(categoryService.deleteById(category.getId()));
 	}
 	
-	@Rollback(value=true)
 	@Test
 	public void testTopicService() {
 		category = categoryService.create(categoryDTO);
@@ -109,7 +106,6 @@ public class TestServices {
 		assertNull(categoryService.getById(category.getId()));
 	}
 
-	@Rollback(value=true)
 	@Test
 	public void testContentService() {
 		category = categoryService.create(categoryDTO);

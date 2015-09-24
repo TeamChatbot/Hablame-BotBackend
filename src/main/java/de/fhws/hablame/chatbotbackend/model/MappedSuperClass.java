@@ -25,7 +25,7 @@ public abstract class MappedSuperClass implements Serializable {
 	private static final long serialVersionUID = 7892254636225159371L;
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="id", updatable=false, nullable=false, unique=true, insertable=false)
 	private Long id;
 	

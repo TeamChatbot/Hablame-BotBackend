@@ -8,9 +8,19 @@
   <description>Backend Application for the Chatbot</description>
   
   <properties>
-  	<org.springframework>4.1.6.RELEASE</org.springframework>
-  	<org.hibernate>4.3.11.Final</org.hibernate>
+  	<java.version>1.8</java.version>
+  	<org.springframework>4.2.1.RELEASE</org.springframework>
+  	<org.hibernate>5.0.1.Final</org.hibernate>
   	<org.slf4j>1.7.12</org.slf4j>
+  	<org.springframework.data>1.9.0.RELEASE</org.springframework.data>
+  	<com.fasterxml.jackson.core>2.6.2</com.fasterxml.jackson.core>
+  	<org.hibernate.javax.persistence>1.0.0.Final</org.hibernate.javax.persistence>
+  	<mysql-connector-java>5.1.36</mysql-connector-java>
+  	<org.apache.commons-dbcp2>2.1.1</org.apache.commons-dbcp2>
+  	<javax.servlet-api>3.1.0</javax.servlet-api>
+  	<javax.jstl>1.2</javax.jstl>
+  	<junit>4.12</junit>
+  	<org.mockito-all>2.0.2-beta</org.mockito-all>
   </properties>
   
   <dependencies>
@@ -54,7 +64,7 @@
 	<dependency>
 		<groupId>org.springframework.data</groupId>
 		<artifactId>spring-data-jpa</artifactId>
-		<version>1.8.2.RELEASE</version>
+		<version>${org.springframework.data}</version>
 	</dependency>
 	<!-- Hibernate -->
 	<dependency>
@@ -72,55 +82,49 @@
 	<dependency>
 		<groupId>org.hibernate.javax.persistence</groupId>
 		<artifactId>hibernate-jpa-2.1-api</artifactId>
-		<version>1.0.0.Final</version>
+		<version>${org.hibernate.javax.persistence}</version>
 	</dependency>
 	<!-- JDBC Mysql Driver -->
     <dependency>
   		<groupId>mysql</groupId>
   		<artifactId>mysql-connector-java</artifactId>
-  		<version>5.1.36</version>
+  		<version>${mysql-connector-java}</version>
   		<scope>runtime</scope>
 	</dependency>
 	<!-- Database Connection Pooling -->
 	<dependency>
 		<groupId>org.apache.commons</groupId>
 		<artifactId>commons-dbcp2</artifactId>
-		<version>2.1.1</version>
-	</dependency>
-	<!-- CGLIB is required to process @Configuration classes -->  
-	<dependency>
-		<groupId>cglib</groupId>
-		<artifactId>cglib</artifactId>
-		<version>3.1</version>
+		<version>${org.apache.commons-dbcp2}</version>
 	</dependency>
 	<!-- Servlet API, JSTL -->  
 	<dependency>
 		<groupId>javax.servlet</groupId>
 		<artifactId>javax.servlet-api</artifactId>
-		<version>3.1.0</version>
+		<version>${javax.servlet-api}</version>
 	</dependency>
 	<dependency>
-		<groupId>jstl</groupId>
+		<groupId>javax.servlet</groupId>
 		<artifactId>jstl</artifactId>
-		<version>1.2</version>
+		<version>${javax.jstl}</version>
 	</dependency>
 	<!-- Testing -->
 	<dependency>
 		<groupId>junit</groupId>
 		<artifactId>junit</artifactId>
-		<version>4.12</version>
+		<version>${junit}</version>
 	</dependency>
 	<!-- Mock objects library for java to test Controllers -->
 	<dependency>
 		<groupId>org.mockito</groupId>
 		<artifactId>mockito-all</artifactId>
-		<version>2.0.2-beta</version>
+		<version>${org.mockito-all}</version>
 	</dependency>
 	<!-- Serialization of Objects -->
 	<dependency>
 		<groupId>com.fasterxml.jackson.core</groupId>
 		<artifactId>jackson-databind</artifactId>
-		<version>2.6.1</version>
+		<version>${com.fasterxml.jackson.core}</version>
 	</dependency>
 	<!-- Logging -->
 	<dependency>
@@ -147,15 +151,15 @@
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.1</version>
+        <version>3.3</version>
         <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
+          <source>${java.version}</source>
+          <target>${java.version}</target>
         </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
-        <version>2.4</version>
+        <version>2.6</version>
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
           <failOnMissingWebXml>false</failOnMissingWebXml>
