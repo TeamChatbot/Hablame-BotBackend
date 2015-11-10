@@ -81,6 +81,23 @@ public class ChatbotService {
 	private String botPath;
 	
 	/**
+	 * OpenWeather API-Key for calling their API.<br>
+	 * We add the value of the chatbot.properties file respective his value "chatbot.openweatherkey"
+	 * to {@link #apiKey} with the help of {@link Value}
+	 * TODO: replace the hardcoded string from {@link ExtensionWeather} and use this one here programmatically
+	 */
+	@Value("${chatbot.openweatherkey}")
+	private String apiKey;
+	
+	/**
+	 * Getter for the {@link #apiKey}.
+	 * @return the apiKey
+	 */
+	public String getApiKey() {
+		return apiKey;
+	}
+
+	/**
 	 * Class encapsulating a chat session between a bot and a client
 	 */
 	private Chat chatSession;

@@ -83,7 +83,8 @@ public class ExtensionWeather implements AIMLProcessorExtension {
 	 */
 	private String callOpenWeatherAPI() {
 		StringBuffer stringBuffer = null;
-		String stringUrl = "http://api.openweathermap.org/data/2.5/weather?id=2805615&units=metric&lang=de";
+		//String stringUrl = "http://api.openweathermap.org/data/2.5/weather?id=2805615&units=metric&lang=de";
+		String stringUrl = "http://api.openweathermap.org/data/2.5/weather?id=2805615&units=metric&lang=de&appid=8de2700b042d4e09a990b08da30a6afe";
 		URL url = null;
 		try {
 			url = new URL(stringUrl);
