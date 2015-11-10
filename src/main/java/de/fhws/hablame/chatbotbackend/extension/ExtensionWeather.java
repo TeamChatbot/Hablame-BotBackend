@@ -58,7 +58,7 @@ public class ExtensionWeather implements AIMLProcessorExtension {
 			JSONObject jObj = new JSONObject(callOpenWeatherAPI());
 			temperature =  Long.toString(Math.round(jObj.getJSONObject("main").getDouble("temp")));
 		} catch (JSONException e) {
-			LOG.warn("Problem occured while parsing the json response");
+			LOG.warn("Problem occured while parsing the json response for actual temperature");
 		}
 		return temperature;
 	}
@@ -73,7 +73,7 @@ public class ExtensionWeather implements AIMLProcessorExtension {
 			JSONObject jObj = new JSONObject(callOpenWeatherAPI().replace("ä", "ae").replace("ö", "oe").replace("ü", "ue").replace("ß", "ss"));
 			weather =  jObj.getJSONArray("weather").getJSONObject(0).getString("description");
 		} catch (JSONException e) {
-			LOG.warn("Problem occured while parsing the json response");
+			LOG.warn("Problem occured while parsing the json response for actual weather");
 		}
 		return weather;
 	}
@@ -112,7 +112,7 @@ public class ExtensionWeather implements AIMLProcessorExtension {
 			LOG.warn("Problems occured while doing the weather get request");
 		}
 		//LOG.info("SRV OUT: "+stringBuffer.toString());
-		return stringBuffer.toString();
+		return stringBuffer != null ? stringBuffer.toString() : "";
 	}
 
 }
