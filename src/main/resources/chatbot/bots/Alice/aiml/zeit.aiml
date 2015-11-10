@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+	<category>
+		<pattern>zeit</pattern>
+		<template><currentDate/></template>
+	</category>
+
+	<category>
+			<pattern>Wie spät ist es?</pattern>
+			<template>Es ist <currentDate/></template>
+	</category>
+
+	<category>
+			<pattern>Welche Uhrzeit haben wir?</pattern>
+			<template>Mein Uhr zeigt mir <currentDate/></template>
+	</category>
+
+	<category>
+			<pattern>Kannst du mir die Uhrzeit nennen?</pattern>
+			<template>Gerne, es ist jetzt <currentDate/></template>
+	</category>
+
+</aiml>
