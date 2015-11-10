@@ -9813,10 +9813,6 @@ Ich habe <random>
 <template>Ich habe das jedenfalls nicht gemerkt. War ein logischer Bruch in meinen Aussagen?</template>
 </category>
 <category>
-<pattern>WIE *</pattern>
-<template>Ich weiss nicht wie.</template>
-</category>
-<category>
 <pattern>WIE</pattern>
 <template>War das nicht verstaendlich?</template>
 </category>
@@ -9829,10 +9825,6 @@ Ich habe <random>
 <template>Ist das eine Fangfrage? 
 Du sagtest doch, Du waerest <get name="age"/> Jahre alt.
 Ich glaube, Du bist eigentlich ein Kind.</template>
-</category>
-<category>
-<pattern>WIE ALT BIST</pattern>
-<template>WIE *</template>
 </category>
 <category>
 <pattern>WIE ALT BIST DU *</pattern>
@@ -9860,7 +9852,7 @@ Ich glaube, Du bist eigentlich ein Kind.</template>
 </category>
 <category>
 <pattern>WIE ALT SIND SIE</pattern>
-<template>WIE *</template>
+<template>15</template>
 </category>
 <category>
 <pattern>WIE BEKOMME ICH EINE FRAU</pattern>
@@ -10007,10 +9999,6 @@ Ich glaube, Du bist eigentlich ein Kind.</template>
 <template>Eigentlich ganz gut. Danke!</template>
 </category>
 <category>
-<pattern>WIE GEHTST</pattern>
-<template>WIE *</template>
-</category>
-<category>
 <pattern>WIE GROSS *</pattern>
 <template>Groesser als ein Stecknadelkopf.</template>
 </category>
@@ -10138,32 +10126,12 @@ Ich glaube, Du bist eigentlich ein Kind.</template>
 <pattern>WIE INTELLIGENT BIST DU</pattern>
 <template><random>
 <li>Nach menschlichen Massstaeben betraegt mein IQ ueber 250.</li>
-<li>Ich habe eine IQ von ueber 250.</li>
+<li>Ich habe einen IQ von ueber 250.</li>
 </random></template>
-</category>
-<category>
-<pattern>WIE IST DAS WETTER *</pattern>
-<template><random>
-<li>Bewoelkt. </li>
-<li>Regnerisch.</li>
-<li>Wechselhaft.</li>
-<li>Sonnig.</li>
-<li>Neblig.</li>
-<li>Warm.</li>
-<li>Kuehl. </li>
-</random></template>
-</category>
-<category>
-<pattern>WIE IST DAS WETTER</pattern>
-<template>Nass...</template>
 </category>
 <category>
 <pattern>WIE IST DAS WETTER BEI DIR</pattern>
-<template>Eher kuehl...</template>
-</category>
-<category>
-<pattern>WIE IST DAS WETTER DORT</pattern>
-<template>Regnerisch.</template>
+<template>Bei mir scheint immer die Sonne</template>
 </category>
 <category>
 <pattern>WIE IST DEIN NACHNAME</pattern>

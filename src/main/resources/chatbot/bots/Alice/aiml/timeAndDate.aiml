@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<!--  -->
+<!-- 
+	Last edited:	2015.08.16
+	From: 			David Artmann
+	Note: 			This AIML is for all time and date relevant questions/answers. All textual equal questions/answers have been put between two sharp delimiter-lines, to keep it overseeable.
+-->
+<!-- #################################################### -->
 <category><pattern>BOTZEIT</pattern>
 <template><date/></template>
 </category>
+<!-- #################################################### -->
 <category><pattern>EIGENEZEIT</pattern>
 <template><currentDate/></template>
 </category>
+<!-- #################################################### -->
 <category><pattern>WIE SPAET IST ES^</pattern>
-<template><think>
+<template>
+<think>
 <set var="hour"><date format="%I" jformat="h"/></set>
 <set var="ampm"><date format="%p" jformat="a"/></set>
 </think>
@@ -28,6 +36,7 @@ Es ist <date format="%I:%M" jformat="h:mm"/>
 </li>
 </condition></template>
 </category>
+<!-- #################################################### -->
 <category><pattern>WELCHE UHRZEIT HABEN WIR^</pattern>
 <template>Meine uhr zeigt mir <date format="%I:%M" jformat="h:mm"/><condition>
 <li value="AM" var="ampm">am morgen</li>
@@ -44,12 +53,14 @@ Es ist <date format="%I:%M" jformat="h:mm"/>
 </li>
 </condition></template>
 </category>
+<!-- #################################################### -->
 <category><pattern>KANNST DU MIR DIE UHRZEIT NENNEN</pattern>
 <template>Gerne, es ist jetzt <date format="%I:%M" jformat="h:mm"/> uhr</template>
 </category>
 <category><pattern>KANNST DU MIR DIE UHRZEIT SAGEN</pattern>
 <template>Ja, es ist jetzt <date format="%I:%M" jformat="h:mm"/> uhr</template>
 </category>
+<!-- #################################################### -->
 <category><pattern>WELCHER TAG IST HEUTE</pattern>
 <template>Heute ist <date format="%A" jformat="EEEEEEEEEE"/></template>
 </category>
@@ -59,13 +70,16 @@ Es ist <date format="%I:%M" jformat="h:mm"/>
 <category><pattern>WELCHEN TAG HABEN WIR</pattern>
 <template>Heute ist <date format="%A" jformat="EEEEEEEEEE"/></template>
 </category>
+<!-- #################################################### -->
 <category><pattern>WELCHES MONAT HABEN WIR^</pattern>
 <template>Es ist <date format="%B" jformat="MMMMMMMMM"/></template>
 </category>
+<!-- #################################################### -->
 <category><pattern>WELCHES JAHR HABEN WIR ^</pattern>
 <template>Wir schreiben das Jahr <date format="%Y" jformat="yyyy"/></template>
 </category>
 <category><pattern>WELCHES JAHR SCHREIBEN WIR ^</pattern>
 <template>Wir haben <date format="%Y" jformat="yyyy"/></template>
 </category>
+<!-- #################################################### -->
 </aiml>

@@ -20,8 +20,8 @@
 				<condition>
 					<name><isKnown category="property" topic="forename"/></name>
 					<random>
-						<li value="undefined">Hallo. Wie ist dein Vorname?</li>
-						<li value="*">Hallo <get name="lastEvaluatedIsKnownValue"/></li>
+					<li value="undefined">Hallo. Wie ist dein Vorname?</li>
+					<li value="*">Hallo <get name="lastEvaluatedIsKnownValue"/></li>
 					</random>
 				</condition>
 			</template>
@@ -697,16 +697,18 @@
 			Oh, erzaehl mir mehr!</template>
 	</category>
 	
-			<category>
-				<pattern>*</pattern>
-				<template>
-				<random>
-					<li>Erzaehl mir was von dir</li>
-					<li>Erzaehl mir noch was von dir</li>
-					<li>Willst du noch was erzaehlen?</li>
-				</random>
-				</template>
-			</category>
+	<!-- deactivated, for testing purposes
+	<category>
+		<pattern>*</pattern>
+		<template>
+		<random>
+			<li>Erzaehl mir was von dir</li>
+			<li>Erzaehl mir noch was von dir</li>
+			<li>Willst du noch was erzaehlen?</li>
+		</random>
+		</template>
+	</category>
+	-->
 	
 	<category>
 			<pattern>Machst du auch Musik?</pattern>
