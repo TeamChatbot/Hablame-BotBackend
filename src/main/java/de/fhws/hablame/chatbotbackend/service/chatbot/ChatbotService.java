@@ -23,10 +23,14 @@ import de.fhws.hablame.chatbotbackend.dto.TopicDTO;
 import de.fhws.hablame.chatbotbackend.extension.AIMLExtensionHub;
 import de.fhws.hablame.chatbotbackend.extension.ExtensionBrainSetAndGet;
 import de.fhws.hablame.chatbotbackend.extension.ExtensionCurrentDate;
+import de.fhws.hablame.chatbotbackend.extension.ExtensionDBpedia;
 import de.fhws.hablame.chatbotbackend.extension.ExtensionIsKnown;
+import de.fhws.hablame.chatbotbackend.extension.ExtensionRSS;
 import de.fhws.hablame.chatbotbackend.extension.ExtensionRandomTopic;
 import de.fhws.hablame.chatbotbackend.extension.ExtensionRandomValueOfTopic;
 import de.fhws.hablame.chatbotbackend.extension.ExtensionWeather;
+import de.fhws.hablame.chatbotbackend.extension.ExtensionWikidata;
+import de.fhws.hablame.chatbotbackend.extension.ExtensionWikipedia;
 import de.fhws.hablame.chatbotbackend.model.Category;
 import de.fhws.hablame.chatbotbackend.model.Content;
 import de.fhws.hablame.chatbotbackend.model.Topic;
@@ -57,8 +61,12 @@ public class ChatbotService {
 					new ExtensionRandomValueOfTopic(),
 					new ExtensionBrainSetAndGet(),
 					new ExtensionRandomTopic(),
-					new ExtensionWeather());
-	
+					new ExtensionDBpedia(),
+					new ExtensionRSS(),
+					new ExtensionWeather(),
+					new ExtensionWikidata(),
+					new ExtensionWikipedia());
+
 	/**
 	 * Class representing the AIML bot
 	 */

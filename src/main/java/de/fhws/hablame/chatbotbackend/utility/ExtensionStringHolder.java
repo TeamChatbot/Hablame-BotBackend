@@ -18,6 +18,11 @@ public class ExtensionStringHolder {
 	public static final String EXPRESSION = "expression";
 	public static final String WEATHERTAG = "weather";
 	public static final String TEMPERATURTAG = "temperature";
+	public static final String POPULATIONTAG1 = "WikidataGetPopulation";
+	public static final String CAPITALCITYTAG = "WikidataGetCapitalCity";
+	public static final String POPULATIONTAG2 = "DBpediaGetPopulation";
+	public static final String ENTITYTAG = "WikipediaGetEntityInfo";
+	public static final String FOOTBALLTAG = "RSSGetFirstBlResult";
 	public static final String USERAGENTKEY = "User-Agent";
 	public static final String USERAGENTVALUE = "Mozilla/5.0";
 }

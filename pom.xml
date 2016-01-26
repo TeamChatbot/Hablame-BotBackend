@@ -21,6 +21,8 @@
   	<javax.jstl>1.2</javax.jstl>
   	<junit>4.12</junit>
   	<org.mockito-all>2.0.2-beta</org.mockito-all>
+  	<com.rometools>1.5.1</com.rometools>
+  	<org.apache.jena-arq>3.0.0</org.apache.jena-arq>
   </properties>
   
   <dependencies>
@@ -71,6 +73,12 @@
 		<groupId>org.hibernate</groupId>
 		<artifactId>hibernate-core</artifactId>
 		<version>${org.hibernate}</version>
+		<exclusions>
+			<exclusion>
+				<artifactId>xml-apis</artifactId>
+				<groupId>xml-apis</groupId>
+			</exclusion>
+		</exclusions>
 	</dependency>
 	<!-- Hibernate O/RM implementation of the JPA specification  -->
 	<dependency>
@@ -136,6 +144,18 @@
 		<groupId>org.slf4j</groupId>
 		<artifactId>slf4j-log4j12</artifactId>
 		<version>${org.slf4j}</version>
+	</dependency>
+	<!-- RSS Utilities -->
+	<dependency>
+		<groupId>com.rometools</groupId>
+		<artifactId>rome</artifactId>
+		<version>${com.rometools}</version>
+	</dependency>
+	<!-- Framework for RDF -->
+	<dependency>
+		<groupId>org.apache.jena</groupId>
+		<artifactId>jena-arq</artifactId>
+		<version>${org.apache.jena-arq}</version>
 	</dependency>
 	<!-- local Ab.jar for AliceBot -->
 	<dependency>
