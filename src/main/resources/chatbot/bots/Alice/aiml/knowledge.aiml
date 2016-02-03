@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--
+	Last edited:	2016.01.22
+	From: 			Christian Schenk
+	Note: 			This AIML is for all knowledge Extension. (Wikipedia, Wikidata, RSS and DBpedia)
+-->
+<!-- ########################################################################## -->
+<category>
+<pattern>WER IST *</pattern>
+<template><WikipediaGetEntityInfo><star/></WikipediaGetEntityInfo></template>
+</category>
+<category>
+<pattern>WAS IST EIN *</pattern>
+<template><WikipediaGetEntityInfo><star/></WikipediaGetEntityInfo></template>
+</category>
+<category>
+<pattern>WAS IST EINE *</pattern>
+<template><WikipediaGetEntityInfo><star/></WikipediaGetEntityInfo></template>
+</category>
+<!-- ########################################################################## -->
+<category>
+<pattern>WAS IST DIE HAUPTSTADT VON *</pattern>
+<template><WikidataGetCapitalCity><star/></WikidataGetCapitalCity></template>
+</category>
+<category>
+<pattern>WIE VIELE EINWOHNER HAT *</pattern>
+<template><WikidataGetPopulation><star/></WikidataGetPopulation></template>
+</category>
+<!-- ########################################################################## -->
+<category>
+<pattern>WIE HABEN DIE * GESPIELT</pattern>
+<template><RSSGetFirstBlResult><star/></RSSGetFirstBlResult></template>
+</category>
+<category>
+<pattern>WIE HAT DER * GESPIELT</pattern>
+<template><RSSGetFirstBlResult><star/></RSSGetFirstBlResult></template>
+</category>
+<category>
+<pattern>WIE HAT * GESPIELT</pattern>
+<template><RSSGetFirstBlResult><star/></RSSGetFirstBlResult></template>
+</category>
+<!-- ########################################################################## -->
+<category>
+<pattern>WIE VIELE BEWOHNER HAT *</pattern>
+<template><DBpediaGetPopulation><star/></DBpediaGetPopulation></template>
+</category>
+<!-- ########################################################################## -->
+</aiml>

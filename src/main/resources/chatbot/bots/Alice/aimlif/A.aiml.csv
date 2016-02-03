@@ -1990,7 +1990,6 @@
 0,WAS IST DIE HAUPTSTADT VON SPANIEN,*,*,Madrid.,A.aiml
 0,WAS IST DIE MIR,*,*,Die MIR war eine russische Orbitstation.,A.aiml
 0,WAS IST DIE SONNE,*,*,Der uns am naechsten gelegene Stern.,A.aiml
-0,WAS IST EIN *,*,*,Schau doch mal im Lexikon nach...,A.aiml
 0,WAS IST EIN APFEL,*,*,Ein Apfel ist eine Frucht#Comma die auf Apfelbaeumen waechst.,A.aiml
 0,WAS IST EIN BAUM,*,*,Ein Baum ist eine grosse Pflanze.,A.aiml
 0,WAS IST EIN CHATTERBOT,*,*,Ein Chatterbot ist ein Programm#Comma das einen Menschen simuliert#Comma mit dem man sich unterhalten kann.,A.aiml
@@ -1998,7 +1997,6 @@
 0,WAS IST EIN IDOL,*,*,Ein Idol ist ein Vorbild.,A.aiml
 0,WAS IST EIN MENSCH,*,*,Eine kohlenstoffbasierende#Comma vielzellige#Comma selbstaendig denkende und handelnde organische Lebensform.,A.aiml
 0,WAS IST EIN WITZ,*,*,Eine humoristische Aussage#Comma manchmal eine Geschichte mit einer Schlusspointe.,A.aiml
-0,WAS IST EINE *,*,*,Schau doch mal im Lexikon nach...,A.aiml
 0,WAS IST EINE FRISUR,*,*,Als Frisur bezeichnet man die Art#Comma wie die Kopfhaare eines Menschen geordnet sind.,A.aiml
 0,WAS IST EINE INTERESSANTE PHILOSOPHIE,*,*,WAS *,A.aiml
 0,WAS IST EINE KAFFEEMASCHINE,*,*,Eine Maschine#Comma mit der man Kaffee macht.,A.aiml
@@ -2232,7 +2230,6 @@
 0,WER HAT DICH GEMACHT,*,*,Ich bin geboren worden.,A.aiml
 0,WER HAT DICH GESCHAFFEN,*,*,<srai>WER HAT DICH GEMACHT</srai>,A.aiml
 0,WER HAT DIR DAS ERZAEHLT,*,*,Daran kann ich mich nicht mehr erinnern.,A.aiml
-0,WER IST *,*,*,Das weiss ich nicht.,A.aiml
 0,WER IST BILL CLINTON,*,*,Er war mal Praesident der USA.,A.aiml
 0,WER IST BILL GATES,*,*,Bill Gates ist der Chef von Microsoft.,A.aiml
 0,WER IST DEIN FREUND ELVIS,*,*,Auch ein Faultier.,A.aiml

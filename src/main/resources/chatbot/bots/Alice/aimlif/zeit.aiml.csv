@@ -1,0 +1,12 @@
+0,BOTZEIT,*,*,<date/>,zeit.aiml
+0,EIGENEZEIT,*,*,<currentDate/>,zeit.aiml
+0,WIE SPAET IST ES^,*,*,<think>#Newline<set var="hour"><date format="%I" jformat="h"/></set>#Newline<set var="ampm"><date format="%p" jformat="a"/></set>#Newline</think>#NewlineEs ist <date format="%I:%M" jformat="h:mm"/>#Newline<condition>#Newline<li value="AM" var="ampm">am morgen</li>#Newline<li><condition var="hour">#Newline    <li value="12">mittags</li>#Newline    <li value="1">nachmittags</li>#Newline    <li value="2">nachmittags</li>#Newline    <li value="3">nachmittags</li>#Newline    <li value="4">nachmittags</li>#Newline    <li value="5">nachmittags</li>#Newline    <li value="6">nachmittags</li>#Newline    <li>NACHTS</li>#Newline  </condition>#Newline</li>#Newline</condition>,zeit.aiml
+0,WELCHE UHRZEIT HABEN WIR^,*,*,Meine uhr zeigt mir <date format="%I:%M" jformat="h:mm"/><condition>#Newline<li value="AM" var="ampm">am morgen</li>#Newline<li><condition var="hour">#Newline    <li value="12">mittags</li>#Newline    <li value="1">nachmittags</li>#Newline    <li value="2">nachmittags</li>#Newline    <li value="3">nachmittags</li>#Newline    <li value="4">nachmittags</li>#Newline    <li value="5">nachmittags</li>#Newline    <li value="6">nachmittags</li>#Newline    <li>NACHTS</li>#Newline  </condition>#Newline</li>#Newline</condition>,zeit.aiml
+0,KANNST DU MIR DIE UHRZEIT NENNEN,*,*,Gerne#Comma es ist jetzt <date format="%I:%M" jformat="h:mm"/> uhr,zeit.aiml
+0,KANNST DU MIR DIE UHRZEIT SAGEN,*,*,Ja#Comma es ist jetzt <date format="%I:%M" jformat="h:mm"/> uhr,zeit.aiml
+0,WELCHER TAG IST HEUTE,*,*,Heute ist <date format="%A" jformat="EEEEEEEEEE"/>,zeit.aiml
+0,WELCHEN TAG HABEN WIR HEUTE,*,*,Heute ist <date format="%A" jformat="EEEEEEEEEE"/>,zeit.aiml
+0,WELCHEN TAG HABEN WIR,*,*,Heute ist <date format="%A" jformat="EEEEEEEEEE"/>,zeit.aiml
+0,WELCHES MONAT HABEN WIR^,*,*,Es ist <date format="%B" jformat="MMMMMMMMM"/>,zeit.aiml
+0,WELCHES JAHR HABEN WIR ^,*,*,Wir schreiben das Jahr <date format="%Y" jformat="yyyy"/>,zeit.aiml
+0,WELCHES JAHR SCHREIBEN WIR ^,*,*,Wir haben <date format="%Y" jformat="yyyy"/>,zeit.aiml

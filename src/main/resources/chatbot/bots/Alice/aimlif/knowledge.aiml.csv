@@ -1,0 +1,9 @@
+0,WER IST *,*,*,<WikipediaGetEntityInfo><star/></WikipediaGetEntityInfo>,knowledge.aiml
+0,WAS IST EIN *,*,*,<WikipediaGetEntityInfo><star/></WikipediaGetEntityInfo>,knowledge.aiml
+0,WAS IST EINE *,*,*,<WikipediaGetEntityInfo><star/></WikipediaGetEntityInfo>,knowledge.aiml
+0,WAS IST DIE HAUPTSTADT VON *,*,*,<WikidataGetCapitalCity><star/></WikidataGetCapitalCity>,knowledge.aiml
+0,WIE VIELE EINWOHNER HAT *,*,*,<WikidataGetPopulation><star/></WikidataGetPopulation>,knowledge.aiml
+0,WIE HABEN DIE * GESPIELT,*,*,<RSSGetFirstBlResult><star/></RSSGetFirstBlResult>,knowledge.aiml
+0,WIE HAT DER * GESPIELT,*,*,<RSSGetFirstBlResult><star/></RSSGetFirstBlResult>,knowledge.aiml
+0,WIE HAT * GESPIELT,*,*,<RSSGetFirstBlResult><star/></RSSGetFirstBlResult>,knowledge.aiml
+0,WIE VIELE BEWOHNER HAT *,*,*,<DBpediaGetPopulation><star/></DBpediaGetPopulation>,knowledge.aiml

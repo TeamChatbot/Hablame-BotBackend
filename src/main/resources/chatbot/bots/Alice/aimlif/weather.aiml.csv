@@ -1,0 +1,3 @@
+0,WIE IST DAS WETTER IN *,*,*,Es hat <temperature><star/></temperature> Grad und <weather><star/></weather> wird gemeldet,weather.aiml
+0,WIE WARM IST ES IN *,*,*,<temperature><star/></temperature> Grad,weather.aiml
+0,WELCHE TEMPERATUR HABEN WIR IN *,*,*,In <star/> hat es <temperature><star/></temperature> Grad,weather.aiml

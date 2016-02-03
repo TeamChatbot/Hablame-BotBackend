@@ -54,8 +54,8 @@ public class ExtensionDBpedia implements AIMLProcessorExtension {
 		
 		while(resultSet.hasNext()) {
 			QuerySolution querySolution = resultSet.nextSolution();
-			Literal test = ((Literal) querySolution.getLiteral("populationTotal"));
-			population = test.getInt();
+			Literal literal = ((Literal) querySolution.getLiteral("populationTotal"));
+			population = literal.getInt();
 		}	
 		queryExecution.close();
 		return population;

@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<!-- 
-	Last edited:	2015.08.16
-	From: 			David Artmann
-	Note: 			This AIML is for weather relevant questions/answers. All textual equal questions/answers have been put between two sharp delimiter-lines, to keep it overseeable.
+<!--
+	Last edited:	2016.02.03
+	From: 			Christian Schenk
+	Note: 			This AIML is for answering weather related questions.
 -->
-<!-- #################################################### -->
-<category><pattern>WETTER</pattern>
-<template><weather/></template>
+<!-- ########################################################################## -->
+<category><pattern>WIE IST DAS WETTER IN *</pattern>
+<template>Es hat <temperature><star/></temperature> Grad und <weather><star/></weather> wird gemeldet</template>
 </category>
-<!-- #################################################### -->
-<category><pattern>TEMPERATUR</pattern>
-<template><temperature/></template>
+<category><pattern>WIE WARM IST ES IN *</pattern>
+<template><temperature><star/></temperature> Grad</template>
 </category>
-<!-- #################################################### -->
-<category><pattern>WIE IST DAS WETTER IN WUERZBURG</pattern>
-<template>Es hat <temperature/> Grad und <weather/> wird gemeldet</template>
+<category><pattern>WELCHE TEMPERATUR HABEN WIR IN *</pattern>
+<template>In <star/> hat es <temperature><star/></temperature> Grad</template>
 </category>
-<category><pattern>WIE HEISS IST ES IN WUERZBURG</pattern>
-<template><temperature/> Grad</template>
-</category>
-<category><pattern>WELCHE TEMPERATUR HABEN WIR IN WUERZBURG</pattern>
-<template>In Wuerzburg hat es <temperature/> Grad</template>
-</category>
+<!-- ########################################################################## -->
 </aiml>
